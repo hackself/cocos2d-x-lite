@@ -129,7 +129,7 @@ gulp.task('gen-simulator', function (cb) {
     args = ['gen-simulator', '-m', 'debug', '-p', 'mac'];
   }
   else {
-    args = ['gen-simulator', '-m', 'debug', '-p', 'win32', '--vs', '2013', '--ol', 'en'];
+    args = ['gen-simulator', '-m', 'debug', '-p', 'win32', '--vs', '2015', '--ol', 'en'];
   }
   try {
     var child = spawn(cocosConsoleBin, args);

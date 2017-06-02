@@ -1143,6 +1143,9 @@
     <ClCompile Include="..\ui\UIEditBox\UIEditBoxImpl-common.cpp">
       <Filter>ui\UIWidgets\EditBox</Filter>
     </ClCompile>
+    <ClCompile Include="..\network\JBSocket.cpp">
+      <Filter>network\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\cocos2d.h" />
@@ -2210,6 +2213,9 @@
     </ClInclude>
     <ClInclude Include="..\ui\UIEditBox\UIEditBoxImpl-common.h">
       <Filter>ui\UIWidgets\EditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\network\JBSocket.h">
+      <Filter>network\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

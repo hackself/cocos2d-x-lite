@@ -21,6 +21,7 @@
 #include "scripting/js-bindings/manual/network/XMLHTTPRequest.h"
 #include "scripting/js-bindings/manual/network/jsb_websocket.h"
 #include "scripting/js-bindings/manual/network/jsb_socketio.h"
+#include "scripting/js-bindings/manual/network/jsb_jbsocket.h"
 
 #include "scripting/js-bindings/auto/jsb_box2d_auto.hpp"
 #include "scripting/js-bindings/manual/box2d/js_bindings_box2d_manual.h"
@@ -91,6 +92,7 @@ int js_module_register()
     sc->addRegisterCallback(register_jsb_socketio);
     // Downloader
     sc->addRegisterCallback(register_all_cocos2dx_network);
+	sc->addRegisterCallback(register_jsb_jbsocket);
     
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
     // Physics 3d can be commented out to reduce the package
