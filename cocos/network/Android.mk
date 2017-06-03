@@ -12,7 +12,8 @@ SocketIO.cpp \
 WebSocket.cpp \
 CCDownloader.cpp \
 CCDownloader-android.cpp \
-Uri.cpp
+Uri.cpp  \
+JBSocket.cpp
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
 

@@ -26,26 +26,25 @@ bool IsSmallEndian()
 	return(t.b == 1);
 }
 
+#ifdef WIN32
 void JBSocket::Init()
 {
-#ifdef WIN32
 	WSADATA wsaData;
 	// #define MAKEWORD(a,b) ((WORD) (((BYTE) (a)) | ((WORD) ((BYTE) (b))) << 8))
 	WORD version = MAKEWORD(2, 0);
 	WSAStartup(version, &wsaData);
-#endif
 }
 
 void JBSocket::DeInit()
 {
-#ifdef WIN32
 	WSACleanup();
-#endif
 }
+#endif
 
 JBSocket::JBSocket()
-	:_threadExit{false,false}
 {
+	_threadExit[(int)ThreadType::Recv] = false;
+	_threadExit[(int)ThreadType::Send] = false;
 	_sock = INVALID_SOCKET;
 	_bufIndex = 0;
 	_delegate = nullptr;

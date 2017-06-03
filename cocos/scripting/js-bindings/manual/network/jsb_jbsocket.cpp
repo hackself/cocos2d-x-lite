@@ -230,6 +230,9 @@ bool js_cocos2dx_extension_jbsocket_constructor(JSContext *cx, uint32_t argc, js
 }
 void register_jsb_jbsocket(JSContext* cx, JS::HandleObject global)
 {
+#if _WIN32
+	JBSocket::Init();
+#endif
 	js_cocos2dx_jbsocket_class = (JSClass *)calloc(1, sizeof(JSClass));
 	js_cocos2dx_jbsocket_class->name = "JBSocket";
 	js_cocos2dx_jbsocket_class->addProperty = JS_PropertyStub;

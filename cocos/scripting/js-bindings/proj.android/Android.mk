@@ -47,6 +47,7 @@ LOCAL_SRC_FILES := ../auto/jsb_cocos2dx_extension_auto.cpp \
                    ../manual/localstorage/js_bindings_system_registration.cpp \
                    ../manual/network/jsb_socketio.cpp \
                    ../manual/network/jsb_websocket.cpp \
+                   ../manual/network/jsb_jbsocket.cpp \
                    ../manual/network/XMLHTTPRequest.cpp \
                    ../manual/network/js_network_manual.cpp \
                    ../manual/spine/jsb_cocos2dx_spine_manual.cpp \
@@ -86,4 +87,5 @@ LOCAL_STATIC_LIBRARIES += spidermonkey_static
 
 include $(BUILD_STATIC_LIBRARY)
 #==============================================================
+$(call import-add-path,D:/cocos2d-x-lite)
 $(call import-module,cocos)

@@ -22,8 +22,8 @@
         var canvas, div;
 
         var AssetOptions = {
-            libraryPath: 'C:/Users/ruanban/Documents/NewProject/library/imports/',
-            rawAssetsBase: 'C:/Users/ruanban/Documents/NewProject/',
+            libraryPath: 'D:/thirteencard/ThirteenCard_js/library/imports/',
+            rawAssetsBase: 'D:/thirteencard/ThirteenCard_js/',
             rawAssets: _CCSettings.rawAssets
         };
 

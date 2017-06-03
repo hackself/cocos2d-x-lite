@@ -92,6 +92,7 @@ int js_module_register()
     sc->addRegisterCallback(register_jsb_socketio);
     // Downloader
     sc->addRegisterCallback(register_all_cocos2dx_network);
+
 	sc->addRegisterCallback(register_jsb_jbsocket);
     
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
