@@ -16,26 +16,6 @@ _CCSettings = {
                 "fonts/font_002.otf",
                 "cc.RawAsset"
             ],
-            "c85b4076-9462-45a9-9d9f-e5520ddd6d76": [
-                "resources/Gui/ModalBg.prefab",
-                "cc.Prefab"
-            ],
-            "f407185e-87d9-4857-a8cb-a1066d04f1a2": [
-                "resources/Gui/UIJoinRoom.prefab",
-                "cc.Prefab"
-            ],
-            "a9f99b48-e112-488a-a8bf-e41a529d6dec": [
-                "resources/Gui/UILogin.prefab",
-                "cc.Prefab"
-            ],
-            "6eae0867-9951-4884-a478-22afd342046e": [
-                "resources/Gui/UIMain.prefab",
-                "cc.Prefab"
-            ],
-            "4bd4748c-96ef-452d-a2ef-4609717d93a6": [
-                "resources/Gui/UINotice.prefab",
-                "cc.Prefab"
-            ],
             "f8f88c74-40be-49d0-a743-f9d39eb9d2f9": [
                 "resources/Proto/client.txt",
                 "cc.RawAsset"
@@ -355,6 +335,302 @@ _CCSettings = {
             "34292bbb-6f48-400f-8ff6-4682752de7db": [
                 "Textures/yingTXT.png",
                 "cc.Texture2D"
+            ],
+            "11f96248-3381-43c4-949e-4e84b214eb3d": [
+                "resources/Gui/UISetting.prefab",
+                "cc.Prefab"
+            ],
+            "c85b4076-9462-45a9-9d9f-e5520ddd6d76": [
+                "resources/Gui/ModalBg.prefab",
+                "cc.Prefab"
+            ],
+            "f407185e-87d9-4857-a8cb-a1066d04f1a2": [
+                "resources/Gui/UIJoinRoom.prefab",
+                "cc.Prefab"
+            ],
+            "a9f99b48-e112-488a-a8bf-e41a529d6dec": [
+                "resources/Gui/UILogin.prefab",
+                "cc.Prefab"
+            ],
+            "6eae0867-9951-4884-a478-22afd342046e": [
+                "resources/Gui/UIMain.prefab",
+                "cc.Prefab"
+            ],
+            "4bd4748c-96ef-452d-a2ef-4609717d93a6": [
+                "resources/Gui/UINotice.prefab",
+                "cc.Prefab"
+            ],
+            "b8a67975-d6c7-4955-b026-d8ed8062a198": [
+                "resources/AnimationClip/ac_cardmove.anim",
+                "cc.AnimationClip"
+            ],
+            "ad665305-5293-44e8-b5fd-31b68669d3c0": [
+                "resources/AnimationClip/ac_select_down.anim",
+                "cc.AnimationClip"
+            ],
+            "9a5e8bb6-0a84-4599-aae5-85d666254018": [
+                "resources/AnimationClip/ac_select_up.anim",
+                "cc.AnimationClip"
+            ],
+            "be909582-1bc4-4e8e-89ca-01d79f53ec4f": [
+                "resources/Gui/headinfo.prefab",
+                "cc.Prefab"
+            ],
+            "d4c71f26-4dc8-40b0-a89b-2e97e49e597a": [
+                "resources/Gui/Poker.prefab",
+                "cc.Prefab"
+            ],
+            "906b79c0-5c1c-4caa-aaac-d8b6383994c8": [
+                "resources/Gui/PokerList.prefab",
+                "cc.Prefab"
+            ],
+            "cff80c01-eae3-4478-8f22-c1ff1cc8ef37": [
+                "resources/Gui/PokerSort.prefab",
+                "cc.Prefab"
+            ],
+            "51843865-0d23-436c-b7aa-85778ea17025": [
+                "Textures/Fight/baipaiBG.png",
+                "cc.Texture2D"
+            ],
+            "ba8cfe11-8ff9-4ff5-a851-61f1cd830720": [
+                "Textures/Fight/dapaiBG.png",
+                "cc.Texture2D"
+            ],
+            "74d52712-6926-4fc2-a2f5-df57ae3ded21": [
+                "Textures/Fight/dapaitopBG.png",
+                "cc.Texture2D"
+            ],
+            "10111b27-ba45-4bdd-9972-b28c01d1ceb3": [
+                "Textures/Fight/toudunTXT.png",
+                "cc.Texture2D"
+            ],
+            "ef94c47f-cf58-402c-866d-3f22d4a924eb": [
+                "Textures/Fight/weidunTXT.png",
+                "cc.Texture2D"
+            ],
+            "da8e13bb-4a72-47f8-a1fe-fec1029bedbe": [
+                "Textures/Fight/yingTXT.png",
+                "cc.Texture2D"
+            ],
+            "181f9f0a-4728-49df-9b27-ff384f1ac8c3": [
+                "Textures/Fight/yizhunbeiTXT.png",
+                "cc.Texture2D"
+            ],
+            "e5463343-48e6-4a8f-a209-3cee67ff7d1d": [
+                "Textures/Fight/zhongdunTXT.png",
+                "cc.Texture2D"
+            ],
+            "792d44a3-2235-4942-88d6-51c9f94aef84": [
+                "Textures/Poker/1.png",
+                "cc.Texture2D"
+            ],
+            "39b088eb-4ee4-4f55-8ffa-bef69333aaca": [
+                "Textures/Poker/10.png",
+                "cc.Texture2D"
+            ],
+            "b96dae70-4af3-4996-ab7d-9725edcc7b4d": [
+                "Textures/Poker/11.png",
+                "cc.Texture2D"
+            ],
+            "d07c181d-daba-4ae7-b38f-58820e9f5a1c": [
+                "Textures/Poker/12.png",
+                "cc.Texture2D"
+            ],
+            "cd292d2f-9cf2-4f83-9bd9-9c2e67d79f4e": [
+                "Textures/Poker/13.png",
+                "cc.Texture2D"
+            ],
+            "6db6a320-ee01-4b89-9cc8-f00391d0b115": [
+                "Textures/Poker/14.png",
+                "cc.Texture2D"
+            ],
+            "b435e1a3-7266-42a5-a329-bc13beedeb7f": [
+                "Textures/Poker/15.png",
+                "cc.Texture2D"
+            ],
+            "5a57455f-dfba-4b58-a981-54a66269bbe9": [
+                "Textures/Poker/16.png",
+                "cc.Texture2D"
+            ],
+            "ce3ee368-1877-4e87-b454-ef0c25d14f4c": [
+                "Textures/Poker/17.png",
+                "cc.Texture2D"
+            ],
+            "206f7a86-586d-48b5-8c1d-b39368ca86d5": [
+                "Textures/Poker/18.png",
+                "cc.Texture2D"
+            ],
+            "9841856a-a863-4afd-b065-65efc2fae4a6": [
+                "Textures/Poker/19.png",
+                "cc.Texture2D"
+            ],
+            "55985a75-61d6-43a3-8731-f0ea5777547e": [
+                "Textures/Poker/2.png",
+                "cc.Texture2D"
+            ],
+            "9d0c2ea4-9d76-478a-a402-fd02c74e257f": [
+                "Textures/Poker/20.png",
+                "cc.Texture2D"
+            ],
+            "32dcfa26-e0b3-47e3-b946-da17a63ee545": [
+                "Textures/Poker/21.png",
+                "cc.Texture2D"
+            ],
+            "3904803a-99a7-46b5-b50d-d32c7e313f75": [
+                "Textures/Poker/22.png",
+                "cc.Texture2D"
+            ],
+            "7dbfc0ea-bbb2-4298-a2c6-9795ec7816c3": [
+                "Textures/Poker/23.png",
+                "cc.Texture2D"
+            ],
+            "47407cf7-55bf-4c3a-9a13-e7327cf13d16": [
+                "Textures/Poker/24.png",
+                "cc.Texture2D"
+            ],
+            "03c57e8c-517c-4601-b61d-fc86a1d31a40": [
+                "Textures/Poker/25.png",
+                "cc.Texture2D"
+            ],
+            "a42e2047-370a-4c9c-b69b-cf03092f33cb": [
+                "Textures/Poker/26.png",
+                "cc.Texture2D"
+            ],
+            "2dd9074d-2344-44df-84e4-d056ecac94e5": [
+                "Textures/Poker/27.png",
+                "cc.Texture2D"
+            ],
+            "4d450b8e-7dd5-4885-b74c-d1f9df8fde29": [
+                "Textures/Poker/28.png",
+                "cc.Texture2D"
+            ],
+            "fce2cdd8-72a6-4e7f-a3b5-2014453f1c67": [
+                "Textures/Poker/29.png",
+                "cc.Texture2D"
+            ],
+            "6c791b0b-4c88-471c-84f0-6455982d868b": [
+                "Textures/Poker/3.png",
+                "cc.Texture2D"
+            ],
+            "d39bc843-8a70-463a-a818-6f6849072386": [
+                "Textures/Poker/30.png",
+                "cc.Texture2D"
+            ],
+            "742b02eb-2e29-4646-a50d-7b4c3c634910": [
+                "Textures/Poker/31.png",
+                "cc.Texture2D"
+            ],
+            "a6776934-fd93-49ae-b5df-5d960b27e187": [
+                "Textures/Poker/32.png",
+                "cc.Texture2D"
+            ],
+            "f964d0c9-4f9a-4cda-8cd5-4e1a221fa393": [
+                "Textures/Poker/33.png",
+                "cc.Texture2D"
+            ],
+            "b31d50d0-eb3d-4577-a0c6-a7ef9ce849ab": [
+                "Textures/Poker/34.png",
+                "cc.Texture2D"
+            ],
+            "645dce51-b8d4-42d9-bb3d-3d1528e1d46d": [
+                "Textures/Poker/35.png",
+                "cc.Texture2D"
+            ],
+            "22fb231e-5667-4423-a15f-3bb9b37d0f2f": [
+                "Textures/Poker/36.png",
+                "cc.Texture2D"
+            ],
+            "92f6fff2-4a77-43d7-86f6-16d6d3575b24": [
+                "Textures/Poker/37.png",
+                "cc.Texture2D"
+            ],
+            "7667f6f7-1102-4de0-8ebc-b2fbc8c8525f": [
+                "Textures/Poker/38.png",
+                "cc.Texture2D"
+            ],
+            "ed4ef1b5-92e1-4479-9ff9-972574407ffe": [
+                "Textures/Poker/39.png",
+                "cc.Texture2D"
+            ],
+            "00bfa8dc-147b-48b6-8983-32dc20cd6810": [
+                "Textures/Poker/4.png",
+                "cc.Texture2D"
+            ],
+            "32531119-c48f-413a-a127-b110e42708f9": [
+                "Textures/Poker/40.png",
+                "cc.Texture2D"
+            ],
+            "49d073b9-3e2d-418d-8f82-33aeb54f644f": [
+                "Textures/Poker/41.png",
+                "cc.Texture2D"
+            ],
+            "8a172e1a-822a-47d4-a6aa-af1500551251": [
+                "Textures/Poker/42.png",
+                "cc.Texture2D"
+            ],
+            "7708d306-fd9a-4c1e-937f-c9760a80dd71": [
+                "Textures/Poker/43.png",
+                "cc.Texture2D"
+            ],
+            "d0d7e8e4-3637-4e95-9d64-5ee7bea36dc9": [
+                "Textures/Poker/44.png",
+                "cc.Texture2D"
+            ],
+            "05f3d4dd-f9ed-4353-90cf-f54512d6a99c": [
+                "Textures/Poker/45.png",
+                "cc.Texture2D"
+            ],
+            "837fb798-4e74-4a25-830e-7859f841ea11": [
+                "Textures/Poker/46.png",
+                "cc.Texture2D"
+            ],
+            "942b24fc-ac60-415a-b855-15dc3229b21d": [
+                "Textures/Poker/47.png",
+                "cc.Texture2D"
+            ],
+            "ba840a11-ada1-44a5-8e2b-bad42a19fefc": [
+                "Textures/Poker/48.png",
+                "cc.Texture2D"
+            ],
+            "429b0b00-7252-4d8d-b5ce-8cc2a243d776": [
+                "Textures/Poker/49.png",
+                "cc.Texture2D"
+            ],
+            "067b3cdb-04b4-4ab7-8585-fac42f01fc75": [
+                "Textures/Poker/5.png",
+                "cc.Texture2D"
+            ],
+            "eb95e86b-ea1e-4a83-b837-a1a218a4a29b": [
+                "Textures/Poker/50.png",
+                "cc.Texture2D"
+            ],
+            "17bbe1ad-22a5-47f7-9d00-5c7b9b4665a0": [
+                "Textures/Poker/51.png",
+                "cc.Texture2D"
+            ],
+            "beb246af-ee85-4462-9d3b-c3679c694edd": [
+                "Textures/Poker/52.png",
+                "cc.Texture2D"
+            ],
+            "320d2856-fc52-4295-a75f-b78b145223af": [
+                "Textures/Poker/6.png",
+                "cc.Texture2D"
+            ],
+            "20fd0c17-0ffd-4074-a522-f2c9e74949d0": [
+                "Textures/Poker/7.png",
+                "cc.Texture2D"
+            ],
+            "ca9aa630-06bd-4b9a-9168-0c60bd52f998": [
+                "Textures/Poker/8.png",
+                "cc.Texture2D"
+            ],
+            "7bd68c19-779d-45c2-8a36-8295ba808e92": [
+                "Textures/Poker/9.png",
+                "cc.Texture2D"
+            ],
+            "ecdb7036-21ee-42fd-b35c-bd570a186149": [
+                "Textures/Poker/back.png",
+                "cc.Texture2D"
             ]
         },
         "temp/internal": {
@@ -457,6 +733,10 @@ _CCSettings = {
         {
             "url": "db://assets/Scene/Main.fire",
             "uuid": "69e0ddbb-aa86-452b-9bea-a31701921d3f"
+        },
+        {
+            "url": "db://assets/Scene/PokerShuffle.fire",
+            "uuid": "8eb5dd90-73fd-4d5b-bdd7-1e8606e9bd80"
         }
     ],
     "debug": true
