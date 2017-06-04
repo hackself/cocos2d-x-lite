@@ -127,21 +127,14 @@ bool js_cocos2dx_extension_jbsocket_send(JSContext *cx, uint32_t argc, jsval *vp
 
 	if (argc == 2)
 	{
-		if (argv[0].isNumber() && argv[1].isString())
+		if (argv[0].isNumber())
 		{
-			ssize_t len = JS_GetStringLength(argv[1].toString());
-			std::string data;
-			jsval_to_std_string(cx, argv[1], &data);
-
-			if (data.empty() && len > 0)
+			GLsizei size;
+			void* p;
+			if (JSB_get_arraybufferview_dataptr(cx, argv[1], &size, &p))
 			{
-				CCLOGWARN("Text message to send is empty, but its length is greater than 0!");
-				//FIXME: Note that this text message contains '0x00' prefix, so its length calcuted by strlen is 0.
-				// we need to fix that if there is '0x00' in text message,
-				// since javascript language could support '0x00' inserted at the beginning or the middle of text message
+				cobj->Send(argv[0].toInt32(), PACKAGE((char*)p,(size_t)size));
 			}
-
-			cobj->Send(argv[0].toInt32(),data);
 		}
 		else
 		{
