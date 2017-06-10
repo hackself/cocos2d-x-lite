@@ -36,6 +36,9 @@
     <Filter Include="manual\dragonbones">
       <UniqueIdentifier>{36372247-74fd-4169-8120-06c8c0596530}</UniqueIdentifier>
     </Filter>
+    <Filter Include="manual\sdk">
+      <UniqueIdentifier>{8d04fa29-a18b-467d-8252-6584bae25016}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\auto\jsb_cocos2dx_auto.cpp">
@@ -163,6 +166,9 @@
     </ClCompile>
     <ClCompile Include="..\manual\network\jsb_jbsocket.cpp">
       <Filter>manual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\manual\sdk\manualyunvasdkbindings.cpp">
+      <Filter>manual\sdk</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -312,6 +318,9 @@
     </ClInclude>
     <ClInclude Include="..\manual\network\jsb_jbsocket.h">
       <Filter>manual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\manual\sdk\manualyunvasdkbindings.hpp">
+      <Filter>manual\sdk</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

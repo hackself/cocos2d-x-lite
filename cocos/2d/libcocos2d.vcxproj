@@ -70,7 +70,7 @@
     <LibraryPath>$(EngineRoot)external\win32\libs;$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LibraryPath>../../external/sqlite3/libraries/win32;$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>../../external/sqlite3/libraries/win32;$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;../../external/IM_SDK/win32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <PreBuildEvent>
@@ -120,7 +120,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\win32\libs\Debug\*.*" "$(OutDir)"</Comm
       </Command>
     </PreBuildEvent>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\include;$(EngineRoot)cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external\win32\include\zlib;$(EngineRoot)external\win32\include\freetype2;$(EngineRoot);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\include;$(EngineRoot)cocos\editor-support;$(EngineRoot)extensions;$(EngineRoot)external\win32\include\zlib;$(EngineRoot)external\win32\include\freetype2;$(EngineRoot);$(EngineRoot)external\IM_SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_USRDLL;NDEBUG;_WINDOWS;_LIB;COCOS2DXWIN32_EXPORTS;GL_GLEXT_PROTOTYPES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_USE3DDLL;_EXPORT_DLL_;_USRSTUDIODLL;_USREXDLL;_USEGUIDLL;CC_ENABLE_CHIPMUNK_INTEGRATION=1;PROTOBUF_USE_DLLS;LIBPROTOBUF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -139,7 +139,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\win32\libs\*.*" "$(OutDir)"
 </Command>
     </PreLinkEvent>
     <Link>
-      <AdditionalDependencies>sqlite3.lib;libcrypto.lib;libssl.lib;libcurl.lib;websockets.lib;libmpg123.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;OpenAL32.lib;version.lib;libwebp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;libcrypto.lib;libssl.lib;libcurl.lib;websockets.lib;libmpg123.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;OpenAL32.lib;version.lib;libwebp.lib;yvpacket.lib;LoginSDK.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -377,6 +377,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\win32\libs\*.*" "$(OutDir)"
     <ClCompile Include="..\renderer\CCVertexAttribBinding.cpp" />
     <ClCompile Include="..\renderer\CCVertexIndexBuffer.cpp" />
     <ClCompile Include="..\renderer\CCVertexIndexData.cpp" />
+    <ClCompile Include="..\sdk\IMDispatchMsgNode.cpp" />
+    <ClCompile Include="..\sdk\YunVaSDK\YVRespondFactory.cpp" />
+    <ClCompile Include="..\sdk\YunVaSDK\YVTool.cpp" />
     <ClCompile Include="..\storage\local-storage\LocalStorage.cpp" />
     <ClCompile Include="..\ui\CocosGUI.cpp" />
     <ClCompile Include="..\ui\UIButton.cpp" />
@@ -752,6 +755,13 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\win32\libs\*.*" "$(OutDir)"
     <ClInclude Include="..\renderer\CCVertexAttribBinding.h" />
     <ClInclude Include="..\renderer\CCVertexIndexBuffer.h" />
     <ClInclude Include="..\renderer\CCVertexIndexData.h" />
+    <ClInclude Include="..\sdk\IMDispatchMsgNode.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\CYVSyncQueue.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\yvListern.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\yvpacket_overloaded.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\YVRespondFactory.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\YVTool.h" />
+    <ClInclude Include="..\sdk\YunVaSDK\YVTypeDef.h" />
     <ClInclude Include="..\storage\local-storage\LocalStorage.h" />
     <ClInclude Include="..\ui\CocosGUI.h" />
     <ClInclude Include="..\ui\GUIExport.h" />

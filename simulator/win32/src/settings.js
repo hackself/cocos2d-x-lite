@@ -16,8 +16,32 @@ _CCSettings = {
                 "fonts/font_002.otf",
                 "cc.RawAsset"
             ],
+            "223536f1-50fd-4ddf-bac5-fa45cd628a86": [
+                "resources/AnimationClip/ac_cardmove2.anim",
+                "cc.AnimationClip"
+            ],
+            "45f98a46-ab70-42f0-902a-403ef887ee57": [
+                "resources/AnimationClip/ac_cardmove3.anim",
+                "cc.AnimationClip"
+            ],
             "b8a67975-d6c7-4955-b026-d8ed8062a198": [
-                "resources/AnimationClip/ac_cardmove.anim",
+                "resources/AnimationClip/ac_cardmove4.anim",
+                "cc.AnimationClip"
+            ],
+            "5b67173f-d14c-4628-bedf-f9818ee22c3a": [
+                "resources/AnimationClip/ac_chat.anim",
+                "cc.AnimationClip"
+            ],
+            "079765bc-c928-45c2-b182-f8528e229d44": [
+                "resources/AnimationClip/ac_leftwing.anim",
+                "cc.AnimationClip"
+            ],
+            "4fa3861f-1d28-4fae-9c07-3aa40dced7b6": [
+                "resources/AnimationClip/ac_lightrotation.anim",
+                "cc.AnimationClip"
+            ],
+            "61d12d31-df3e-4b7f-96b1-72e3984d9db8": [
+                "resources/AnimationClip/ac_rightwing.anim",
                 "cc.AnimationClip"
             ],
             "ad665305-5293-44e8-b5fd-31b68669d3c0": [
@@ -40,12 +64,24 @@ _CCSettings = {
                 "resources/Gui/Poker.prefab",
                 "cc.Prefab"
             ],
+            "1b574144-ea47-4267-b13e-a43941297fcd": [
+                "resources/Gui/PokerFlop.prefab",
+                "cc.Prefab"
+            ],
             "906b79c0-5c1c-4caa-aaac-d8b6383994c8": [
                 "resources/Gui/PokerList.prefab",
                 "cc.Prefab"
             ],
             "cff80c01-eae3-4478-8f22-c1ff1cc8ef37": [
                 "resources/Gui/PokerSort.prefab",
+                "cc.Prefab"
+            ],
+            "bfb229d8-1cc6-4488-abc4-4ce8b96ad9f3": [
+                "resources/Gui/StartAnimation.prefab",
+                "cc.Prefab"
+            ],
+            "1004a4c7-bac1-418f-9978-bdf50b3dcb35": [
+                "resources/Gui/UIChat.prefab",
                 "cc.Prefab"
             ],
             "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
@@ -64,6 +100,10 @@ _CCSettings = {
                 "resources/Gui/UIMain.prefab",
                 "cc.Prefab"
             ],
+            "0ba3afac-942e-4782-afe4-1f06f59dbbc7": [
+                "resources/Gui/UIMessageBox.prefab",
+                "cc.Prefab"
+            ],
             "4bd4748c-96ef-452d-a2ef-4609717d93a6": [
                 "resources/Gui/UINotice.prefab",
                 "cc.Prefab"
@@ -80,13 +120,37 @@ _CCSettings = {
                 "resources/Gui/UIShop.prefab",
                 "cc.Prefab"
             ],
+            "6991cae0-0513-40f2-93a9-d4168951fa95": [
+                "resources/Gui/UIVote.prefab",
+                "cc.Prefab"
+            ],
+            "bc663360-2751-4611-b9ba-61e647ad6880": [
+                "resources/Gui/UIWaiting.prefab",
+                "cc.Prefab"
+            ],
+            "11012bfc-b728-4ff7-b686-8df1eb20586a": [
+                "resources/Gui/Widget/ChatBubble.prefab",
+                "cc.Prefab"
+            ],
+            "d8f840a0-c949-432f-846d-384d262cd27b": [
+                "resources/Gui/Widget/ChatItem.prefab",
+                "cc.Prefab"
+            ],
+            "e739268b-000e-48a4-a579-1c02f9a4cd5a": [
+                "resources/Gui/Widget/ChatSplit.prefab",
+                "cc.Prefab"
+            ],
             "ace1cbfc-6671-45fb-99a0-f0ee5c0e7b57": [
-                "resources/Gui/Wiget/ShopItem.prefab",
+                "resources/Gui/Widget/ShopItem.prefab",
                 "cc.Prefab"
             ],
             "e1d29253-9680-4d90-a7d2-cbeafa8c5e45": [
-                "resources/Gui/Wiget/WealthWidget.prefab",
+                "resources/Gui/Widget/WealthWidget.prefab",
                 "cc.Prefab"
+            ],
+            "f8f88c74-40be-49d0-a743-f9d39eb9d2f9": [
+                "resources/Proto/client.txt",
+                "cc.RawAsset"
             ],
             "03dfc162-387f-4265-9c66-3c3043203630": [
                 "resources/Proto/protoid.txt",
@@ -116,6 +180,24 @@ _CCSettings = {
             ],
             "342fc020-6701-45e2-8422-d3b267c03542": [
                 "resources/Textures/buyBTN",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5d74b800-2b94-405c-ac95-6d24b1e25d35": [
+                "resources/Textures/chatBG.png",
+                "cc.Texture2D"
+            ],
+            "494bf60e-d37a-4753-be46-48973e3d2c7c": [
+                "resources/Textures/chatBG",
+                "cc.SpriteFrame",
+                1
+            ],
+            "250f8bea-46ba-42c4-a228-e194a3d24f52": [
+                "resources/Textures/Chatbg0.png",
+                "cc.Texture2D"
+            ],
+            "410b6896-d2c7-480e-aa21-d7614680452b": [
+                "resources/Textures/Chatbg0",
                 "cc.SpriteFrame",
                 1
             ],
@@ -281,6 +363,449 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "b9afde9f-3a23-4078-bece-ee1aa4a657ac": [
+                "resources/Textures/emoji_action_texture.plist",
+                "cc.SpriteAtlas"
+            ],
+            "2cd08e6a-f4cc-4f66-912c-d471342f173b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "41d099a7-6f11-4895-9081-bea5bb92d0fb": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8dd80883-73ca-4816-bae8-220b578ca20d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9fc87c15-6f6a-43c5-9835-db3ad424b069": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8efdf4b4-c796-47b7-b164-f0734327e988": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7c3f1915-d1d6-4af8-845b-5b642b08148b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0e0d5d2d-5f0c-4c13-87eb-fe8dedfbd97a": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7316ffbf-7fa1-4f4d-9c93-9cca58517099": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c1fab2e9-766c-4892-a134-755884be7cd7": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "72df610a-0abc-44c9-a990-d4fcdc5f3e4a": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6815977b-1b12-4845-b833-480e83646ce7": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e6af27e2-dce8-4a04-83a7-793fa55311d2": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7e70e6a4-13cc-4081-9290-0bcdb868b816": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0851989d-2370-4a92-bae4-0393f51f295f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6d467a96-cf56-4cd3-9cfa-ab7f4919a485": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f2d5888b-05eb-4224-9df3-db4071b2527c": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "db99ffdc-dcaa-4171-a498-c6d8d63be426": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f5473706-d35d-475b-84cb-050a91cda36c": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fb90e4b1-a0a4-4bc1-b238-312e1aabc8dd": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "836380e6-1de7-4ecd-a128-1cc125bbd6f9": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "21652f1a-73ef-4406-8f2e-19ef367995d3": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0a89cb4b-813d-4f7f-b3f1-99705920a968": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f8cf2e1e-a5e5-40cc-9d9a-90a2a2cf066b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8219034e-407c-4f50-96eb-66b542eefd33": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "63d17ced-063f-4813-a8e7-dd73a4e3d316": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e8fa0842-01da-4ef7-b5c3-ecf6a9e4c3c4": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "406bbe40-2063-4b6c-93bd-e42be1d3f08d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "56bfee49-8089-40d3-a8d1-1b624b71627d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9f178b0e-664d-4d9f-9b92-a518d52a8b0d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "047a2828-827b-475c-a2fe-177423e16c16": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c2810656-6963-43c4-b86e-9454164a7658": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "322b7352-1504-47c6-b727-6c4288c48ba5": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4e53bec4-9bf4-4fe0-a79e-9794c4751f38": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "46e37af3-5f95-40c2-b210-54cfffbffe7b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d99beeac-1e5e-42ef-a4c4-daa7d7a21076": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a6bf5caf-5be2-483b-8593-94bc6d2086bb": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c1fe4188-0c86-4fd8-a8f6-32809df3a7b2": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5fd69b93-692f-4c5f-82fc-10a02bd85192": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f02517a6-d327-483c-bf09-4521a8ef8469": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f7d43ab2-15ae-4b4f-af72-11ca38950632": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ff82a52c-a7da-4b7b-96fd-c11cd19ea115": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0465f2c9-5553-46f2-9698-a67098a31e24": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0eee51f9-78b0-48ca-8c8d-0c91a7d43b1c": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a82db314-d922-4874-87af-130abfeb6e0d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d9fa0216-d7cd-4825-ba28-3c9f3898f8f1": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9acb1755-f4e6-46bb-9d5d-0797ffc183e4": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d9aed4af-56d5-42c5-9d9c-d62fdc4a221b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "adc1950d-e2e5-4ff2-84ec-7955dbfa55b5": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "decb54dd-d5fb-4d03-b7d0-6a2ef86da43f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a08da36e-8562-471d-a300-62568869dc23": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "353960fc-ddc4-4e1d-88af-0909561d0f52": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "443752e9-cff0-49c7-ac8e-35b0fa2069ed": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3a0e11a3-2a0f-4bfa-a2a4-dd0661d84bd6": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1e52e986-1830-4a8e-90ae-1496509dc809": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dc6ad79f-9324-4215-95fa-3343f303492b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "88932e93-99ce-4160-8b53-6acce4a1ef6d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b14e0844-848d-4165-8f8b-6ad85f07e98e": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1cb81f35-1c25-4da0-ad39-683dfb3a3c67": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ffe90f4b-eec0-4d51-9ac3-617297aad39d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7bd3e2b4-5e69-48e2-b206-a9afde330bcc": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f2811c04-c0c0-49f5-a1e1-841a85a6a92e": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fda6d5a0-97c7-44f3-93d7-c1900d4be304": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "012bc986-e2e4-45ea-b8c4-2fc3a320ac1e": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8fe72ecf-4941-4b53-b519-88c98fd846c5": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cc06733a-1d2f-47e6-8b9f-c74db53ce885": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3795a113-a925-4fd7-a5d3-79a14ae9b4e9": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "478fbcd0-8106-4aa2-99f0-51855129cd74": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f820b2c0-cae1-4aef-8b34-55cbe279a02b": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "301b96fa-c09b-4291-b6d7-b745dac7e831": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0af63c6e-77f0-4a8a-8f78-35cffcdff540": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a30e5c2a-d306-4589-b4fd-e593406ba6eb": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aafc1f44-c7c2-4da4-81e5-200258d66815": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "79744b54-b437-4ca0-9b58-3b4d43bc6698": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "63831c87-b947-41ce-b1e9-fbddc6bc136e": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7d0672e6-5300-4324-a85c-87ca69e83e0f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e2a2c658-0c1c-4c52-b604-b155a723d990": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a66b361d-a26c-4c6e-b251-e78045f9e93d": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "859df6e0-1f8d-4fd2-bd1b-fa0f0bdec78f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "682aa69f-1548-418a-9d3b-080718cb3cd6": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "86d0f6a4-157c-4bef-afc0-5a68dfef6a7f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7b9ef9cf-56d4-48c7-969e-c39d71fd2eb4": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "15aba732-b7b3-445f-b46c-7d472b55de9f": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "581bd839-ffca-455e-96c3-77509caff571": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "47550bc8-4540-4598-8d53-8b377a6430a2": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1cd058b0-2e9f-4b3d-9137-221c90c9bc69": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "292ef628-3237-4df4-b05a-d310506b88d7": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
+            "56334e76-7c06-4c19-8e33-4646cb0ca9eb": [
+                "resources/Textures/emoji_action_texture.png",
+                "cc.Texture2D"
+            ],
+            "6cbd0576-96fa-4fd8-95ad-cc4c27354bad": [
+                "resources/Textures/emoji_action_texture",
+                "cc.SpriteFrame",
+                1
+            ],
             "ff943cd2-d65e-4dd6-b572-d99bd481c083": [
                 "resources/Textures/empty.png",
                 "cc.Texture2D"
@@ -335,6 +860,15 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "8f1ad750-2f33-4d8f-a710-3175f9de1e5a": [
+                "resources/Textures/Fight/bipaiTXT.png",
+                "cc.Texture2D"
+            ],
+            "3113345e-135f-4dc8-abda-db2dade955f0": [
+                "resources/Textures/Fight/bipaiTXT",
+                "cc.SpriteFrame",
+                1
+            ],
             "ba8cfe11-8ff9-4ff5-a851-61f1cd830720": [
                 "resources/Textures/Fight/dapaiBG.png",
                 "cc.Texture2D"
@@ -353,12 +887,57 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "ef7e5a04-610f-4346-8004-83bccd1341bf": [
+                "resources/Textures/Fight/kaishibipaiTXT.png",
+                "cc.Texture2D"
+            ],
+            "716719a7-0cd1-4446-9169-eff3a73aee58": [
+                "resources/Textures/Fight/kaishibipaiTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c8305015-05ce-4745-857d-76fd469bb972": [
+                "resources/Textures/Fight/light.png",
+                "cc.Texture2D"
+            ],
+            "78e9c8b9-fa01-4f38-ad96-256a615f818b": [
+                "resources/Textures/Fight/light",
+                "cc.SpriteFrame",
+                1
+            ],
             "55cd3712-1daf-4c33-8ea8-d243faff1e23": [
                 "resources/Textures/Fight/shezhi0.png",
                 "cc.Texture2D"
             ],
             "de75a9df-fbca-4481-888f-36b6e8bcaf27": [
                 "resources/Textures/Fight/shezhi0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "da884296-9c53-4e05-ac16-7d1a6a23ee5f": [
+                "resources/Textures/Fight/start.png",
+                "cc.Texture2D"
+            ],
+            "3b1388b4-3474-4309-9a62-e5594e8cc2ac": [
+                "resources/Textures/Fight/start",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0f6a2086-3ec0-4e47-ab6c-588cece6b8ad": [
+                "resources/Textures/Fight/startbg.png",
+                "cc.Texture2D"
+            ],
+            "fb6a95a4-07e6-405a-bf72-9af2bab3750a": [
+                "resources/Textures/Fight/startbg",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bf85a682-e82e-45f1-af29-bbfa524a74a7": [
+                "resources/Textures/Fight/toudunbpTXT.png",
+                "cc.Texture2D"
+            ],
+            "5c056737-274a-412f-9a61-a3f41f59f56d": [
+                "resources/Textures/Fight/toudunbpTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -380,12 +959,39 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "9bf6a91d-4434-4283-b6e6-13269248f93a": [
+                "resources/Textures/Fight/weidunbpTXT.png",
+                "cc.Texture2D"
+            ],
+            "79f5b9fe-4b23-4140-9e3b-d316cb982be1": [
+                "resources/Textures/Fight/weidunbpTXT",
+                "cc.SpriteFrame",
+                1
+            ],
             "ef94c47f-cf58-402c-866d-3f22d4a924eb": [
                 "resources/Textures/Fight/weidunTXT.png",
                 "cc.Texture2D"
             ],
             "39e2f8ae-5c5d-40e0-b13d-6c0a7287e2de": [
                 "resources/Textures/Fight/weidunTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fd0673d4-f93e-4f67-aa00-9da0f3d2314f": [
+                "resources/Textures/Fight/wing.png",
+                "cc.Texture2D"
+            ],
+            "05d63b12-d5d4-4f81-8935-aafc9f49d199": [
+                "resources/Textures/Fight/wing",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1a179f09-68a6-4090-83d1-70047362d50c": [
+                "resources/Textures/Fight/wing2.png",
+                "cc.Texture2D"
+            ],
+            "aa8bc0a8-a9a4-4919-8eb9-3be0892bd946": [
+                "resources/Textures/Fight/wing2",
                 "cc.SpriteFrame",
                 1
             ],
@@ -404,6 +1010,15 @@ _CCSettings = {
             ],
             "4e56c354-d77e-49c2-a463-e69e00c6d6b2": [
                 "resources/Textures/Fight/yizhunbeiTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "147bdd46-05c2-4092-89e2-35418d45d25b": [
+                "resources/Textures/Fight/zhongdunbpTXT.png",
+                "cc.Texture2D"
+            ],
+            "a4f99110-d4b0-4190-8bd0-72604c155ecc": [
+                "resources/Textures/Fight/zhongdunbpTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -515,12 +1130,30 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "790af40d-f9e4-4b04-bf4f-a843d92bd1e7": [
+                "resources/Textures/jsfj.png",
+                "cc.Texture2D"
+            ],
+            "6899279b-129b-4f36-bdc1-e08febb6075d": [
+                "resources/Textures/jsfj",
+                "cc.SpriteFrame",
+                1
+            ],
             "ee6fbc8c-c53d-4f8e-91ca-465fa92d135f": [
                 "resources/Textures/lianxiBTN.png",
                 "cc.Texture2D"
             ],
             "1cea6cc2-3959-430e-b927-96de9b424f6a": [
                 "resources/Textures/lianxiBTN",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c95e1151-ae37-4da0-b15a-ca3b3e7b19e5": [
+                "resources/Textures/liaotian0.png",
+                "cc.Texture2D"
+            ],
+            "264b3d92-3dc0-48ab-9f37-47c861f601bb": [
+                "resources/Textures/liaotian0",
                 "cc.SpriteFrame",
                 1
             ],
@@ -575,6 +1208,15 @@ _CCSettings = {
             ],
             "013a5154-a6e9-4cc6-a013-bb356c5ef4c8": [
                 "resources/Textures/LOGO",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4c37ccdc-d3b8-4978-82af-13a2811a32c3": [
+                "resources/Textures/ltshuruBG.png",
+                "cc.Texture2D"
+            ],
+            "7b335f12-8529-40d7-8efa-b53e9a061cee": [
+                "resources/Textures/ltshuruBG",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1154,6 +1796,15 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "a2d076f5-2f9e-4a3a-bdc6-aaa501aff0df": [
+                "resources/Textures/red88BTN.png",
+                "cc.Texture2D"
+            ],
+            "69554d66-1c8a-4a06-afc8-42698a36fd23": [
+                "resources/Textures/red88BTN",
+                "cc.SpriteFrame",
+                1
+            ],
             "2a3d9314-9973-465f-9747-b8748bf99ff0": [
                 "resources/Textures/sale.png",
                 "cc.Texture2D"
@@ -1361,6 +2012,24 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "8822939f-3fb2-4ef8-a542-8c15397eb08d": [
+                "resources/Textures/yeqian0.png",
+                "cc.Texture2D"
+            ],
+            "f40f7203-b915-468d-a5b2-1ad3aa3f989a": [
+                "resources/Textures/yeqian0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "07f089cb-bd8c-44e5-820b-b980285953e9": [
+                "resources/Textures/yeqian1.png",
+                "cc.Texture2D"
+            ],
+            "ad15616c-18b3-4667-8566-e1f13d9f59cc": [
+                "resources/Textures/yeqian1",
+                "cc.SpriteFrame",
+                1
+            ],
             "34292bbb-6f48-400f-8ff6-4682752de7db": [
                 "resources/Textures/yingTXT.png",
                 "cc.Texture2D"
@@ -1370,9 +2039,273 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "f8f88c74-40be-49d0-a743-f9d39eb9d2f9": [
-                "resources/Proto/client.txt",
-                "cc.RawAsset"
+            "9a5d29b9-a804-4126-87f4-c410097b9a32": [
+                "resources/Textures/yqtb1.png",
+                "cc.Texture2D"
+            ],
+            "9cd13991-e1a3-47a6-988e-0b4435349361": [
+                "resources/Textures/yqtb1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f30e7d54-fa9f-4844-9e10-4780cf5f11ce": [
+                "resources/Textures/yqtb2.png",
+                "cc.Texture2D"
+            ],
+            "fd90936d-f86e-47a6-b8df-d4bd1ccbd9a8": [
+                "resources/Textures/yqtb2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d0195bb9-6f08-4169-9b51-0a6c9d88cff2": [
+                "resources/Textures/yuyin.png",
+                "cc.Texture2D"
+            ],
+            "466764ce-9fd8-4cf1-9de0-5f2fd5256bef": [
+                "resources/Textures/yuyin",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4bdd3ed4-12ab-4986-b69f-76d8279035d8": [
+                "resources/Textures/yuyin0.png",
+                "cc.Texture2D"
+            ],
+            "f296fae4-facf-46a2-9fbd-a98f6645895e": [
+                "resources/Textures/yuyin0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a361d5e9-b692-4306-aa76-a448c2434bbf": [
+                "resources/AnimationClip/ac_cardmove5.anim",
+                "cc.AnimationClip"
+            ],
+            "b07b3399-c389-40b1-b0bd-a17732df11cf": [
+                "resources/AnimationClip/face_10.anim",
+                "cc.AnimationClip"
+            ],
+            "8c5a64f1-f64e-4ab4-8bf9-5af617b0b8ec": [
+                "resources/AnimationClip/face_11.anim",
+                "cc.AnimationClip"
+            ],
+            "3adfc589-d197-4079-ac70-772486a2cac0": [
+                "resources/AnimationClip/face_12.anim",
+                "cc.AnimationClip"
+            ],
+            "73f5999b-101e-43f7-9652-1369da52548a": [
+                "resources/AnimationClip/face_13.anim",
+                "cc.AnimationClip"
+            ],
+            "f3fa1eb3-a85a-46e3-aa3e-ce2a0169660a": [
+                "resources/AnimationClip/face_14.anim",
+                "cc.AnimationClip"
+            ],
+            "6e2a1f4c-949f-49be-9242-2542a92044e7": [
+                "resources/AnimationClip/face_15.anim",
+                "cc.AnimationClip"
+            ],
+            "9fe61c41-2639-4b47-905c-dcd8bee19fda": [
+                "resources/AnimationClip/face_1.anim",
+                "cc.AnimationClip"
+            ],
+            "ab8af813-8b25-4837-b9e4-9b3610104058": [
+                "resources/AnimationClip/face_2.anim",
+                "cc.AnimationClip"
+            ],
+            "901dafa7-33c4-4323-9859-6522d1b9ff98": [
+                "resources/AnimationClip/face_3.anim",
+                "cc.AnimationClip"
+            ],
+            "0514fbe4-2d6f-4558-b013-0982b9aa0380": [
+                "resources/AnimationClip/face_4.anim",
+                "cc.AnimationClip"
+            ],
+            "9c343247-5095-48c1-baaf-bb74f4fd9689": [
+                "resources/AnimationClip/face_5.anim",
+                "cc.AnimationClip"
+            ],
+            "411e62c9-097a-43fa-8ce4-287108f3de87": [
+                "resources/AnimationClip/face_6.anim",
+                "cc.AnimationClip"
+            ],
+            "7ac6ae7e-7882-4a3e-bd2f-5fe5a3aefd93": [
+                "resources/AnimationClip/face_7.anim",
+                "cc.AnimationClip"
+            ],
+            "c071b25a-3ea9-43b9-8937-a6c9871b00a3": [
+                "resources/AnimationClip/face_8.anim",
+                "cc.AnimationClip"
+            ],
+            "ed1740cd-80cf-4700-8c7c-bc84f504ff47": [
+                "resources/AnimationClip/face_9.anim",
+                "cc.AnimationClip"
+            ],
+            "9116e7a6-f863-4886-8ab4-990c37062e36": [
+                "resources/Sound/GAME_START.MP3",
+                "cc.AudioClip"
+            ],
+            "41b3f456-3eee-4783-8c50-a7e2585016de": [
+                "resources/Sound/M_冲三.MP3",
+                "cc.AudioClip"
+            ],
+            "07a5c5d9-deb7-4fc1-aabc-bed2a038c486": [
+                "resources/Sound/M_打枪.MP3",
+                "cc.AudioClip"
+            ],
+            "5e964160-0a13-4725-b1d2-65cd48e8ecfa": [
+                "resources/Sound/M_对子.MP3",
+                "cc.AudioClip"
+            ],
+            "da309b3e-b081-46f1-b3df-60a3babb6a95": [
+                "resources/Sound/M_葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "5150b3e0-eaca-48c4-bdef-68743dafb829": [
+                "resources/Sound/M_开始比牌.MP3",
+                "cc.AudioClip"
+            ],
+            "eeb2b35d-e3a3-452a-b257-23de2202dc8e": [
+                "resources/Sound/M_开始比牌铃声.MP3",
+                "cc.AudioClip"
+            ],
+            "a8d71cf0-933c-464f-be98-6cc323e62c14": [
+                "resources/Sound/M_两对.MP3",
+                "cc.AudioClip"
+            ],
+            "767b93c6-c632-416b-94a9-ddc59bacc3de": [
+                "resources/Sound/M_六对半.MP3",
+                "cc.AudioClip"
+            ],
+            "f6629e78-b788-4267-ab5b-6115b263fbc4": [
+                "resources/Sound/M_三顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "d000cf83-ab3a-47c0-b898-7817ce191176": [
+                "resources/Sound/M_三条.MP3",
+                "cc.AudioClip"
+            ],
+            "8ae818b0-d123-42b2-8fde-5df4b90c961a": [
+                "resources/Sound/M_三同花.MP3",
+                "cc.AudioClip"
+            ],
+            "0ff665b9-9104-4013-90d1-08fcffa6f9ad": [
+                "resources/Sound/M_顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "4e68953d-e177-451b-bb05-ebf5503ddd13": [
+                "resources/Sound/M_铁支.MP3",
+                "cc.AudioClip"
+            ],
+            "46270dca-817e-4172-9a03-9ef4b71099c6": [
+                "resources/Sound/M_同花.MP3",
+                "cc.AudioClip"
+            ],
+            "62a833c1-0bd9-4087-9f59-aa40d8ab1406": [
+                "resources/Sound/M_同花顺.MP3",
+                "cc.AudioClip"
+            ],
+            "24ed0f01-8424-4cf2-b131-06e939184c6a": [
+                "resources/Sound/M_乌龙.MP3",
+                "cc.AudioClip"
+            ],
+            "113ab022-7742-4d2a-b62d-bd93f90e7f1f": [
+                "resources/Sound/M_一条龙.MP3",
+                "cc.AudioClip"
+            ],
+            "c3fe1d9c-fde5-4238-aa5b-f2256532d6e3": [
+                "resources/Sound/M_中墩葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "d4c4a42c-c8d5-4171-81e6-8106dd461282": [
+                "resources/Sound/出牌.MP3",
+                "cc.AudioClip"
+            ],
+            "f9c06655-b050-4bfe-8f72-4846e8846a5c": [
+                "resources/Sound/打枪_子弹.MP3",
+                "cc.AudioClip"
+            ],
+            "c16d1136-32ee-4629-bc6e-df909206aec9": [
+                "resources/Sound/发牌.MP3",
+                "cc.AudioClip"
+            ],
+            "33ba5413-5d76-4e63-9aa0-693ad2884868": [
+                "resources/Sound/特殊牌.MP3",
+                "cc.AudioClip"
+            ],
+            "c6414c45-9c26-42c7-8702-e6c202da4348": [
+                "resources/Sound/F_冲三.MP3",
+                "cc.AudioClip"
+            ],
+            "0a5f3adb-6aaf-46a2-a03b-caf63ced00ac": [
+                "resources/Sound/F_打枪.MP3",
+                "cc.AudioClip"
+            ],
+            "000d1a87-8084-4096-8e91-730691bf7dfd": [
+                "resources/Sound/F_对子.MP3",
+                "cc.AudioClip"
+            ],
+            "0c41851b-9cdc-446e-a765-dbc4209d9ef1": [
+                "resources/Sound/F_葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "26d41038-fa7b-4533-941d-0bb927fad947": [
+                "resources/Sound/F_两对.MP3",
+                "cc.AudioClip"
+            ],
+            "6ca3a5d2-8336-473a-85ef-2710a6579f10": [
+                "resources/Sound/F_开始比牌.MP3",
+                "cc.AudioClip"
+            ],
+            "5df8f4c4-1ffa-480f-877d-b2e3a6e095b5": [
+                "resources/Sound/F_三顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "8ee395fe-1fd3-4b1a-998a-da7047aea739": [
+                "resources/Sound/F_三条.MP3",
+                "cc.AudioClip"
+            ],
+            "a5bc89f0-a535-489d-8e07-490d0c0cbd8a": [
+                "resources/Sound/F_三同花.MP3",
+                "cc.AudioClip"
+            ],
+            "cd2ad6a7-3b66-41bb-babc-0c5a113e3354": [
+                "resources/Sound/F_六对半.MP3",
+                "cc.AudioClip"
+            ],
+            "5e1424c3-5f70-44ab-be25-6de215914b2a": [
+                "resources/Sound/F_顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "023ebe3f-b25d-4330-9b6f-386caaa87171": [
+                "resources/Sound/F_铁支.MP3",
+                "cc.AudioClip"
+            ],
+            "e094a432-702c-4900-83fd-79b0eaf68d42": [
+                "resources/Sound/F_同花顺.MP3",
+                "cc.AudioClip"
+            ],
+            "6fe5b91c-d910-4510-8e48-cb69e12aa086": [
+                "resources/Sound/F_乌龙.MP3",
+                "cc.AudioClip"
+            ],
+            "fb005118-4556-488c-8856-990a21744dd7": [
+                "resources/Sound/F_同花.MP3",
+                "cc.AudioClip"
+            ],
+            "70f454a9-6fb4-45de-bb1a-025846551bf6": [
+                "resources/Sound/F_一条龙.MP3",
+                "cc.AudioClip"
+            ],
+            "ddc161f3-90b0-4932-8c64-2b7589c33669": [
+                "resources/Sound/F_中墩葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "e6293728-2daf-438f-9743-a42b1fdb0e2b": [
+                "resources/Sound/Game_Bg.MP3",
+                "cc.AudioClip"
+            ],
+            "c241174b-9027-4157-9d7c-d966537bcfb6": [
+                "resources/Sound/Hall_Bg.MP3",
+                "cc.AudioClip"
             ]
         },
         "temp/internal": {

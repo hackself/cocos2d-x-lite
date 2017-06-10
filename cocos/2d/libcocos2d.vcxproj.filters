@@ -175,6 +175,12 @@
     <Filter Include="creator\physics">
       <UniqueIdentifier>{7ea5175c-acae-4b2f-ae6e-50daf6131b12}</UniqueIdentifier>
     </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{8ef7076d-e3c0-4642-9a4c-42c1c0a1adf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\YunVaSDK">
+      <UniqueIdentifier>{b6174ea5-11dd-43c5-94f8-fc4c10a1bcfe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\external\sources\xxhash\xxhash.c">
@@ -1145,6 +1151,15 @@
     </ClCompile>
     <ClCompile Include="..\network\JBSocket.cpp">
       <Filter>network\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\IMDispatchMsgNode.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\YunVaSDK\YVRespondFactory.cpp">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\YunVaSDK\YVTool.cpp">
+      <Filter>sdk\YunVaSDK</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2216,6 +2231,27 @@
     </ClInclude>
     <ClInclude Include="..\network\JBSocket.h">
       <Filter>network\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\IMDispatchMsgNode.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\CYVSyncQueue.h">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\yvListern.h">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\yvpacket_overloaded.h">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\YVRespondFactory.h">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\YVTool.h">
+      <Filter>sdk\YunVaSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\YunVaSDK\YVTypeDef.h">
+      <Filter>sdk\YunVaSDK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
