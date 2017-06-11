@@ -28,6 +28,10 @@ _CCSettings = {
                 "resources/AnimationClip/ac_cardmove4.anim",
                 "cc.AnimationClip"
             ],
+            "a361d5e9-b692-4306-aa76-a448c2434bbf": [
+                "resources/AnimationClip/ac_cardmove5.anim",
+                "cc.AnimationClip"
+            ],
             "5b67173f-d14c-4628-bedf-f9818ee22c3a": [
                 "resources/AnimationClip/ac_chat.anim",
                 "cc.AnimationClip"
@@ -52,6 +56,66 @@ _CCSettings = {
                 "resources/AnimationClip/ac_select_up.anim",
                 "cc.AnimationClip"
             ],
+            "9fe61c41-2639-4b47-905c-dcd8bee19fda": [
+                "resources/AnimationClip/face_1.anim",
+                "cc.AnimationClip"
+            ],
+            "b07b3399-c389-40b1-b0bd-a17732df11cf": [
+                "resources/AnimationClip/face_10.anim",
+                "cc.AnimationClip"
+            ],
+            "8c5a64f1-f64e-4ab4-8bf9-5af617b0b8ec": [
+                "resources/AnimationClip/face_11.anim",
+                "cc.AnimationClip"
+            ],
+            "3adfc589-d197-4079-ac70-772486a2cac0": [
+                "resources/AnimationClip/face_12.anim",
+                "cc.AnimationClip"
+            ],
+            "73f5999b-101e-43f7-9652-1369da52548a": [
+                "resources/AnimationClip/face_13.anim",
+                "cc.AnimationClip"
+            ],
+            "f3fa1eb3-a85a-46e3-aa3e-ce2a0169660a": [
+                "resources/AnimationClip/face_14.anim",
+                "cc.AnimationClip"
+            ],
+            "6e2a1f4c-949f-49be-9242-2542a92044e7": [
+                "resources/AnimationClip/face_15.anim",
+                "cc.AnimationClip"
+            ],
+            "ab8af813-8b25-4837-b9e4-9b3610104058": [
+                "resources/AnimationClip/face_2.anim",
+                "cc.AnimationClip"
+            ],
+            "901dafa7-33c4-4323-9859-6522d1b9ff98": [
+                "resources/AnimationClip/face_3.anim",
+                "cc.AnimationClip"
+            ],
+            "0514fbe4-2d6f-4558-b013-0982b9aa0380": [
+                "resources/AnimationClip/face_4.anim",
+                "cc.AnimationClip"
+            ],
+            "9c343247-5095-48c1-baaf-bb74f4fd9689": [
+                "resources/AnimationClip/face_5.anim",
+                "cc.AnimationClip"
+            ],
+            "411e62c9-097a-43fa-8ce4-287108f3de87": [
+                "resources/AnimationClip/face_6.anim",
+                "cc.AnimationClip"
+            ],
+            "7ac6ae7e-7882-4a3e-bd2f-5fe5a3aefd93": [
+                "resources/AnimationClip/face_7.anim",
+                "cc.AnimationClip"
+            ],
+            "c071b25a-3ea9-43b9-8937-a6c9871b00a3": [
+                "resources/AnimationClip/face_8.anim",
+                "cc.AnimationClip"
+            ],
+            "ed1740cd-80cf-4700-8c7c-bc84f504ff47": [
+                "resources/AnimationClip/face_9.anim",
+                "cc.AnimationClip"
+            ],
             "be909582-1bc4-4e8e-89ca-01d79f53ec4f": [
                 "resources/Gui/headinfo.prefab",
                 "cc.Prefab"
@@ -62,10 +126,6 @@ _CCSettings = {
             ],
             "d4c71f26-4dc8-40b0-a89b-2e97e49e597a": [
                 "resources/Gui/Poker.prefab",
-                "cc.Prefab"
-            ],
-            "1b574144-ea47-4267-b13e-a43941297fcd": [
-                "resources/Gui/PokerFlop.prefab",
                 "cc.Prefab"
             ],
             "906b79c0-5c1c-4caa-aaac-d8b6383994c8": [
@@ -82,10 +142,6 @@ _CCSettings = {
             ],
             "1004a4c7-bac1-418f-9978-bdf50b3dcb35": [
                 "resources/Gui/UIChat.prefab",
-                "cc.Prefab"
-            ],
-            "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
-                "resources/Gui/UICreateRoom.prefab",
                 "cc.Prefab"
             ],
             "f407185e-87d9-4857-a8cb-a1066d04f1a2": [
@@ -106,10 +162,6 @@ _CCSettings = {
             ],
             "4bd4748c-96ef-452d-a2ef-4609717d93a6": [
                 "resources/Gui/UINotice.prefab",
-                "cc.Prefab"
-            ],
-            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
-                "resources/Gui/UIPokerGame.prefab",
                 "cc.Prefab"
             ],
             "11f96248-3381-43c4-949e-4e84b214eb3d": [
@@ -155,6 +207,174 @@ _CCSettings = {
             "03dfc162-387f-4265-9c66-3c3043203630": [
                 "resources/Proto/protoid.txt",
                 "cc.RawAsset"
+            ],
+            "d4c4a42c-c8d5-4171-81e6-8106dd461282": [
+                "resources/Sound/出牌.MP3",
+                "cc.AudioClip"
+            ],
+            "f9c06655-b050-4bfe-8f72-4846e8846a5c": [
+                "resources/Sound/打枪_子弹.MP3",
+                "cc.AudioClip"
+            ],
+            "33ba5413-5d76-4e63-9aa0-693ad2884868": [
+                "resources/Sound/特殊牌.MP3",
+                "cc.AudioClip"
+            ],
+            "c6414c45-9c26-42c7-8702-e6c202da4348": [
+                "resources/Sound/F_冲三.MP3",
+                "cc.AudioClip"
+            ],
+            "0a5f3adb-6aaf-46a2-a03b-caf63ced00ac": [
+                "resources/Sound/F_打枪.MP3",
+                "cc.AudioClip"
+            ],
+            "000d1a87-8084-4096-8e91-730691bf7dfd": [
+                "resources/Sound/F_对子.MP3",
+                "cc.AudioClip"
+            ],
+            "0c41851b-9cdc-446e-a765-dbc4209d9ef1": [
+                "resources/Sound/F_葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "6ca3a5d2-8336-473a-85ef-2710a6579f10": [
+                "resources/Sound/F_开始比牌.MP3",
+                "cc.AudioClip"
+            ],
+            "26d41038-fa7b-4533-941d-0bb927fad947": [
+                "resources/Sound/F_两对.MP3",
+                "cc.AudioClip"
+            ],
+            "cd2ad6a7-3b66-41bb-babc-0c5a113e3354": [
+                "resources/Sound/F_六对半.MP3",
+                "cc.AudioClip"
+            ],
+            "5df8f4c4-1ffa-480f-877d-b2e3a6e095b5": [
+                "resources/Sound/F_三顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "8ee395fe-1fd3-4b1a-998a-da7047aea739": [
+                "resources/Sound/F_三条.MP3",
+                "cc.AudioClip"
+            ],
+            "a5bc89f0-a535-489d-8e07-490d0c0cbd8a": [
+                "resources/Sound/F_三同花.MP3",
+                "cc.AudioClip"
+            ],
+            "5e1424c3-5f70-44ab-be25-6de215914b2a": [
+                "resources/Sound/F_顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "023ebe3f-b25d-4330-9b6f-386caaa87171": [
+                "resources/Sound/F_铁支.MP3",
+                "cc.AudioClip"
+            ],
+            "fb005118-4556-488c-8856-990a21744dd7": [
+                "resources/Sound/F_同花.MP3",
+                "cc.AudioClip"
+            ],
+            "e094a432-702c-4900-83fd-79b0eaf68d42": [
+                "resources/Sound/F_同花顺.MP3",
+                "cc.AudioClip"
+            ],
+            "6fe5b91c-d910-4510-8e48-cb69e12aa086": [
+                "resources/Sound/F_乌龙.MP3",
+                "cc.AudioClip"
+            ],
+            "70f454a9-6fb4-45de-bb1a-025846551bf6": [
+                "resources/Sound/F_一条龙.MP3",
+                "cc.AudioClip"
+            ],
+            "ddc161f3-90b0-4932-8c64-2b7589c33669": [
+                "resources/Sound/F_中墩葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "c16d1136-32ee-4629-bc6e-df909206aec9": [
+                "resources/Sound/fapai.MP3",
+                "cc.AudioClip"
+            ],
+            "e6293728-2daf-438f-9743-a42b1fdb0e2b": [
+                "resources/Sound/Game_Bg.MP3",
+                "cc.AudioClip"
+            ],
+            "9116e7a6-f863-4886-8ab4-990c37062e36": [
+                "resources/Sound/GAME_START.MP3",
+                "cc.AudioClip"
+            ],
+            "c241174b-9027-4157-9d7c-d966537bcfb6": [
+                "resources/Sound/Hall_Bg.MP3",
+                "cc.AudioClip"
+            ],
+            "41b3f456-3eee-4783-8c50-a7e2585016de": [
+                "resources/Sound/M_冲三.MP3",
+                "cc.AudioClip"
+            ],
+            "07a5c5d9-deb7-4fc1-aabc-bed2a038c486": [
+                "resources/Sound/M_打枪.MP3",
+                "cc.AudioClip"
+            ],
+            "5e964160-0a13-4725-b1d2-65cd48e8ecfa": [
+                "resources/Sound/M_对子.MP3",
+                "cc.AudioClip"
+            ],
+            "da309b3e-b081-46f1-b3df-60a3babb6a95": [
+                "resources/Sound/M_葫芦.MP3",
+                "cc.AudioClip"
+            ],
+            "5150b3e0-eaca-48c4-bdef-68743dafb829": [
+                "resources/Sound/M_开始比牌.MP3",
+                "cc.AudioClip"
+            ],
+            "eeb2b35d-e3a3-452a-b257-23de2202dc8e": [
+                "resources/Sound/M_开始比牌铃声.MP3",
+                "cc.AudioClip"
+            ],
+            "a8d71cf0-933c-464f-be98-6cc323e62c14": [
+                "resources/Sound/M_两对.MP3",
+                "cc.AudioClip"
+            ],
+            "767b93c6-c632-416b-94a9-ddc59bacc3de": [
+                "resources/Sound/M_六对半.MP3",
+                "cc.AudioClip"
+            ],
+            "f6629e78-b788-4267-ab5b-6115b263fbc4": [
+                "resources/Sound/M_三顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "d000cf83-ab3a-47c0-b898-7817ce191176": [
+                "resources/Sound/M_三条.MP3",
+                "cc.AudioClip"
+            ],
+            "8ae818b0-d123-42b2-8fde-5df4b90c961a": [
+                "resources/Sound/M_三同花.MP3",
+                "cc.AudioClip"
+            ],
+            "0ff665b9-9104-4013-90d1-08fcffa6f9ad": [
+                "resources/Sound/M_顺子.MP3",
+                "cc.AudioClip"
+            ],
+            "4e68953d-e177-451b-bb05-ebf5503ddd13": [
+                "resources/Sound/M_铁支.MP3",
+                "cc.AudioClip"
+            ],
+            "46270dca-817e-4172-9a03-9ef4b71099c6": [
+                "resources/Sound/M_同花.MP3",
+                "cc.AudioClip"
+            ],
+            "62a833c1-0bd9-4087-9f59-aa40d8ab1406": [
+                "resources/Sound/M_同花顺.MP3",
+                "cc.AudioClip"
+            ],
+            "24ed0f01-8424-4cf2-b131-06e939184c6a": [
+                "resources/Sound/M_乌龙.MP3",
+                "cc.AudioClip"
+            ],
+            "113ab022-7742-4d2a-b62d-bd93f90e7f1f": [
+                "resources/Sound/M_一条龙.MP3",
+                "cc.AudioClip"
+            ],
+            "c3fe1d9c-fde5-4238-aa5b-f2256532d6e3": [
+                "resources/Sound/M_中墩葫芦.MP3",
+                "cc.AudioClip"
             ],
             "0d21ef3b-0d7c-457c-b63e-6a6923a386b2": [
                 "resources/Textures/backBTN.png",
@@ -2075,237 +2295,444 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "a361d5e9-b692-4306-aa76-a448c2434bbf": [
-                "resources/AnimationClip/ac_cardmove5.anim",
-                "cc.AnimationClip"
+            "1b574144-ea47-4267-b13e-a43941297fcd": [
+                "resources/Gui/PokerFlop.prefab",
+                "cc.Prefab"
             ],
-            "b07b3399-c389-40b1-b0bd-a17732df11cf": [
-                "resources/AnimationClip/face_10.anim",
-                "cc.AnimationClip"
+            "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
+                "resources/Gui/UICreateRoom.prefab",
+                "cc.Prefab"
             ],
-            "8c5a64f1-f64e-4ab4-8bf9-5af617b0b8ec": [
-                "resources/AnimationClip/face_11.anim",
-                "cc.AnimationClip"
+            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
+                "resources/Gui/UIPokerGame.prefab",
+                "cc.Prefab"
             ],
-            "3adfc589-d197-4079-ac70-772486a2cac0": [
-                "resources/AnimationClip/face_12.anim",
-                "cc.AnimationClip"
+            "5019811f-ce88-4a14-be01-0e73c38c69ef": [
+                "resources/Gui/ScoreSummary.prefab",
+                "cc.Prefab"
             ],
-            "73f5999b-101e-43f7-9652-1369da52548a": [
-                "resources/AnimationClip/face_13.anim",
-                "cc.AnimationClip"
+            "8699ba9e-0186-4a0f-b48b-4207dbcb3088": [
+                "resources/Textures/digital/00.png",
+                "cc.Texture2D"
             ],
-            "f3fa1eb3-a85a-46e3-aa3e-ce2a0169660a": [
-                "resources/AnimationClip/face_14.anim",
-                "cc.AnimationClip"
+            "d5ee9c94-8f4f-4b7c-bd1d-a1535d989c84": [
+                "resources/Textures/digital/01.png",
+                "cc.Texture2D"
             ],
-            "6e2a1f4c-949f-49be-9242-2542a92044e7": [
-                "resources/AnimationClip/face_15.anim",
-                "cc.AnimationClip"
+            "61498bf3-7f8c-4f5f-a3d0-06d0563f0720": [
+                "resources/Textures/digital/02.png",
+                "cc.Texture2D"
             ],
-            "9fe61c41-2639-4b47-905c-dcd8bee19fda": [
-                "resources/AnimationClip/face_1.anim",
-                "cc.AnimationClip"
+            "5baa8fb5-0d4f-43e4-a51e-1c9d5388563d": [
+                "resources/Textures/digital/03.png",
+                "cc.Texture2D"
             ],
-            "ab8af813-8b25-4837-b9e4-9b3610104058": [
-                "resources/AnimationClip/face_2.anim",
-                "cc.AnimationClip"
+            "01460672-3481-42b6-a6c1-7df4d729328f": [
+                "resources/Textures/digital/04.png",
+                "cc.Texture2D"
             ],
-            "901dafa7-33c4-4323-9859-6522d1b9ff98": [
-                "resources/AnimationClip/face_3.anim",
-                "cc.AnimationClip"
+            "98805b3f-167a-43f7-b076-33d6416cc01d": [
+                "resources/Textures/digital/05.png",
+                "cc.Texture2D"
             ],
-            "0514fbe4-2d6f-4558-b013-0982b9aa0380": [
-                "resources/AnimationClip/face_4.anim",
-                "cc.AnimationClip"
+            "863623e5-3816-4147-a1e5-8218a77f0b79": [
+                "resources/Textures/digital/06.png",
+                "cc.Texture2D"
             ],
-            "9c343247-5095-48c1-baaf-bb74f4fd9689": [
-                "resources/AnimationClip/face_5.anim",
-                "cc.AnimationClip"
+            "1e6c4474-c7fc-4dd2-bad3-cd8426f17130": [
+                "resources/Textures/digital/07.png",
+                "cc.Texture2D"
             ],
-            "411e62c9-097a-43fa-8ce4-287108f3de87": [
-                "resources/AnimationClip/face_6.anim",
-                "cc.AnimationClip"
+            "305fc879-2eec-40d3-b9de-04306d332119": [
+                "resources/Textures/digital/08.png",
+                "cc.Texture2D"
             ],
-            "7ac6ae7e-7882-4a3e-bd2f-5fe5a3aefd93": [
-                "resources/AnimationClip/face_7.anim",
-                "cc.AnimationClip"
+            "82f661ec-5c8b-413f-ba43-2e919e01aa0e": [
+                "resources/Textures/digital/09.png",
+                "cc.Texture2D"
             ],
-            "c071b25a-3ea9-43b9-8937-a6c9871b00a3": [
-                "resources/AnimationClip/face_8.anim",
-                "cc.AnimationClip"
+            "dc8b94bc-a54a-44a3-bf8e-e7f58245876a": [
+                "resources/Textures/digital/10.png",
+                "cc.Texture2D"
             ],
-            "ed1740cd-80cf-4700-8c7c-bc84f504ff47": [
-                "resources/AnimationClip/face_9.anim",
-                "cc.AnimationClip"
+            "13122e0b-ea8f-40f9-a263-e8edbb4ee79d": [
+                "resources/Textures/digital/11.png",
+                "cc.Texture2D"
             ],
-            "9116e7a6-f863-4886-8ab4-990c37062e36": [
-                "resources/Sound/GAME_START.MP3",
-                "cc.AudioClip"
+            "c962f604-b39a-4ec4-bdbf-cfc39c798d6e": [
+                "resources/Textures/digital/12.png",
+                "cc.Texture2D"
             ],
-            "41b3f456-3eee-4783-8c50-a7e2585016de": [
-                "resources/Sound/M_冲三.MP3",
-                "cc.AudioClip"
+            "a21041ee-20d7-4a24-92e4-009184f23dba": [
+                "resources/Textures/digital/13.png",
+                "cc.Texture2D"
             ],
-            "07a5c5d9-deb7-4fc1-aabc-bed2a038c486": [
-                "resources/Sound/M_打枪.MP3",
-                "cc.AudioClip"
+            "815a79f8-0c62-4f39-baaa-c137a89f82c6": [
+                "resources/Textures/digital/14.png",
+                "cc.Texture2D"
             ],
-            "5e964160-0a13-4725-b1d2-65cd48e8ecfa": [
-                "resources/Sound/M_对子.MP3",
-                "cc.AudioClip"
+            "a4d6b7ff-d791-468a-a607-ce01cc56c5ab": [
+                "resources/Textures/digital/15.png",
+                "cc.Texture2D"
             ],
-            "da309b3e-b081-46f1-b3df-60a3babb6a95": [
-                "resources/Sound/M_葫芦.MP3",
-                "cc.AudioClip"
+            "d3c5163b-d88e-45b9-8082-75e678f93acc": [
+                "resources/Textures/digital/16.png",
+                "cc.Texture2D"
             ],
-            "5150b3e0-eaca-48c4-bdef-68743dafb829": [
-                "resources/Sound/M_开始比牌.MP3",
-                "cc.AudioClip"
+            "cd2acc55-b766-40ab-9e6d-9712fdb9fbaf": [
+                "resources/Textures/digital/17.png",
+                "cc.Texture2D"
             ],
-            "eeb2b35d-e3a3-452a-b257-23de2202dc8e": [
-                "resources/Sound/M_开始比牌铃声.MP3",
-                "cc.AudioClip"
+            "f9e33ce4-e773-451b-927b-f654b6686933": [
+                "resources/Textures/digital/18.png",
+                "cc.Texture2D"
             ],
-            "a8d71cf0-933c-464f-be98-6cc323e62c14": [
-                "resources/Sound/M_两对.MP3",
-                "cc.AudioClip"
+            "01b7edc9-da19-4a91-9b4f-011af252b83a": [
+                "resources/Textures/digital/19.png",
+                "cc.Texture2D"
             ],
-            "767b93c6-c632-416b-94a9-ddc59bacc3de": [
-                "resources/Sound/M_六对半.MP3",
-                "cc.AudioClip"
+            "f34e9698-440d-45e9-a0ec-fdb8a1f4aaae": [
+                "resources/Textures/digital/jia.png",
+                "cc.Texture2D"
             ],
-            "f6629e78-b788-4267-ab5b-6115b263fbc4": [
-                "resources/Sound/M_三顺子.MP3",
-                "cc.AudioClip"
+            "ef1b3db9-45b4-4c90-8311-12a6ddab905d": [
+                "resources/Textures/digital/jian.png",
+                "cc.Texture2D"
             ],
-            "d000cf83-ab3a-47c0-b898-7817ce191176": [
-                "resources/Sound/M_三条.MP3",
-                "cc.AudioClip"
+            "a214344c-7a1b-4ddc-9602-47d793e3adec": [
+                "resources/Textures/PokerStyle/chongsan.png",
+                "cc.Texture2D"
             ],
-            "8ae818b0-d123-42b2-8fde-5df4b90c961a": [
-                "resources/Sound/M_三同花.MP3",
-                "cc.AudioClip"
+            "0743cc9d-8a0b-461f-b7ea-0bebe98037b4": [
+                "resources/Textures/PokerStyle/couyise.png",
+                "cc.Texture2D"
             ],
-            "0ff665b9-9104-4013-90d1-08fcffa6f9ad": [
-                "resources/Sound/M_顺子.MP3",
-                "cc.AudioClip"
+            "0ac2e606-94d4-4454-8de1-d79cd29bcc51": [
+                "resources/Textures/PokerStyle/duizi.png",
+                "cc.Texture2D"
             ],
-            "4e68953d-e177-451b-bb05-ebf5503ddd13": [
-                "resources/Sound/M_铁支.MP3",
-                "cc.AudioClip"
+            "e0ecf88d-3c00-4874-b6d3-a4d2e058122f": [
+                "resources/Textures/PokerStyle/hulu.png",
+                "cc.Texture2D"
             ],
-            "46270dca-817e-4172-9a03-9ef4b71099c6": [
-                "resources/Sound/M_同花.MP3",
-                "cc.AudioClip"
+            "4d0884d1-ead0-4577-96c5-ebfd3d938416": [
+                "resources/Textures/PokerStyle/liangdui.png",
+                "cc.Texture2D"
             ],
-            "62a833c1-0bd9-4087-9f59-aa40d8ab1406": [
-                "resources/Sound/M_同花顺.MP3",
-                "cc.AudioClip"
+            "216279fb-76ed-4b7e-8836-01dadbdd09e7": [
+                "resources/Textures/PokerStyle/liuduiban.png",
+                "cc.Texture2D"
             ],
-            "24ed0f01-8424-4cf2-b131-06e939184c6a": [
-                "resources/Sound/M_乌龙.MP3",
-                "cc.AudioClip"
+            "334c2e00-26af-4635-b03b-843d3a3dd270": [
+                "resources/Textures/PokerStyle/qinglong.png",
+                "cc.Texture2D"
             ],
-            "113ab022-7742-4d2a-b62d-bd93f90e7f1f": [
-                "resources/Sound/M_一条龙.MP3",
-                "cc.AudioClip"
+            "0b64e40f-1a04-4405-8e7e-a563d847eaf5": [
+                "resources/Textures/PokerStyle/quanda.png",
+                "cc.Texture2D"
             ],
-            "c3fe1d9c-fde5-4238-aa5b-f2256532d6e3": [
-                "resources/Sound/M_中墩葫芦.MP3",
-                "cc.AudioClip"
+            "441dc529-b38a-45f1-abf0-f8c627f2d24b": [
+                "resources/Textures/PokerStyle/quanxiao.png",
+                "cc.Texture2D"
             ],
-            "d4c4a42c-c8d5-4171-81e6-8106dd461282": [
-                "resources/Sound/出牌.MP3",
-                "cc.AudioClip"
+            "1ba9c586-220e-447f-b6c1-1cc76e9a5f56": [
+                "resources/Textures/PokerStyle/sanshunzi.png",
+                "cc.Texture2D"
             ],
-            "f9c06655-b050-4bfe-8f72-4846e8846a5c": [
-                "resources/Sound/打枪_子弹.MP3",
-                "cc.AudioClip"
+            "3067c135-1018-4bbe-b206-93266e2adc60": [
+                "resources/Textures/PokerStyle/santaozhadan.png",
+                "cc.Texture2D"
             ],
-            "c16d1136-32ee-4629-bc6e-df909206aec9": [
-                "resources/Sound/发牌.MP3",
-                "cc.AudioClip"
+            "cea7ec20-0ff0-4e33-bdc7-9338bd562a7e": [
+                "resources/Textures/PokerStyle/santiao.png",
+                "cc.Texture2D"
             ],
-            "33ba5413-5d76-4e63-9aa0-693ad2884868": [
-                "resources/Sound/特殊牌.MP3",
-                "cc.AudioClip"
+            "afc5d17a-e7d4-4f95-a9cd-601ce7050dcf": [
+                "resources/Textures/PokerStyle/santonghua.png",
+                "cc.Texture2D"
             ],
-            "c6414c45-9c26-42c7-8702-e6c202da4348": [
-                "resources/Sound/F_冲三.MP3",
-                "cc.AudioClip"
+            "aff10294-35c2-4c6f-8158-e8bfe936d5ff": [
+                "resources/Textures/PokerStyle/santonghuashun.png",
+                "cc.Texture2D"
             ],
-            "0a5f3adb-6aaf-46a2-a03b-caf63ced00ac": [
-                "resources/Sound/F_打枪.MP3",
-                "cc.AudioClip"
+            "cc51dfa8-7657-4f2b-9992-8d981b4dc102": [
+                "resources/Textures/PokerStyle/shierhuangzu.png",
+                "cc.Texture2D"
             ],
-            "000d1a87-8084-4096-8e91-730691bf7dfd": [
-                "resources/Sound/F_对子.MP3",
-                "cc.AudioClip"
+            "b8debd21-a848-4332-a170-ec077f6fff25": [
+                "resources/Textures/PokerStyle/shunzi.png",
+                "cc.Texture2D"
             ],
-            "0c41851b-9cdc-446e-a765-dbc4209d9ef1": [
-                "resources/Sound/F_葫芦.MP3",
-                "cc.AudioClip"
+            "9d0c7860-f76f-4683-a65a-9a7af85ad050": [
+                "resources/Textures/PokerStyle/sitaosantiao.png",
+                "cc.Texture2D"
             ],
-            "26d41038-fa7b-4533-941d-0bb927fad947": [
-                "resources/Sound/F_两对.MP3",
-                "cc.AudioClip"
+            "d7394433-f398-41e6-b712-d724cc8f37c9": [
+                "resources/Textures/PokerStyle/tiezhi.png",
+                "cc.Texture2D"
             ],
-            "6ca3a5d2-8336-473a-85ef-2710a6579f10": [
-                "resources/Sound/F_开始比牌.MP3",
-                "cc.AudioClip"
+            "ff1fe147-aaa4-4f61-bff1-c6c1cdc886c1": [
+                "resources/Textures/PokerStyle/tonghua.png",
+                "cc.Texture2D"
             ],
-            "5df8f4c4-1ffa-480f-877d-b2e3a6e095b5": [
-                "resources/Sound/F_三顺子.MP3",
-                "cc.AudioClip"
+            "74c2b6d0-6055-4e3e-8d7f-5b2488912446": [
+                "resources/Textures/PokerStyle/tonghuashun.png",
+                "cc.Texture2D"
             ],
-            "8ee395fe-1fd3-4b1a-998a-da7047aea739": [
-                "resources/Sound/F_三条.MP3",
-                "cc.AudioClip"
+            "43cb8e6b-a799-4e6b-b35f-947934ed2140": [
+                "resources/Textures/PokerStyle/wuduisantiao.png",
+                "cc.Texture2D"
             ],
-            "a5bc89f0-a535-489d-8e07-490d0c0cbd8a": [
-                "resources/Sound/F_三同花.MP3",
-                "cc.AudioClip"
+            "2fd60f23-b63f-4c20-a020-12535067ad69": [
+                "resources/Textures/PokerStyle/wulong.png",
+                "cc.Texture2D"
             ],
-            "cd2ad6a7-3b66-41bb-babc-0c5a113e3354": [
-                "resources/Sound/F_六对半.MP3",
-                "cc.AudioClip"
+            "b6d517e3-b0d7-4095-846b-be3b8abfe705": [
+                "resources/Textures/PokerStyle/wutong.png",
+                "cc.Texture2D"
             ],
-            "5e1424c3-5f70-44ab-be25-6de215914b2a": [
-                "resources/Sound/F_顺子.MP3",
-                "cc.AudioClip"
+            "6cb4d648-852a-4dc1-9064-bc325b1cf867": [
+                "resources/Textures/PokerStyle/yitiaolong.png",
+                "cc.Texture2D"
             ],
-            "023ebe3f-b25d-4330-9b6f-386caaa87171": [
-                "resources/Sound/F_铁支.MP3",
-                "cc.AudioClip"
+            "d91c94e6-39e8-41b4-b59d-c6ddb5effa41": [
+                "resources/Textures/PokerStyle/zhongdunhulu.png",
+                "cc.Texture2D"
             ],
-            "e094a432-702c-4900-83fd-79b0eaf68d42": [
-                "resources/Sound/F_同花顺.MP3",
-                "cc.AudioClip"
+            "1513329c-1c96-447c-b587-c6ddbe757c5c": [
+                "resources/Textures/digital/00",
+                "cc.SpriteFrame",
+                1
             ],
-            "6fe5b91c-d910-4510-8e48-cb69e12aa086": [
-                "resources/Sound/F_乌龙.MP3",
-                "cc.AudioClip"
+            "f0e7fc0a-7711-40cb-aa4e-a31fe9f4250a": [
+                "resources/Textures/digital/01",
+                "cc.SpriteFrame",
+                1
             ],
-            "fb005118-4556-488c-8856-990a21744dd7": [
-                "resources/Sound/F_同花.MP3",
-                "cc.AudioClip"
+            "a12d6642-65c2-4451-93ab-f26df855f45d": [
+                "resources/Textures/digital/02",
+                "cc.SpriteFrame",
+                1
             ],
-            "70f454a9-6fb4-45de-bb1a-025846551bf6": [
-                "resources/Sound/F_一条龙.MP3",
-                "cc.AudioClip"
+            "d6b20495-6a4f-4235-a4f8-2783cdbf61e2": [
+                "resources/Textures/digital/03",
+                "cc.SpriteFrame",
+                1
             ],
-            "ddc161f3-90b0-4932-8c64-2b7589c33669": [
-                "resources/Sound/F_中墩葫芦.MP3",
-                "cc.AudioClip"
+            "2a7e7719-eca5-4d9b-b12f-b917bdce965f": [
+                "resources/Textures/digital/04",
+                "cc.SpriteFrame",
+                1
             ],
-            "e6293728-2daf-438f-9743-a42b1fdb0e2b": [
-                "resources/Sound/Game_Bg.MP3",
-                "cc.AudioClip"
+            "c53833d1-52da-4caa-aa11-aff32ef0c562": [
+                "resources/Textures/digital/05",
+                "cc.SpriteFrame",
+                1
             ],
-            "c241174b-9027-4157-9d7c-d966537bcfb6": [
-                "resources/Sound/Hall_Bg.MP3",
-                "cc.AudioClip"
+            "4ecfefcf-7ad6-45ab-81d3-4dad37985459": [
+                "resources/Textures/digital/06",
+                "cc.SpriteFrame",
+                1
+            ],
+            "021a1774-a95d-4a1c-9891-a36d2bdba281": [
+                "resources/Textures/digital/07",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1af2e07b-a180-4ba8-9980-f7156535d7d3": [
+                "resources/Textures/digital/08",
+                "cc.SpriteFrame",
+                1
+            ],
+            "98c460fe-d499-4a0a-993b-293a6ce81d68": [
+                "resources/Textures/digital/09",
+                "cc.SpriteFrame",
+                1
+            ],
+            "238d3423-9694-41f4-b5bc-0a559880aaf5": [
+                "resources/Textures/digital/10",
+                "cc.SpriteFrame",
+                1
+            ],
+            "937b4e6a-f5f8-46a9-bf0a-bb3b404862a2": [
+                "resources/Textures/digital/11",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f9c9ae9-467c-414d-b4d1-63d2c4a4f683": [
+                "resources/Textures/digital/12",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f56ddfaf-be2e-4bc4-9766-d1295364580b": [
+                "resources/Textures/digital/13",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5f46cddb-53d6-4d5f-89ee-47fc75f8a47b": [
+                "resources/Textures/digital/14",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8253e892-4b84-4a7d-b701-95254a1eb8ec": [
+                "resources/Textures/digital/15",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a7abdf0-6115-4957-91d5-7b03009d757a": [
+                "resources/Textures/digital/16",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d75beb6a-1bd4-49c2-9a14-d24b3fad970b": [
+                "resources/Textures/digital/17",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cde405f3-e653-4b49-beee-8a7c10ce6087": [
+                "resources/Textures/digital/18",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d80562bb-c3c0-401e-ae5b-85d5a9d050ba": [
+                "resources/Textures/digital/19",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5f98486c-831d-4878-9851-966e086d6390": [
+                "resources/Textures/digital/jia",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a5254e4e-6436-49d0-b2ee-9e161a83be80": [
+                "resources/Textures/digital/jian",
+                "cc.SpriteFrame",
+                1
+            ],
+            "da190d4e-5460-45a8-8828-79b962a6db2b": [
+                "resources/Textures/PokerStyle/chongsan",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3b908af9-f354-453f-9161-8dda37581c2d": [
+                "resources/Textures/PokerStyle/couyise",
+                "cc.SpriteFrame",
+                1
+            ],
+            "41ecb46b-9fc7-4bf1-92f4-7f4439c70cb8": [
+                "resources/Textures/PokerStyle/duizi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1fc76f28-67b7-4317-a51c-f009f78352f4": [
+                "resources/Textures/PokerStyle/hulu",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b9adb8b6-5bb6-451a-9e6d-df43daba26b3": [
+                "resources/Textures/PokerStyle/liangdui",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0fb5c5b1-4be5-43a4-8bc6-2f107c48fa4a": [
+                "resources/Textures/PokerStyle/liuduiban",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2735878b-4c92-4e1b-b40a-5d70363ad21f": [
+                "resources/Textures/PokerStyle/qinglong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6019ea9d-ea1c-4584-8839-9f99af9c6d87": [
+                "resources/Textures/PokerStyle/quanda",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6aba2b30-40e8-4f62-89b7-8cce5ef14b99": [
+                "resources/Textures/PokerStyle/quanxiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bb1bb0e6-a706-4cbb-af1c-e9dcfecc27f7": [
+                "resources/Textures/PokerStyle/sanshunzi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ee2532e2-acaa-4265-8111-a5bd97b268fe": [
+                "resources/Textures/PokerStyle/santaozhadan",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6290cfae-e8e8-4b1d-af99-c7a2d6d3ab9a": [
+                "resources/Textures/PokerStyle/santiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a9b5a400-36ee-4684-8c7b-735c31d89422": [
+                "resources/Textures/PokerStyle/santonghua",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fbebd3a0-5926-47c1-bb44-ada67bd98bcf": [
+                "resources/Textures/PokerStyle/santonghuashun",
+                "cc.SpriteFrame",
+                1
+            ],
+            "50f05eca-ca6d-4c34-b38c-ad217d93c960": [
+                "resources/Textures/PokerStyle/shierhuangzu",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2c110c52-cd2d-46dc-8bcc-dc343761f4d6": [
+                "resources/Textures/PokerStyle/shunzi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6afb6a49-3b06-4d40-bdd5-1d3f2bde698a": [
+                "resources/Textures/PokerStyle/tiezhi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "112a6e6a-285f-46d6-b138-3cbd06a31435": [
+                "resources/Textures/PokerStyle/sitaosantiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "642783bb-be5a-4b32-a108-9a2c0bc787d1": [
+                "resources/Textures/PokerStyle/tonghua",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f04fb9b8-dfc3-4340-b4e8-18391d8a1712": [
+                "resources/Textures/PokerStyle/tonghuashun",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c7db6469-7175-4107-aee7-01ae15345fe4": [
+                "resources/Textures/PokerStyle/wuduisantiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "59ad73ee-297a-41d0-b6e8-e945081435f7": [
+                "resources/Textures/PokerStyle/wulong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "91eb672f-0f06-4f3c-9bac-3a9afa4aa714": [
+                "resources/Textures/PokerStyle/wutong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "299a4a73-3cb2-44d6-96a8-b0a609508010": [
+                "resources/Textures/PokerStyle/yitiaolong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c2b57152-d43f-4845-beb7-d2482831b438": [
+                "resources/Textures/PokerStyle/zhongdunhulu",
+                "cc.SpriteFrame",
+                1
             ]
         },
         "temp/internal": {
