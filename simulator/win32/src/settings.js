@@ -128,6 +128,10 @@ _CCSettings = {
                 "resources/Gui/Poker.prefab",
                 "cc.Prefab"
             ],
+            "1b574144-ea47-4267-b13e-a43941297fcd": [
+                "resources/Gui/PokerFlop.prefab",
+                "cc.Prefab"
+            ],
             "906b79c0-5c1c-4caa-aaac-d8b6383994c8": [
                 "resources/Gui/PokerList.prefab",
                 "cc.Prefab"
@@ -136,12 +140,20 @@ _CCSettings = {
                 "resources/Gui/PokerSort.prefab",
                 "cc.Prefab"
             ],
+            "5019811f-ce88-4a14-be01-0e73c38c69ef": [
+                "resources/Gui/ScoreSummary.prefab",
+                "cc.Prefab"
+            ],
             "bfb229d8-1cc6-4488-abc4-4ce8b96ad9f3": [
                 "resources/Gui/StartAnimation.prefab",
                 "cc.Prefab"
             ],
             "1004a4c7-bac1-418f-9978-bdf50b3dcb35": [
                 "resources/Gui/UIChat.prefab",
+                "cc.Prefab"
+            ],
+            "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
+                "resources/Gui/UICreateRoom.prefab",
                 "cc.Prefab"
             ],
             "f407185e-87d9-4857-a8cb-a1066d04f1a2": [
@@ -162,6 +174,10 @@ _CCSettings = {
             ],
             "4bd4748c-96ef-452d-a2ef-4609717d93a6": [
                 "resources/Gui/UINotice.prefab",
+                "cc.Prefab"
+            ],
+            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
+                "resources/Gui/UIPokerGame.prefab",
                 "cc.Prefab"
             ],
             "11f96248-3381-43c4-949e-4e84b214eb3d": [
@@ -562,6 +578,204 @@ _CCSettings = {
             ],
             "9767c966-6d85-4ed2-9341-fa8fe13b284f": [
                 "resources/Textures/diamond8PIC",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8699ba9e-0186-4a0f-b48b-4207dbcb3088": [
+                "resources/Textures/digital/00.png",
+                "cc.Texture2D"
+            ],
+            "1513329c-1c96-447c-b587-c6ddbe757c5c": [
+                "resources/Textures/digital/00",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d5ee9c94-8f4f-4b7c-bd1d-a1535d989c84": [
+                "resources/Textures/digital/01.png",
+                "cc.Texture2D"
+            ],
+            "f0e7fc0a-7711-40cb-aa4e-a31fe9f4250a": [
+                "resources/Textures/digital/01",
+                "cc.SpriteFrame",
+                1
+            ],
+            "61498bf3-7f8c-4f5f-a3d0-06d0563f0720": [
+                "resources/Textures/digital/02.png",
+                "cc.Texture2D"
+            ],
+            "a12d6642-65c2-4451-93ab-f26df855f45d": [
+                "resources/Textures/digital/02",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5baa8fb5-0d4f-43e4-a51e-1c9d5388563d": [
+                "resources/Textures/digital/03.png",
+                "cc.Texture2D"
+            ],
+            "d6b20495-6a4f-4235-a4f8-2783cdbf61e2": [
+                "resources/Textures/digital/03",
+                "cc.SpriteFrame",
+                1
+            ],
+            "01460672-3481-42b6-a6c1-7df4d729328f": [
+                "resources/Textures/digital/04.png",
+                "cc.Texture2D"
+            ],
+            "2a7e7719-eca5-4d9b-b12f-b917bdce965f": [
+                "resources/Textures/digital/04",
+                "cc.SpriteFrame",
+                1
+            ],
+            "98805b3f-167a-43f7-b076-33d6416cc01d": [
+                "resources/Textures/digital/05.png",
+                "cc.Texture2D"
+            ],
+            "c53833d1-52da-4caa-aa11-aff32ef0c562": [
+                "resources/Textures/digital/05",
+                "cc.SpriteFrame",
+                1
+            ],
+            "863623e5-3816-4147-a1e5-8218a77f0b79": [
+                "resources/Textures/digital/06.png",
+                "cc.Texture2D"
+            ],
+            "4ecfefcf-7ad6-45ab-81d3-4dad37985459": [
+                "resources/Textures/digital/06",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1e6c4474-c7fc-4dd2-bad3-cd8426f17130": [
+                "resources/Textures/digital/07.png",
+                "cc.Texture2D"
+            ],
+            "021a1774-a95d-4a1c-9891-a36d2bdba281": [
+                "resources/Textures/digital/07",
+                "cc.SpriteFrame",
+                1
+            ],
+            "305fc879-2eec-40d3-b9de-04306d332119": [
+                "resources/Textures/digital/08.png",
+                "cc.Texture2D"
+            ],
+            "1af2e07b-a180-4ba8-9980-f7156535d7d3": [
+                "resources/Textures/digital/08",
+                "cc.SpriteFrame",
+                1
+            ],
+            "82f661ec-5c8b-413f-ba43-2e919e01aa0e": [
+                "resources/Textures/digital/09.png",
+                "cc.Texture2D"
+            ],
+            "98c460fe-d499-4a0a-993b-293a6ce81d68": [
+                "resources/Textures/digital/09",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dc8b94bc-a54a-44a3-bf8e-e7f58245876a": [
+                "resources/Textures/digital/10.png",
+                "cc.Texture2D"
+            ],
+            "238d3423-9694-41f4-b5bc-0a559880aaf5": [
+                "resources/Textures/digital/10",
+                "cc.SpriteFrame",
+                1
+            ],
+            "13122e0b-ea8f-40f9-a263-e8edbb4ee79d": [
+                "resources/Textures/digital/11.png",
+                "cc.Texture2D"
+            ],
+            "937b4e6a-f5f8-46a9-bf0a-bb3b404862a2": [
+                "resources/Textures/digital/11",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c962f604-b39a-4ec4-bdbf-cfc39c798d6e": [
+                "resources/Textures/digital/12.png",
+                "cc.Texture2D"
+            ],
+            "4f9c9ae9-467c-414d-b4d1-63d2c4a4f683": [
+                "resources/Textures/digital/12",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a21041ee-20d7-4a24-92e4-009184f23dba": [
+                "resources/Textures/digital/13.png",
+                "cc.Texture2D"
+            ],
+            "f56ddfaf-be2e-4bc4-9766-d1295364580b": [
+                "resources/Textures/digital/13",
+                "cc.SpriteFrame",
+                1
+            ],
+            "815a79f8-0c62-4f39-baaa-c137a89f82c6": [
+                "resources/Textures/digital/14.png",
+                "cc.Texture2D"
+            ],
+            "5f46cddb-53d6-4d5f-89ee-47fc75f8a47b": [
+                "resources/Textures/digital/14",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a4d6b7ff-d791-468a-a607-ce01cc56c5ab": [
+                "resources/Textures/digital/15.png",
+                "cc.Texture2D"
+            ],
+            "8253e892-4b84-4a7d-b701-95254a1eb8ec": [
+                "resources/Textures/digital/15",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d3c5163b-d88e-45b9-8082-75e678f93acc": [
+                "resources/Textures/digital/16.png",
+                "cc.Texture2D"
+            ],
+            "8a7abdf0-6115-4957-91d5-7b03009d757a": [
+                "resources/Textures/digital/16",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cd2acc55-b766-40ab-9e6d-9712fdb9fbaf": [
+                "resources/Textures/digital/17.png",
+                "cc.Texture2D"
+            ],
+            "d75beb6a-1bd4-49c2-9a14-d24b3fad970b": [
+                "resources/Textures/digital/17",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f9e33ce4-e773-451b-927b-f654b6686933": [
+                "resources/Textures/digital/18.png",
+                "cc.Texture2D"
+            ],
+            "cde405f3-e653-4b49-beee-8a7c10ce6087": [
+                "resources/Textures/digital/18",
+                "cc.SpriteFrame",
+                1
+            ],
+            "01b7edc9-da19-4a91-9b4f-011af252b83a": [
+                "resources/Textures/digital/19.png",
+                "cc.Texture2D"
+            ],
+            "d80562bb-c3c0-401e-ae5b-85d5a9d050ba": [
+                "resources/Textures/digital/19",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f34e9698-440d-45e9-a0ec-fdb8a1f4aaae": [
+                "resources/Textures/digital/jia.png",
+                "cc.Texture2D"
+            ],
+            "5f98486c-831d-4878-9851-966e086d6390": [
+                "resources/Textures/digital/jia",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ef1b3db9-45b4-4c90-8311-12a6ddab905d": [
+                "resources/Textures/digital/jian.png",
+                "cc.Texture2D"
+            ],
+            "a5254e4e-6436-49d0-b2ee-9e161a83be80": [
+                "resources/Textures/digital/jian",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1104,6 +1318,15 @@ _CCSettings = {
             ],
             "335941cf-bc5e-49fa-aefd-b71460133f8c": [
                 "resources/Textures/Fight/dapaitopBG",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e4b90448-ba5a-4d5d-9f3a-322635350fba": [
+                "resources/Textures/Fight/daqiangTXT.png",
+                "cc.Texture2D"
+            ],
+            "2ea1b7db-95a0-41f0-9863-04c1a96e1079": [
+                "resources/Textures/Fight/daqiangTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1989,6 +2212,231 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "a214344c-7a1b-4ddc-9602-47d793e3adec": [
+                "resources/Textures/PokerStyle/chongsan.png",
+                "cc.Texture2D"
+            ],
+            "da190d4e-5460-45a8-8828-79b962a6db2b": [
+                "resources/Textures/PokerStyle/chongsan",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0743cc9d-8a0b-461f-b7ea-0bebe98037b4": [
+                "resources/Textures/PokerStyle/couyise.png",
+                "cc.Texture2D"
+            ],
+            "3b908af9-f354-453f-9161-8dda37581c2d": [
+                "resources/Textures/PokerStyle/couyise",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0ac2e606-94d4-4454-8de1-d79cd29bcc51": [
+                "resources/Textures/PokerStyle/duizi.png",
+                "cc.Texture2D"
+            ],
+            "41ecb46b-9fc7-4bf1-92f4-7f4439c70cb8": [
+                "resources/Textures/PokerStyle/duizi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e0ecf88d-3c00-4874-b6d3-a4d2e058122f": [
+                "resources/Textures/PokerStyle/hulu.png",
+                "cc.Texture2D"
+            ],
+            "1fc76f28-67b7-4317-a51c-f009f78352f4": [
+                "resources/Textures/PokerStyle/hulu",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4d0884d1-ead0-4577-96c5-ebfd3d938416": [
+                "resources/Textures/PokerStyle/liangdui.png",
+                "cc.Texture2D"
+            ],
+            "b9adb8b6-5bb6-451a-9e6d-df43daba26b3": [
+                "resources/Textures/PokerStyle/liangdui",
+                "cc.SpriteFrame",
+                1
+            ],
+            "216279fb-76ed-4b7e-8836-01dadbdd09e7": [
+                "resources/Textures/PokerStyle/liuduiban.png",
+                "cc.Texture2D"
+            ],
+            "0fb5c5b1-4be5-43a4-8bc6-2f107c48fa4a": [
+                "resources/Textures/PokerStyle/liuduiban",
+                "cc.SpriteFrame",
+                1
+            ],
+            "334c2e00-26af-4635-b03b-843d3a3dd270": [
+                "resources/Textures/PokerStyle/qinglong.png",
+                "cc.Texture2D"
+            ],
+            "2735878b-4c92-4e1b-b40a-5d70363ad21f": [
+                "resources/Textures/PokerStyle/qinglong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0b64e40f-1a04-4405-8e7e-a563d847eaf5": [
+                "resources/Textures/PokerStyle/quanda.png",
+                "cc.Texture2D"
+            ],
+            "6019ea9d-ea1c-4584-8839-9f99af9c6d87": [
+                "resources/Textures/PokerStyle/quanda",
+                "cc.SpriteFrame",
+                1
+            ],
+            "441dc529-b38a-45f1-abf0-f8c627f2d24b": [
+                "resources/Textures/PokerStyle/quanxiao.png",
+                "cc.Texture2D"
+            ],
+            "6aba2b30-40e8-4f62-89b7-8cce5ef14b99": [
+                "resources/Textures/PokerStyle/quanxiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1ba9c586-220e-447f-b6c1-1cc76e9a5f56": [
+                "resources/Textures/PokerStyle/sanshunzi.png",
+                "cc.Texture2D"
+            ],
+            "bb1bb0e6-a706-4cbb-af1c-e9dcfecc27f7": [
+                "resources/Textures/PokerStyle/sanshunzi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3067c135-1018-4bbe-b206-93266e2adc60": [
+                "resources/Textures/PokerStyle/santaozhadan.png",
+                "cc.Texture2D"
+            ],
+            "ee2532e2-acaa-4265-8111-a5bd97b268fe": [
+                "resources/Textures/PokerStyle/santaozhadan",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cea7ec20-0ff0-4e33-bdc7-9338bd562a7e": [
+                "resources/Textures/PokerStyle/santiao.png",
+                "cc.Texture2D"
+            ],
+            "6290cfae-e8e8-4b1d-af99-c7a2d6d3ab9a": [
+                "resources/Textures/PokerStyle/santiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "afc5d17a-e7d4-4f95-a9cd-601ce7050dcf": [
+                "resources/Textures/PokerStyle/santonghua.png",
+                "cc.Texture2D"
+            ],
+            "a9b5a400-36ee-4684-8c7b-735c31d89422": [
+                "resources/Textures/PokerStyle/santonghua",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aff10294-35c2-4c6f-8158-e8bfe936d5ff": [
+                "resources/Textures/PokerStyle/santonghuashun.png",
+                "cc.Texture2D"
+            ],
+            "fbebd3a0-5926-47c1-bb44-ada67bd98bcf": [
+                "resources/Textures/PokerStyle/santonghuashun",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cc51dfa8-7657-4f2b-9992-8d981b4dc102": [
+                "resources/Textures/PokerStyle/shierhuangzu.png",
+                "cc.Texture2D"
+            ],
+            "50f05eca-ca6d-4c34-b38c-ad217d93c960": [
+                "resources/Textures/PokerStyle/shierhuangzu",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b8debd21-a848-4332-a170-ec077f6fff25": [
+                "resources/Textures/PokerStyle/shunzi.png",
+                "cc.Texture2D"
+            ],
+            "2c110c52-cd2d-46dc-8bcc-dc343761f4d6": [
+                "resources/Textures/PokerStyle/shunzi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9d0c7860-f76f-4683-a65a-9a7af85ad050": [
+                "resources/Textures/PokerStyle/sitaosantiao.png",
+                "cc.Texture2D"
+            ],
+            "112a6e6a-285f-46d6-b138-3cbd06a31435": [
+                "resources/Textures/PokerStyle/sitaosantiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d7394433-f398-41e6-b712-d724cc8f37c9": [
+                "resources/Textures/PokerStyle/tiezhi.png",
+                "cc.Texture2D"
+            ],
+            "6afb6a49-3b06-4d40-bdd5-1d3f2bde698a": [
+                "resources/Textures/PokerStyle/tiezhi",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ff1fe147-aaa4-4f61-bff1-c6c1cdc886c1": [
+                "resources/Textures/PokerStyle/tonghua.png",
+                "cc.Texture2D"
+            ],
+            "642783bb-be5a-4b32-a108-9a2c0bc787d1": [
+                "resources/Textures/PokerStyle/tonghua",
+                "cc.SpriteFrame",
+                1
+            ],
+            "74c2b6d0-6055-4e3e-8d7f-5b2488912446": [
+                "resources/Textures/PokerStyle/tonghuashun.png",
+                "cc.Texture2D"
+            ],
+            "f04fb9b8-dfc3-4340-b4e8-18391d8a1712": [
+                "resources/Textures/PokerStyle/tonghuashun",
+                "cc.SpriteFrame",
+                1
+            ],
+            "43cb8e6b-a799-4e6b-b35f-947934ed2140": [
+                "resources/Textures/PokerStyle/wuduisantiao.png",
+                "cc.Texture2D"
+            ],
+            "c7db6469-7175-4107-aee7-01ae15345fe4": [
+                "resources/Textures/PokerStyle/wuduisantiao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2fd60f23-b63f-4c20-a020-12535067ad69": [
+                "resources/Textures/PokerStyle/wulong.png",
+                "cc.Texture2D"
+            ],
+            "59ad73ee-297a-41d0-b6e8-e945081435f7": [
+                "resources/Textures/PokerStyle/wulong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b6d517e3-b0d7-4095-846b-be3b8abfe705": [
+                "resources/Textures/PokerStyle/wutong.png",
+                "cc.Texture2D"
+            ],
+            "91eb672f-0f06-4f3c-9bac-3a9afa4aa714": [
+                "resources/Textures/PokerStyle/wutong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6cb4d648-852a-4dc1-9064-bc325b1cf867": [
+                "resources/Textures/PokerStyle/yitiaolong.png",
+                "cc.Texture2D"
+            ],
+            "299a4a73-3cb2-44d6-96a8-b0a609508010": [
+                "resources/Textures/PokerStyle/yitiaolong",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d91c94e6-39e8-41b4-b59d-c6ddb5effa41": [
+                "resources/Textures/PokerStyle/zhongdunhulu.png",
+                "cc.Texture2D"
+            ],
+            "c2b57152-d43f-4845-beb7-d2482831b438": [
+                "resources/Textures/PokerStyle/zhongdunhulu",
+                "cc.SpriteFrame",
+                1
+            ],
             "88b4b292-2374-4577-8e7e-f846dd42e7ac": [
                 "resources/Textures/quanpinguiBG.png",
                 "cc.Texture2D"
@@ -2292,454 +2740,6 @@ _CCSettings = {
             ],
             "f296fae4-facf-46a2-9fbd-a98f6645895e": [
                 "resources/Textures/yuyin0",
-                "cc.SpriteFrame",
-                1
-            ],
-            "1b574144-ea47-4267-b13e-a43941297fcd": [
-                "resources/Gui/PokerFlop.prefab",
-                "cc.Prefab"
-            ],
-            "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
-                "resources/Gui/UICreateRoom.prefab",
-                "cc.Prefab"
-            ],
-            "5019811f-ce88-4a14-be01-0e73c38c69ef": [
-                "resources/Gui/ScoreSummary.prefab",
-                "cc.Prefab"
-            ],
-            "8699ba9e-0186-4a0f-b48b-4207dbcb3088": [
-                "resources/Textures/digital/00.png",
-                "cc.Texture2D"
-            ],
-            "d5ee9c94-8f4f-4b7c-bd1d-a1535d989c84": [
-                "resources/Textures/digital/01.png",
-                "cc.Texture2D"
-            ],
-            "61498bf3-7f8c-4f5f-a3d0-06d0563f0720": [
-                "resources/Textures/digital/02.png",
-                "cc.Texture2D"
-            ],
-            "5baa8fb5-0d4f-43e4-a51e-1c9d5388563d": [
-                "resources/Textures/digital/03.png",
-                "cc.Texture2D"
-            ],
-            "01460672-3481-42b6-a6c1-7df4d729328f": [
-                "resources/Textures/digital/04.png",
-                "cc.Texture2D"
-            ],
-            "98805b3f-167a-43f7-b076-33d6416cc01d": [
-                "resources/Textures/digital/05.png",
-                "cc.Texture2D"
-            ],
-            "863623e5-3816-4147-a1e5-8218a77f0b79": [
-                "resources/Textures/digital/06.png",
-                "cc.Texture2D"
-            ],
-            "1e6c4474-c7fc-4dd2-bad3-cd8426f17130": [
-                "resources/Textures/digital/07.png",
-                "cc.Texture2D"
-            ],
-            "305fc879-2eec-40d3-b9de-04306d332119": [
-                "resources/Textures/digital/08.png",
-                "cc.Texture2D"
-            ],
-            "82f661ec-5c8b-413f-ba43-2e919e01aa0e": [
-                "resources/Textures/digital/09.png",
-                "cc.Texture2D"
-            ],
-            "dc8b94bc-a54a-44a3-bf8e-e7f58245876a": [
-                "resources/Textures/digital/10.png",
-                "cc.Texture2D"
-            ],
-            "13122e0b-ea8f-40f9-a263-e8edbb4ee79d": [
-                "resources/Textures/digital/11.png",
-                "cc.Texture2D"
-            ],
-            "c962f604-b39a-4ec4-bdbf-cfc39c798d6e": [
-                "resources/Textures/digital/12.png",
-                "cc.Texture2D"
-            ],
-            "a21041ee-20d7-4a24-92e4-009184f23dba": [
-                "resources/Textures/digital/13.png",
-                "cc.Texture2D"
-            ],
-            "815a79f8-0c62-4f39-baaa-c137a89f82c6": [
-                "resources/Textures/digital/14.png",
-                "cc.Texture2D"
-            ],
-            "a4d6b7ff-d791-468a-a607-ce01cc56c5ab": [
-                "resources/Textures/digital/15.png",
-                "cc.Texture2D"
-            ],
-            "d3c5163b-d88e-45b9-8082-75e678f93acc": [
-                "resources/Textures/digital/16.png",
-                "cc.Texture2D"
-            ],
-            "cd2acc55-b766-40ab-9e6d-9712fdb9fbaf": [
-                "resources/Textures/digital/17.png",
-                "cc.Texture2D"
-            ],
-            "f9e33ce4-e773-451b-927b-f654b6686933": [
-                "resources/Textures/digital/18.png",
-                "cc.Texture2D"
-            ],
-            "01b7edc9-da19-4a91-9b4f-011af252b83a": [
-                "resources/Textures/digital/19.png",
-                "cc.Texture2D"
-            ],
-            "f34e9698-440d-45e9-a0ec-fdb8a1f4aaae": [
-                "resources/Textures/digital/jia.png",
-                "cc.Texture2D"
-            ],
-            "ef1b3db9-45b4-4c90-8311-12a6ddab905d": [
-                "resources/Textures/digital/jian.png",
-                "cc.Texture2D"
-            ],
-            "a214344c-7a1b-4ddc-9602-47d793e3adec": [
-                "resources/Textures/PokerStyle/chongsan.png",
-                "cc.Texture2D"
-            ],
-            "0743cc9d-8a0b-461f-b7ea-0bebe98037b4": [
-                "resources/Textures/PokerStyle/couyise.png",
-                "cc.Texture2D"
-            ],
-            "0ac2e606-94d4-4454-8de1-d79cd29bcc51": [
-                "resources/Textures/PokerStyle/duizi.png",
-                "cc.Texture2D"
-            ],
-            "e0ecf88d-3c00-4874-b6d3-a4d2e058122f": [
-                "resources/Textures/PokerStyle/hulu.png",
-                "cc.Texture2D"
-            ],
-            "4d0884d1-ead0-4577-96c5-ebfd3d938416": [
-                "resources/Textures/PokerStyle/liangdui.png",
-                "cc.Texture2D"
-            ],
-            "216279fb-76ed-4b7e-8836-01dadbdd09e7": [
-                "resources/Textures/PokerStyle/liuduiban.png",
-                "cc.Texture2D"
-            ],
-            "334c2e00-26af-4635-b03b-843d3a3dd270": [
-                "resources/Textures/PokerStyle/qinglong.png",
-                "cc.Texture2D"
-            ],
-            "0b64e40f-1a04-4405-8e7e-a563d847eaf5": [
-                "resources/Textures/PokerStyle/quanda.png",
-                "cc.Texture2D"
-            ],
-            "441dc529-b38a-45f1-abf0-f8c627f2d24b": [
-                "resources/Textures/PokerStyle/quanxiao.png",
-                "cc.Texture2D"
-            ],
-            "1ba9c586-220e-447f-b6c1-1cc76e9a5f56": [
-                "resources/Textures/PokerStyle/sanshunzi.png",
-                "cc.Texture2D"
-            ],
-            "3067c135-1018-4bbe-b206-93266e2adc60": [
-                "resources/Textures/PokerStyle/santaozhadan.png",
-                "cc.Texture2D"
-            ],
-            "cea7ec20-0ff0-4e33-bdc7-9338bd562a7e": [
-                "resources/Textures/PokerStyle/santiao.png",
-                "cc.Texture2D"
-            ],
-            "afc5d17a-e7d4-4f95-a9cd-601ce7050dcf": [
-                "resources/Textures/PokerStyle/santonghua.png",
-                "cc.Texture2D"
-            ],
-            "aff10294-35c2-4c6f-8158-e8bfe936d5ff": [
-                "resources/Textures/PokerStyle/santonghuashun.png",
-                "cc.Texture2D"
-            ],
-            "cc51dfa8-7657-4f2b-9992-8d981b4dc102": [
-                "resources/Textures/PokerStyle/shierhuangzu.png",
-                "cc.Texture2D"
-            ],
-            "b8debd21-a848-4332-a170-ec077f6fff25": [
-                "resources/Textures/PokerStyle/shunzi.png",
-                "cc.Texture2D"
-            ],
-            "9d0c7860-f76f-4683-a65a-9a7af85ad050": [
-                "resources/Textures/PokerStyle/sitaosantiao.png",
-                "cc.Texture2D"
-            ],
-            "d7394433-f398-41e6-b712-d724cc8f37c9": [
-                "resources/Textures/PokerStyle/tiezhi.png",
-                "cc.Texture2D"
-            ],
-            "ff1fe147-aaa4-4f61-bff1-c6c1cdc886c1": [
-                "resources/Textures/PokerStyle/tonghua.png",
-                "cc.Texture2D"
-            ],
-            "74c2b6d0-6055-4e3e-8d7f-5b2488912446": [
-                "resources/Textures/PokerStyle/tonghuashun.png",
-                "cc.Texture2D"
-            ],
-            "43cb8e6b-a799-4e6b-b35f-947934ed2140": [
-                "resources/Textures/PokerStyle/wuduisantiao.png",
-                "cc.Texture2D"
-            ],
-            "2fd60f23-b63f-4c20-a020-12535067ad69": [
-                "resources/Textures/PokerStyle/wulong.png",
-                "cc.Texture2D"
-            ],
-            "b6d517e3-b0d7-4095-846b-be3b8abfe705": [
-                "resources/Textures/PokerStyle/wutong.png",
-                "cc.Texture2D"
-            ],
-            "6cb4d648-852a-4dc1-9064-bc325b1cf867": [
-                "resources/Textures/PokerStyle/yitiaolong.png",
-                "cc.Texture2D"
-            ],
-            "d91c94e6-39e8-41b4-b59d-c6ddb5effa41": [
-                "resources/Textures/PokerStyle/zhongdunhulu.png",
-                "cc.Texture2D"
-            ],
-            "1513329c-1c96-447c-b587-c6ddbe757c5c": [
-                "resources/Textures/digital/00",
-                "cc.SpriteFrame",
-                1
-            ],
-            "f0e7fc0a-7711-40cb-aa4e-a31fe9f4250a": [
-                "resources/Textures/digital/01",
-                "cc.SpriteFrame",
-                1
-            ],
-            "a12d6642-65c2-4451-93ab-f26df855f45d": [
-                "resources/Textures/digital/02",
-                "cc.SpriteFrame",
-                1
-            ],
-            "d6b20495-6a4f-4235-a4f8-2783cdbf61e2": [
-                "resources/Textures/digital/03",
-                "cc.SpriteFrame",
-                1
-            ],
-            "2a7e7719-eca5-4d9b-b12f-b917bdce965f": [
-                "resources/Textures/digital/04",
-                "cc.SpriteFrame",
-                1
-            ],
-            "c53833d1-52da-4caa-aa11-aff32ef0c562": [
-                "resources/Textures/digital/05",
-                "cc.SpriteFrame",
-                1
-            ],
-            "4ecfefcf-7ad6-45ab-81d3-4dad37985459": [
-                "resources/Textures/digital/06",
-                "cc.SpriteFrame",
-                1
-            ],
-            "021a1774-a95d-4a1c-9891-a36d2bdba281": [
-                "resources/Textures/digital/07",
-                "cc.SpriteFrame",
-                1
-            ],
-            "1af2e07b-a180-4ba8-9980-f7156535d7d3": [
-                "resources/Textures/digital/08",
-                "cc.SpriteFrame",
-                1
-            ],
-            "98c460fe-d499-4a0a-993b-293a6ce81d68": [
-                "resources/Textures/digital/09",
-                "cc.SpriteFrame",
-                1
-            ],
-            "238d3423-9694-41f4-b5bc-0a559880aaf5": [
-                "resources/Textures/digital/10",
-                "cc.SpriteFrame",
-                1
-            ],
-            "937b4e6a-f5f8-46a9-bf0a-bb3b404862a2": [
-                "resources/Textures/digital/11",
-                "cc.SpriteFrame",
-                1
-            ],
-            "4f9c9ae9-467c-414d-b4d1-63d2c4a4f683": [
-                "resources/Textures/digital/12",
-                "cc.SpriteFrame",
-                1
-            ],
-            "f56ddfaf-be2e-4bc4-9766-d1295364580b": [
-                "resources/Textures/digital/13",
-                "cc.SpriteFrame",
-                1
-            ],
-            "5f46cddb-53d6-4d5f-89ee-47fc75f8a47b": [
-                "resources/Textures/digital/14",
-                "cc.SpriteFrame",
-                1
-            ],
-            "8253e892-4b84-4a7d-b701-95254a1eb8ec": [
-                "resources/Textures/digital/15",
-                "cc.SpriteFrame",
-                1
-            ],
-            "8a7abdf0-6115-4957-91d5-7b03009d757a": [
-                "resources/Textures/digital/16",
-                "cc.SpriteFrame",
-                1
-            ],
-            "d75beb6a-1bd4-49c2-9a14-d24b3fad970b": [
-                "resources/Textures/digital/17",
-                "cc.SpriteFrame",
-                1
-            ],
-            "cde405f3-e653-4b49-beee-8a7c10ce6087": [
-                "resources/Textures/digital/18",
-                "cc.SpriteFrame",
-                1
-            ],
-            "d80562bb-c3c0-401e-ae5b-85d5a9d050ba": [
-                "resources/Textures/digital/19",
-                "cc.SpriteFrame",
-                1
-            ],
-            "5f98486c-831d-4878-9851-966e086d6390": [
-                "resources/Textures/digital/jia",
-                "cc.SpriteFrame",
-                1
-            ],
-            "a5254e4e-6436-49d0-b2ee-9e161a83be80": [
-                "resources/Textures/digital/jian",
-                "cc.SpriteFrame",
-                1
-            ],
-            "da190d4e-5460-45a8-8828-79b962a6db2b": [
-                "resources/Textures/PokerStyle/chongsan",
-                "cc.SpriteFrame",
-                1
-            ],
-            "3b908af9-f354-453f-9161-8dda37581c2d": [
-                "resources/Textures/PokerStyle/couyise",
-                "cc.SpriteFrame",
-                1
-            ],
-            "41ecb46b-9fc7-4bf1-92f4-7f4439c70cb8": [
-                "resources/Textures/PokerStyle/duizi",
-                "cc.SpriteFrame",
-                1
-            ],
-            "1fc76f28-67b7-4317-a51c-f009f78352f4": [
-                "resources/Textures/PokerStyle/hulu",
-                "cc.SpriteFrame",
-                1
-            ],
-            "b9adb8b6-5bb6-451a-9e6d-df43daba26b3": [
-                "resources/Textures/PokerStyle/liangdui",
-                "cc.SpriteFrame",
-                1
-            ],
-            "0fb5c5b1-4be5-43a4-8bc6-2f107c48fa4a": [
-                "resources/Textures/PokerStyle/liuduiban",
-                "cc.SpriteFrame",
-                1
-            ],
-            "2735878b-4c92-4e1b-b40a-5d70363ad21f": [
-                "resources/Textures/PokerStyle/qinglong",
-                "cc.SpriteFrame",
-                1
-            ],
-            "6019ea9d-ea1c-4584-8839-9f99af9c6d87": [
-                "resources/Textures/PokerStyle/quanda",
-                "cc.SpriteFrame",
-                1
-            ],
-            "6aba2b30-40e8-4f62-89b7-8cce5ef14b99": [
-                "resources/Textures/PokerStyle/quanxiao",
-                "cc.SpriteFrame",
-                1
-            ],
-            "bb1bb0e6-a706-4cbb-af1c-e9dcfecc27f7": [
-                "resources/Textures/PokerStyle/sanshunzi",
-                "cc.SpriteFrame",
-                1
-            ],
-            "ee2532e2-acaa-4265-8111-a5bd97b268fe": [
-                "resources/Textures/PokerStyle/santaozhadan",
-                "cc.SpriteFrame",
-                1
-            ],
-            "6290cfae-e8e8-4b1d-af99-c7a2d6d3ab9a": [
-                "resources/Textures/PokerStyle/santiao",
-                "cc.SpriteFrame",
-                1
-            ],
-            "a9b5a400-36ee-4684-8c7b-735c31d89422": [
-                "resources/Textures/PokerStyle/santonghua",
-                "cc.SpriteFrame",
-                1
-            ],
-            "fbebd3a0-5926-47c1-bb44-ada67bd98bcf": [
-                "resources/Textures/PokerStyle/santonghuashun",
-                "cc.SpriteFrame",
-                1
-            ],
-            "50f05eca-ca6d-4c34-b38c-ad217d93c960": [
-                "resources/Textures/PokerStyle/shierhuangzu",
-                "cc.SpriteFrame",
-                1
-            ],
-            "2c110c52-cd2d-46dc-8bcc-dc343761f4d6": [
-                "resources/Textures/PokerStyle/shunzi",
-                "cc.SpriteFrame",
-                1
-            ],
-            "6afb6a49-3b06-4d40-bdd5-1d3f2bde698a": [
-                "resources/Textures/PokerStyle/tiezhi",
-                "cc.SpriteFrame",
-                1
-            ],
-            "112a6e6a-285f-46d6-b138-3cbd06a31435": [
-                "resources/Textures/PokerStyle/sitaosantiao",
-                "cc.SpriteFrame",
-                1
-            ],
-            "642783bb-be5a-4b32-a108-9a2c0bc787d1": [
-                "resources/Textures/PokerStyle/tonghua",
-                "cc.SpriteFrame",
-                1
-            ],
-            "f04fb9b8-dfc3-4340-b4e8-18391d8a1712": [
-                "resources/Textures/PokerStyle/tonghuashun",
-                "cc.SpriteFrame",
-                1
-            ],
-            "c7db6469-7175-4107-aee7-01ae15345fe4": [
-                "resources/Textures/PokerStyle/wuduisantiao",
-                "cc.SpriteFrame",
-                1
-            ],
-            "59ad73ee-297a-41d0-b6e8-e945081435f7": [
-                "resources/Textures/PokerStyle/wulong",
-                "cc.SpriteFrame",
-                1
-            ],
-            "91eb672f-0f06-4f3c-9bac-3a9afa4aa714": [
-                "resources/Textures/PokerStyle/wutong",
-                "cc.SpriteFrame",
-                1
-            ],
-            "299a4a73-3cb2-44d6-96a8-b0a609508010": [
-                "resources/Textures/PokerStyle/yitiaolong",
-                "cc.SpriteFrame",
-                1
-            ],
-            "c2b57152-d43f-4845-beb7-d2482831b438": [
-                "resources/Textures/PokerStyle/zhongdunhulu",
-                "cc.SpriteFrame",
-                1
-            ],
-            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
-                "resources/Gui/UIPokerGame.prefab",
-                "cc.Prefab"
-            ],
-            "e4b90448-ba5a-4d5d-9f3a-322635350fba": [
-                "resources/Textures/Fight/daqiangTXT.png",
-                "cc.Texture2D"
-            ],
-            "2ea1b7db-95a0-41f0-9863-04c1a96e1079": [
-                "resources/Textures/Fight/daqiangTXT",
                 "cc.SpriteFrame",
                 1
             ]

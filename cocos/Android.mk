@@ -231,12 +231,16 @@ storage/local-storage/LocalStorage-android.cpp \
 ../external/sources/Box2D/Dynamics/b2World.cpp \
 ../external/sources/Box2D/Dynamics/b2WorldCallbacks.cpp \
 ../external/sources/Box2D/Rope/b2Rope.cpp \
+sdk/IMDispatchMsgNode.cpp \
+sdk/YunVaSDK/YVRespondFactory.cpp \
+sdk/YunVaSDK/YVTool.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/platform \
                     $(LOCAL_PATH)/editor-support \
                     $(LOCAL_PATH)/../external/android/$(TARGET_ARCH_ABI)/include \
-                    $(LOCAL_PATH)/../external/sources
+                    $(LOCAL_PATH)/../external/sources \
+                    $(LOCAL_PATH)/../external/IM_SDK/include
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH) \
                     $(LOCAL_PATH)/.. \
