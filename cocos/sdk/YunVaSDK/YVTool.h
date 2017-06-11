@@ -17,11 +17,11 @@ namespace YVSDK
 	typedef std::vector<YAYACallBackObj*> YaYaMsgCallFuncList;
 	typedef std::map<int, YaYaMsgCallFuncList> YaYaMsgMap;
 
-	class YVTool
+	class YVIM_API YVTool
 	{
 	public:
 		virtual ~YVTool(void);
-		static YVTool* getInstance();
+		static  YVTool* getInstance();
 
 		/*初始化SDK*/
 		//appId:由云娃分配，需要向商务申请；tempPath:语音保存路径；isDebug：true为测试环境，false为正式环境；

@@ -2,7 +2,10 @@
 #define __APP_DELEGATE_H__
 
 #include "cocos2d.h"
+#include "sdk/YunVaSDK/YVTool.h"
 
+using namespace YVSDK;
+class DispatchMsgNode;
 /**
 @brief    The cocos2d Application.
 
@@ -34,6 +37,8 @@ public:
     @param  the pointer of the application
     */
     virtual void applicationWillEnterForeground();
+private:
+	DispatchMsgNode* m_dispatchMsgNode;
 };
 
 #endif  // __APP_DELEGATE_H__

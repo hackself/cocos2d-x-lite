@@ -24,15 +24,50 @@
 
 USING_NS_CC;
 using namespace std;
+class DispatchMsgNode : public cocos2d::Node
+{
+public:
+	bool init()
+	{
+		isschedule = false;
+		return  Node::init();
+	}
+	CREATE_FUNC(DispatchMsgNode);
+	void startDispatch()
+	{
+		if (isschedule) return;
+		isschedule = true;
+		Director::getInstance()->getScheduler()->scheduleUpdate(this, 0, false);
+	}
+	void stopDispatch()
+	{
+		if (!isschedule) return;
+		isschedule = false;
+		Director::getInstance()->getScheduler()->unscheduleUpdate(this);
+	}
+	void update(float dt)
+	{
+		YVTool::getInstance()->dispatchMsg(dt);
+	}
+private:
+	bool isschedule;
 
+};
 AppDelegate::AppDelegate()
 {
+	m_dispatchMsgNode = NULL;
 }
 
 AppDelegate::~AppDelegate()
 {
     // NOTE:Please don't remove this call if you want to debug with Cocos Code IDE
     RuntimeEngine::getInstance()->end();
+	if (m_dispatchMsgNode != NULL)
+	{
+		m_dispatchMsgNode->stopDispatch();
+		m_dispatchMsgNode->release();
+		m_dispatchMsgNode = NULL;
+	}
 }
 
 //if you want a different context,just modify the value of glContextAttrs
@@ -56,7 +91,12 @@ bool AppDelegate::applicationDidFinishLaunching()
     auto jsRuntime = RuntimeJsImpl::create();
     runtimeEngine->addRuntime(jsRuntime, kRuntimeEngineJs);
     runtimeEngine->start();
-
+	if (m_dispatchMsgNode == NULL)
+	{
+		m_dispatchMsgNode = DispatchMsgNode::create();
+		m_dispatchMsgNode->retain();
+		m_dispatchMsgNode->startDispatch();
+	}
     // Runtime end
     cocos2d::log("iShow!");
     return true;

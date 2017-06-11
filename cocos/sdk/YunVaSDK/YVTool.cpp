@@ -1,4 +1,5 @@
-﻿#include "YVTool.h"
+﻿#define  _YVIM_EXPORTS
+#include "YVTool.h"
 #include "YVRespondFactory.h"
 namespace YVSDK
 {

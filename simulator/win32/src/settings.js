@@ -2303,10 +2303,6 @@ _CCSettings = {
                 "resources/Gui/UICreateRoom.prefab",
                 "cc.Prefab"
             ],
-            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
-                "resources/Gui/UIPokerGame.prefab",
-                "cc.Prefab"
-            ],
             "5019811f-ce88-4a14-be01-0e73c38c69ef": [
                 "resources/Gui/ScoreSummary.prefab",
                 "cc.Prefab"
@@ -2731,6 +2727,19 @@ _CCSettings = {
             ],
             "c2b57152-d43f-4845-beb7-d2482831b438": [
                 "resources/Textures/PokerStyle/zhongdunhulu",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
+                "resources/Gui/UIPokerGame.prefab",
+                "cc.Prefab"
+            ],
+            "e4b90448-ba5a-4d5d-9f3a-322635350fba": [
+                "resources/Textures/Fight/daqiangTXT.png",
+                "cc.Texture2D"
+            ],
+            "2ea1b7db-95a0-41f0-9863-04c1a96e1079": [
+                "resources/Textures/Fight/daqiangTXT",
                 "cc.SpriteFrame",
                 1
             ]

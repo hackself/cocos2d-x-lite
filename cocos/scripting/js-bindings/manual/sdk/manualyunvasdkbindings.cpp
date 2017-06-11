@@ -194,6 +194,21 @@ bool js_yunvasdk_IMDispatchMsgNode_stopRecord(JSContext *cx, uint32_t argc, jsva
     return false;
 }
 
+bool js_yunvasdk_IMDispatchMsgNode_playRecord(JSContext *cx, uint32_t argc, jsval *vp) {
+	JS::CallArgs args = JS::CallArgsFromVp(argc, vp);
+	JS::RootedObject obj(cx, args.thisv().toObjectOrNull());
+	js_proxy_t *proxy = jsb_get_js_proxy(obj);
+	IMDispatchMsgNode* cobj = (IMDispatchMsgNode*)(proxy ? proxy->ptr : NULL);
+	JSB_PRECONDITION2(cobj, cx, false, "js_yunvasdk_IMDispatchMsgNode_playRecord : Invalid Native Object");
+	if (argc == 0) {
+		cobj->playRecord();
+		args.rval().setUndefined();
+		return true;
+	}
+	JS_ReportError(cx, "js_yunvasdk_IMDispatchMsgNode_playRecord : wrong number of arguments: %d, was expecting %d", argc, 0);
+	return false;
+}
+
 bool js_yunvasdk_IMDispatchMsgNode_playFromUrl(JSContext *cx, uint32_t argc, jsval *vp) {
 	JS::CallArgs args = JS::CallArgsFromVp(argc, vp);
     JS::RootedObject obj(cx, args.thisv().toObjectOrNull());
@@ -235,6 +250,7 @@ void js_register_yunvasdkbindings_IMDispatchMsgNode(JSContext *cx, JS::HandleObj
         JS_FN("cpLogin", js_yunvasdk_IMDispatchMsgNode_cpLogin, 2, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FN("startRecord", js_yunvasdk_IMDispatchMsgNode_startRecord, 0, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FN("stopRecord", js_yunvasdk_IMDispatchMsgNode_stopRecord, 0, JSPROP_PERMANENT | JSPROP_ENUMERATE),
+		JS_FN("playRecord", js_yunvasdk_IMDispatchMsgNode_playRecord, 0, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FN("playFromUrl", js_yunvasdk_IMDispatchMsgNode_playFromUrl, 1, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FS_END
     };
