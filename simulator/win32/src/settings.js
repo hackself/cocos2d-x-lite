@@ -116,8 +116,36 @@ _CCSettings = {
                 "resources/AnimationClip/face_9.anim",
                 "cc.AnimationClip"
             ],
+            "3d306c86-93f7-4a06-b096-abc65d6bb57f": [
+                "resources/AnimationClip/jgq_dankong.anim",
+                "cc.AnimationClip"
+            ],
+            "2fd481ff-b2be-4e19-b8d6-bbd29eb68039": [
+                "resources/AnimationClip/quanleida.anim",
+                "cc.AnimationClip"
+            ],
+            "9d2e8a71-ad78-4157-a905-3645251f085a": [
+                "resources/AnimationClip/shouqiang_dankong.anim",
+                "cc.AnimationClip"
+            ],
+            "6f49015c-2b51-4ea8-ac88-c7380e95af27": [
+                "resources/AnimationClip/shouqiang.anim",
+                "cc.AnimationClip"
+            ],
+            "6cb3aad6-8030-4a25-ba69-77b5319f19f7": [
+                "resources/Gui/GameResult.prefab",
+                "cc.Prefab"
+            ],
             "be909582-1bc4-4e8e-89ca-01d79f53ec4f": [
                 "resources/Gui/headinfo.prefab",
+                "cc.Prefab"
+            ],
+            "ab23148e-02a5-46ba-a180-8c1949a314f8": [
+                "resources/Gui/jiesuan/bigJsPanel.prefab",
+                "cc.Prefab"
+            ],
+            "550326d7-2b54-4470-a5eb-2974fa1a38b8": [
+                "resources/Gui/jiesuan/smJsPanel.prefab",
                 "cc.Prefab"
             ],
             "c85b4076-9462-45a9-9d9f-e5520ddd6d76": [
@@ -140,6 +168,26 @@ _CCSettings = {
                 "resources/Gui/PokerSort.prefab",
                 "cc.Prefab"
             ],
+            "c535eb28-5b36-41dc-8385-b56ebc3a8e51": [
+                "resources/Gui/RoomInfo/players_2.prefab",
+                "cc.Prefab"
+            ],
+            "8529c783-2e7d-4db6-9ab6-b3441e29e70d": [
+                "resources/Gui/RoomInfo/players_3.prefab",
+                "cc.Prefab"
+            ],
+            "46d5cbc7-70c3-43b8-90c3-7bd4c826d555": [
+                "resources/Gui/RoomInfo/players_4.prefab",
+                "cc.Prefab"
+            ],
+            "0d8fe554-d8fa-48ca-92c5-29046e33dbfb": [
+                "resources/Gui/RoomInfo/players_5.prefab",
+                "cc.Prefab"
+            ],
+            "4ebaed8d-483e-4458-bc7f-fdaa021ef13f": [
+                "resources/Gui/RoomInfo/waitforgame.prefab",
+                "cc.Prefab"
+            ],
             "5019811f-ce88-4a14-be01-0e73c38c69ef": [
                 "resources/Gui/ScoreSummary.prefab",
                 "cc.Prefab"
@@ -154,6 +202,14 @@ _CCSettings = {
             ],
             "88ad0d28-3c12-488c-ac1c-f310f5ca4108": [
                 "resources/Gui/UICreateRoom.prefab",
+                "cc.Prefab"
+            ],
+            "1eed8800-0ff0-4769-8e1d-29e051701b0c": [
+                "resources/Gui/UIGm.prefab",
+                "cc.Prefab"
+            ],
+            "447e0d85-ee28-4ca9-b095-748ab0a21d85": [
+                "resources/Gui/UIHelp.prefab",
                 "cc.Prefab"
             ],
             "f407185e-87d9-4857-a8cb-a1066d04f1a2": [
@@ -178,6 +234,10 @@ _CCSettings = {
             ],
             "ad8b4641-0d1b-4541-9843-a0ba2cb984ad": [
                 "resources/Gui/UIPokerGame.prefab",
+                "cc.Prefab"
+            ],
+            "5281346a-0fab-4cf6-a8de-e37ee4377afe": [
+                "resources/Gui/UIRecord.prefab",
                 "cc.Prefab"
             ],
             "11f96248-3381-43c4-949e-4e84b214eb3d": [
@@ -500,6 +560,735 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "1682d690-0b55-45ed-843b-2c8c841aec71": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2001.png",
+                "cc.Texture2D"
+            ],
+            "76960af0-ebc8-4abb-bdeb-62eb63f48408": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2a154786-0e52-422c-ab7b-dd72fbb8e36c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2002.png",
+                "cc.Texture2D"
+            ],
+            "7d386280-06a8-4ee9-b3bc-ddcd368c9cad": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "863346ee-2cc7-4f26-8001-0d43610c6669": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2003.png",
+                "cc.Texture2D"
+            ],
+            "07d7d6bd-d48b-4b57-a612-da5b5a99fe5c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "27cbf320-e3ce-4efe-8a2c-86012ca5f39a": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2004.png",
+                "cc.Texture2D"
+            ],
+            "f81b90aa-645a-461b-9e3f-87a073858061": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7d88a0b1-ba0f-4758-8f47-fef5e8902083": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2005.png",
+                "cc.Texture2D"
+            ],
+            "8f79ec58-63e0-47a4-b953-d9b5a5beae34": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "201a58b0-e5e8-47a5-b62b-57f393a2d733": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2006.png",
+                "cc.Texture2D"
+            ],
+            "a3ce8f27-36f2-4c8f-a622-f5068ef31390": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8c6db7a3-537e-4c91-8268-26452fc0c476": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2007.png",
+                "cc.Texture2D"
+            ],
+            "7d973e14-9e45-4527-b824-e3912cd1d9b3": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f1576013-9db5-4812-a0a7-3098cdcf0cf7": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2008.png",
+                "cc.Texture2D"
+            ],
+            "efb905ee-0c3c-436b-abb9-db37d9f745a3": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "66745290-4961-4a09-8f54-220247f37913": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2009.png",
+                "cc.Texture2D"
+            ],
+            "c9330f17-732a-46f4-bab9-ebc35116590c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3dd90b00-09b0-423b-ba66-519f622f2585": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2010.png",
+                "cc.Texture2D"
+            ],
+            "1f2634bb-7917-4cc5-bc92-d04b98b7be85": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9245848b-ed05-4e50-8c31-47260bedec2e": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2011.png",
+                "cc.Texture2D"
+            ],
+            "8ff2cfa5-6de3-4f13-8c72-be20691088db": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d7cb54b1-e015-4e89-8f63-92305f2fc6a4": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2012.png",
+                "cc.Texture2D"
+            ],
+            "3a607206-32f0-4483-9dd9-828a51f801da": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "30013bdd-4895-49cf-97e8-f19c41ff2ed3": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2013.png",
+                "cc.Texture2D"
+            ],
+            "dde32854-ad12-4bb6-996d-6e21c9fd2b5c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "836d9e84-8071-4f95-98e0-2038dc80cf93": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2014.png",
+                "cc.Texture2D"
+            ],
+            "5b072e61-9f9e-4fc1-9df9-2fd8824e9f99": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8ffa9ae6-0efd-4732-bd00-5e0511dce2d1": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2015.png",
+                "cc.Texture2D"
+            ],
+            "1f65b168-1cb6-4bfb-85e0-43d7919cb4af": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ed8ef3c5-8c00-4846-92d6-00fe17a84e7c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2016.png",
+                "cc.Texture2D"
+            ],
+            "d6a61423-e81d-4d1d-a5f6-149c185126bb": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2186c2cd-0d08-4ec6-865f-ad92d3d05f95": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2017.png",
+                "cc.Texture2D"
+            ],
+            "25dc5ec6-3908-40e9-8570-cf36ba625577": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a9307e3-9b00-41c7-bd93-cfaa17e90e48": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2018.png",
+                "cc.Texture2D"
+            ],
+            "2674244b-532d-48a6-b320-8fc38712c358": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1d635f40-cd6a-40cd-8d18-1066c3645287": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2019.png",
+                "cc.Texture2D"
+            ],
+            "2ccd754e-53b5-4cbe-8a76-004b53512b16": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a05fa00b-a5ed-42e3-b522-e6fff60a8d1a": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2020.png",
+                "cc.Texture2D"
+            ],
+            "fcd2d9b8-f6f7-4252-8d70-85bd40b2fdf6": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2020",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8c0455dd-1e71-4615-a3ec-d809047073cc": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2021.png",
+                "cc.Texture2D"
+            ],
+            "0c929141-14d7-43d1-b673-4c28b089da36": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2021",
+                "cc.SpriteFrame",
+                1
+            ],
+            "69dd7529-a38b-4748-a70c-75646a2095a5": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2022.png",
+                "cc.Texture2D"
+            ],
+            "bf934e88-bb07-47b5-b8da-9fc264da2745": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2022",
+                "cc.SpriteFrame",
+                1
+            ],
+            "27940599-450e-453d-b5c4-7756d1c7f96c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2023.png",
+                "cc.Texture2D"
+            ],
+            "e9416a02-d21b-45db-a93f-802a25b4a053": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2023",
+                "cc.SpriteFrame",
+                1
+            ],
+            "af81e5fc-cca9-4ee4-8e0d-914f1b14098f": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2024.png",
+                "cc.Texture2D"
+            ],
+            "17378576-6410-4441-a460-ed910716dce5": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2024",
+                "cc.SpriteFrame",
+                1
+            ],
+            "07c84931-cdf3-4018-b7e0-fe053837de7c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2025.png",
+                "cc.Texture2D"
+            ],
+            "01f93553-1a92-478f-83ad-dc744510c84b": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2025",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d986e8d7-0ab5-4a44-95d9-d096f1c3a778": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2026.png",
+                "cc.Texture2D"
+            ],
+            "40ee6f52-dbe1-402c-9008-0e5a7cf9ba1d": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2026",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0b3021f4-63cf-492a-8ed7-d21039a35575": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2027.png",
+                "cc.Texture2D"
+            ],
+            "63c24eb8-e347-4426-b4d6-298a00999556": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2027",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5c28735d-8a1e-4152-b624-d8ef234cb710": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2028.png",
+                "cc.Texture2D"
+            ],
+            "6028e8bf-dad7-407a-bb47-b1a8f90ce1e4": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2028",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2836d47e-5a66-4de6-a386-7057e5249fe6": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2029.png",
+                "cc.Texture2D"
+            ],
+            "083dd7b0-68f1-47c7-8387-ea2d06588809": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2029",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6ae3c6f0-9eb9-43af-96f5-94858a4954fc": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2030.png",
+                "cc.Texture2D"
+            ],
+            "7251b215-3cda-4e09-a7c0-3dedd71d434c": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2030",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9db9a531-312d-4e98-bb86-d03f23528bfb": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2031.png",
+                "cc.Texture2D"
+            ],
+            "8d046f07-b596-4d8d-8ff2-f296b0ed7f48": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2031",
+                "cc.SpriteFrame",
+                1
+            ],
+            "989042a7-ed0d-46e6-b9bf-3bef3aa951c6": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2032.png",
+                "cc.Texture2D"
+            ],
+            "9ff33ae5-59f4-4dd7-8f74-fe48057276e9": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2032",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9ee4d1f0-6f69-411c-a172-d4a02bcf6e89": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2033.png",
+                "cc.Texture2D"
+            ],
+            "5efa36fb-d2fa-4030-983b-34d12f86f36d": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2033",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f0918c87-cd93-4895-be1e-67247c50eab5": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2034.png",
+                "cc.Texture2D"
+            ],
+            "ae2a9ba0-d532-4ecb-8343-f7b68ee4dc69": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2034",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7861ffb0-2da4-4358-8a31-46a0e97edfb7": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2035.png",
+                "cc.Texture2D"
+            ],
+            "dcda811b-7e14-4972-abcb-e5bfe5019029": [
+                "resources/Textures/daqiang/jiguanqiang/dankong/2035",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fc4e08d6-93d9-4192-a659-4bff3e8205a2": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2001.png",
+                "cc.Texture2D"
+            ],
+            "74372db1-6f60-4863-9319-48356b908af9": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d95a7817-1212-4f43-b0b3-6fd94819c9e4": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2002.png",
+                "cc.Texture2D"
+            ],
+            "c222a120-9cb1-40d3-8e37-45cb57c2ec54": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6f018b67-15aa-4b54-ba05-e2c7a84e8b3e": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2003.png",
+                "cc.Texture2D"
+            ],
+            "434593ee-d8c9-4ba5-bde0-20597db38e71": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dc2c369d-5db1-418b-9d62-ac4e354b601a": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2004.png",
+                "cc.Texture2D"
+            ],
+            "560a6d71-eec1-4277-9163-d80c90f1df5c": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ab3aebf3-ee51-450e-9fdb-2938e4a2b6b9": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2005.png",
+                "cc.Texture2D"
+            ],
+            "5e13d87a-3de0-4eec-881e-5751f27e493a": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "03b2d93a-ed14-4a7e-a972-c90085da6901": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2006.png",
+                "cc.Texture2D"
+            ],
+            "4cfec2eb-f98e-4e82-bbe2-03819236c8ed": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "784c99d7-46e2-4b1a-8a9a-dfe87893355b": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2007.png",
+                "cc.Texture2D"
+            ],
+            "7ddcb6e3-42f0-421d-b156-a1ae10f80057": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c04c4ba2-4f7a-4412-b7a7-aee2e9929c7d": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2008.png",
+                "cc.Texture2D"
+            ],
+            "48bda475-daf5-4f65-a105-92cda3b18a2f": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4a09e067-f56b-43f1-8b17-889cb7a5a145": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2009.png",
+                "cc.Texture2D"
+            ],
+            "b43b893b-7bb3-4c3e-b6ab-09c82779bde7": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "30477350-c881-4f1b-9187-67d3a36bdcda": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2010.png",
+                "cc.Texture2D"
+            ],
+            "04d2010f-c951-41c1-8e06-48bd41809430": [
+                "resources/Textures/daqiang/jiguanqiang/texiao/2010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4043ca67-f79f-498a-8ebe-aebd70a1cc97": [
+                "resources/Textures/daqiang/shouqiang/dankong/1001.png",
+                "cc.Texture2D"
+            ],
+            "df80a807-49e2-4374-afe0-2321b559b877": [
+                "resources/Textures/daqiang/shouqiang/dankong/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "54dd33bb-da78-4855-abfb-89572379279b": [
+                "resources/Textures/daqiang/shouqiang/dankong/1002.png",
+                "cc.Texture2D"
+            ],
+            "ab2250d8-7a08-4ed2-8da9-bbb216523068": [
+                "resources/Textures/daqiang/shouqiang/dankong/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "71a3dec4-7795-40dc-9f2a-08516538a635": [
+                "resources/Textures/daqiang/shouqiang/dankong/1003.png",
+                "cc.Texture2D"
+            ],
+            "86cd1086-92f8-499e-8a15-9ecf9f49e3d8": [
+                "resources/Textures/daqiang/shouqiang/dankong/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e45e02a8-6210-4e58-b6bb-f314da9e6644": [
+                "resources/Textures/daqiang/shouqiang/dankong/1004.png",
+                "cc.Texture2D"
+            ],
+            "b2c26165-35d5-46dc-8e82-907e4a995563": [
+                "resources/Textures/daqiang/shouqiang/dankong/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "530d69e9-83c8-4d3b-90a3-92c6a0b5d584": [
+                "resources/Textures/daqiang/shouqiang/dankong/1005.png",
+                "cc.Texture2D"
+            ],
+            "7b3caa52-fa0e-462b-b4a7-7cdb3cbf1309": [
+                "resources/Textures/daqiang/shouqiang/dankong/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a0f70a7-9991-444d-b953-1169566e9b02": [
+                "resources/Textures/daqiang/shouqiang/dankong/1006.png",
+                "cc.Texture2D"
+            ],
+            "9ceec7f6-4de5-4d96-a445-10bc59ac410e": [
+                "resources/Textures/daqiang/shouqiang/dankong/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "217752a9-b02f-49cf-85f8-60654a9ba16a": [
+                "resources/Textures/daqiang/shouqiang/dankong/1007.png",
+                "cc.Texture2D"
+            ],
+            "5fe9ef75-09c0-49c3-a3a1-7329bf53d074": [
+                "resources/Textures/daqiang/shouqiang/dankong/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "12c80d45-ff15-4dcc-825d-790c2474e30d": [
+                "resources/Textures/daqiang/shouqiang/dankong/1008.png",
+                "cc.Texture2D"
+            ],
+            "e44cf72a-6ae0-4cd1-be6a-0f57a04de69c": [
+                "resources/Textures/daqiang/shouqiang/dankong/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bbe45c7e-5f0c-4a37-9613-3901aa947203": [
+                "resources/Textures/daqiang/shouqiang/dankong/1009.png",
+                "cc.Texture2D"
+            ],
+            "fa089215-a022-455d-beb8-cc03a5bb066c": [
+                "resources/Textures/daqiang/shouqiang/dankong/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "701d189a-1b85-4b29-a73e-aa1b9984a457": [
+                "resources/Textures/daqiang/shouqiang/dankong/1010.png",
+                "cc.Texture2D"
+            ],
+            "1cc774f3-0153-4e2c-b16e-8c87981c1833": [
+                "resources/Textures/daqiang/shouqiang/dankong/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d737a44e-8f30-44ae-84e4-9c81e4a0664f": [
+                "resources/Textures/daqiang/shouqiang/dankong/1011.png",
+                "cc.Texture2D"
+            ],
+            "779991ed-84c5-4fdc-8b54-a60e7ec36986": [
+                "resources/Textures/daqiang/shouqiang/dankong/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "62e71248-4294-4fcf-a5b1-32b7cbf47e19": [
+                "resources/Textures/daqiang/shouqiang/dankong/1012.png",
+                "cc.Texture2D"
+            ],
+            "a456afac-78b0-4773-83be-774bf5e2a21a": [
+                "resources/Textures/daqiang/shouqiang/dankong/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3c2d8836-013f-4722-9c62-95b8f5fb168a": [
+                "resources/Textures/daqiang/shouqiang/dankong/1013.png",
+                "cc.Texture2D"
+            ],
+            "342bc181-1a7f-457a-8b2d-bcae2f37d8ec": [
+                "resources/Textures/daqiang/shouqiang/dankong/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ce94853d-39b0-4c1b-8cd6-c0adf8ecec3d": [
+                "resources/Textures/daqiang/shouqiang/dankong/1014.png",
+                "cc.Texture2D"
+            ],
+            "e8c46934-88a9-434a-920a-e3f1f6ef8d2a": [
+                "resources/Textures/daqiang/shouqiang/dankong/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ee06de7b-94e4-48bb-8c6e-34da5f31edf0": [
+                "resources/Textures/daqiang/shouqiang/dankong/1015.png",
+                "cc.Texture2D"
+            ],
+            "739f409a-127b-4d39-817a-9f4bb1cc2080": [
+                "resources/Textures/daqiang/shouqiang/dankong/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8e2c97e3-abcb-408d-b20c-6039b83a748f": [
+                "resources/Textures/daqiang/shouqiang/dankong/1016.png",
+                "cc.Texture2D"
+            ],
+            "9141cb79-0100-4b62-a5c4-bb1f27475fc1": [
+                "resources/Textures/daqiang/shouqiang/dankong/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "58fd59f7-55ad-4237-861b-c8e42bcc9092": [
+                "resources/Textures/daqiang/shouqiang/dankong/1017.png",
+                "cc.Texture2D"
+            ],
+            "830b0fdb-fb59-4a6e-a1ca-2712bd898d4c": [
+                "resources/Textures/daqiang/shouqiang/dankong/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b9c401ff-7201-42d2-9d76-1bd4f48f8697": [
+                "resources/Textures/daqiang/shouqiang/dankong/1018.png",
+                "cc.Texture2D"
+            ],
+            "22d536cf-e822-4cb0-8a7c-9c5fa513991b": [
+                "resources/Textures/daqiang/shouqiang/dankong/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "263191b3-58d3-45de-b143-2eb5e25f21b3": [
+                "resources/Textures/daqiang/shouqiang/dankong/1019.png",
+                "cc.Texture2D"
+            ],
+            "a3b420ff-02fd-47b6-93a6-e939fbe1829d": [
+                "resources/Textures/daqiang/shouqiang/dankong/1019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "09649c55-3a13-40ad-ad79-d9fad23fd67a": [
+                "resources/Textures/daqiang/shouqiang/dankong/1020.png",
+                "cc.Texture2D"
+            ],
+            "2bed6b72-2531-49a1-8eff-d36781f881bb": [
+                "resources/Textures/daqiang/shouqiang/dankong/1020",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2191e60d-0fbc-40da-8091-76a3b7166129": [
+                "resources/Textures/daqiang/shouqiang/dankong/1021.png",
+                "cc.Texture2D"
+            ],
+            "408db56e-ca94-4386-bf87-55d1a854a092": [
+                "resources/Textures/daqiang/shouqiang/dankong/1021",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cf0a495b-2ceb-4740-a41f-b32cc3627a23": [
+                "resources/Textures/daqiang/shouqiang/dankong/1022.png",
+                "cc.Texture2D"
+            ],
+            "df1c0089-3fa0-4e3e-a7aa-730ccb0eadf6": [
+                "resources/Textures/daqiang/shouqiang/dankong/1022",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1769338a-3dbb-4116-95a3-ded5aa20538b": [
+                "resources/Textures/daqiang/shouqiang/dankong/1023.png",
+                "cc.Texture2D"
+            ],
+            "d3126c67-49c7-45b9-8ea8-a8ecb142a505": [
+                "resources/Textures/daqiang/shouqiang/dankong/1023",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a83a9df2-6f2a-4fa5-92f1-3d5263858e61": [
+                "resources/Textures/daqiang/shouqiang/dankong/1024.png",
+                "cc.Texture2D"
+            ],
+            "ff5743cd-41ee-4975-9149-c218dd17fcbb": [
+                "resources/Textures/daqiang/shouqiang/dankong/1024",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e378cead-bb60-4609-8b32-521e30461184": [
+                "resources/Textures/daqiang/shouqiang/dankong/1025.png",
+                "cc.Texture2D"
+            ],
+            "46e0ba7b-c7f5-4e85-8567-c71ef3edbb4b": [
+                "resources/Textures/daqiang/shouqiang/dankong/1025",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9bcdadde-aeea-45bc-9780-fe2531c145c0": [
+                "resources/Textures/daqiang/shouqiang/dankong/1026.png",
+                "cc.Texture2D"
+            ],
+            "191b85bd-a2bd-43b1-ac26-37149e162301": [
+                "resources/Textures/daqiang/shouqiang/dankong/1026",
+                "cc.SpriteFrame",
+                1
+            ],
+            "437b07c0-a96f-4ebf-abff-25ef32fa1d57": [
+                "resources/Textures/daqiang/shouqiang/texiao/1001.png",
+                "cc.Texture2D"
+            ],
+            "b85b7c83-618d-487f-a28e-288b9dfc893d": [
+                "resources/Textures/daqiang/shouqiang/texiao/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fda394ef-437f-40c3-8828-c918886dcbf2": [
+                "resources/Textures/daqiang/shouqiang/texiao/1002.png",
+                "cc.Texture2D"
+            ],
+            "7406e659-09cb-4cca-9bfc-f3ca97fb89cd": [
+                "resources/Textures/daqiang/shouqiang/texiao/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7cb604a4-d439-4c05-8cac-5b6289b17fca": [
+                "resources/Textures/daqiang/shouqiang/texiao/1003.png",
+                "cc.Texture2D"
+            ],
+            "857418a0-0c06-44b2-b656-e14281e31416": [
+                "resources/Textures/daqiang/shouqiang/texiao/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7a355f59-c712-4caf-828d-7ca3ca7caad2": [
+                "resources/Textures/daqiang/shouqiang/texiao/1004.png",
+                "cc.Texture2D"
+            ],
+            "2d81e857-9cee-4bcd-a957-c1dcf38979be": [
+                "resources/Textures/daqiang/shouqiang/texiao/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b2796ee9-7cc4-4c2b-9987-200a526fbb00": [
+                "resources/Textures/daqiang/shouqiang/texiao/1005.png",
+                "cc.Texture2D"
+            ],
+            "60383bc8-48fd-4f9d-990f-c928452733bf": [
+                "resources/Textures/daqiang/shouqiang/texiao/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6b6a357a-2634-4b39-80bd-1e99f1098ffb": [
+                "resources/Textures/daqiang/shouqiang/texiao/1006.png",
+                "cc.Texture2D"
+            ],
+            "d83602fe-717d-41bc-a31f-db7031a0c307": [
+                "resources/Textures/daqiang/shouqiang/texiao/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a193ccd4-f04c-4c66-b81a-6f8ab30664ab": [
+                "resources/Textures/daqiang/shouqiang/texiao/1007.png",
+                "cc.Texture2D"
+            ],
+            "5f9b78ca-7f44-436b-8541-86616ddd49ff": [
+                "resources/Textures/daqiang/shouqiang/texiao/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "af2ad68f-0cae-46dd-9690-badf51c645b4": [
+                "resources/Textures/daqiang/shouqiang/texiao/1008.png",
+                "cc.Texture2D"
+            ],
+            "6148f872-b220-455c-a75d-de34b45f2f91": [
+                "resources/Textures/daqiang/shouqiang/texiao/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "47dfc7a2-0025-4eb5-a6f4-fbbb3c925590": [
+                "resources/Textures/daqiang/shouqiang/texiao/1009.png",
+                "cc.Texture2D"
+            ],
+            "241d561d-d4a0-47a6-946e-48485bd93e23": [
+                "resources/Textures/daqiang/shouqiang/texiao/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8abb1a31-fd8d-42ca-8c96-3b55eb1fa8a5": [
+                "resources/Textures/dengdaiTXT.png",
+                "cc.Texture2D"
+            ],
+            "7a2d989c-49ae-4fc3-b968-a44e65af7c2f": [
+                "resources/Textures/dengdaiTXT",
+                "cc.SpriteFrame",
+                1
+            ],
             "0e394b64-305e-4dae-a4c6-5f3b29795997": [
                 "resources/Textures/diamond1PIC.png",
                 "cc.Texture2D"
@@ -578,6 +1367,15 @@ _CCSettings = {
             ],
             "9767c966-6d85-4ed2-9341-fa8fe13b284f": [
                 "resources/Textures/diamond8PIC",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d197c3fb-735d-423b-94da-f57983781574": [
+                "resources/Textures/dianTXT.png",
+                "cc.Texture2D"
+            ],
+            "2aa0cc35-aa45-46c3-be08-7fa5b545a403": [
+                "resources/Textures/dianTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1474,6 +2272,24 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "8f3e7254-4531-45c2-a677-6968ad025cc2": [
+                "resources/Textures/gonggao.png",
+                "cc.Texture2D"
+            ],
+            "2ca60a33-eef7-425d-9030-c0942ebdc84f": [
+                "resources/Textures/gonggao",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1e4a9061-d63f-49f3-9e06-1a781f2f03d1": [
+                "resources/Textures/gonggaoBG.png",
+                "cc.Texture2D"
+            ],
+            "a715a094-fab3-48a3-b27d-54301cd4b58f": [
+                "resources/Textures/gonggaoBG",
+                "cc.SpriteFrame",
+                1
+            ],
             "38e1394c-5343-441e-bf44-6f34c5783d5c": [
                 "resources/Textures/goodsBG.png",
                 "cc.Texture2D"
@@ -1534,6 +2350,51 @@ _CCSettings = {
             ],
             "41cd92c3-eacf-49f2-b8ec-d32cec9eeaec": [
                 "resources/Textures/jiaruBTN",
+                "cc.SpriteFrame",
+                1
+            ],
+            "61e0d65a-3f49-42f7-b8ab-9d182435c093": [
+                "resources/Textures/jiesuan/dayingjiaTXT.png",
+                "cc.Texture2D"
+            ],
+            "2fc9fc35-c519-4485-91f7-a6265d4277f9": [
+                "resources/Textures/jiesuan/dayingjiaTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a71414e4-98c0-48e4-a265-460b56330c60": [
+                "resources/Textures/jiesuan/jiesuanmingziBG.png",
+                "cc.Texture2D"
+            ],
+            "d8edbac5-1e5d-451c-b4ba-e7767fd6c5de": [
+                "resources/Textures/jiesuan/jiesuanmingziBG",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f5c232a9-4b8f-4915-b1c4-e6290a9ee8b5": [
+                "resources/Textures/jiesuan/jiesuantouxiangBG.png",
+                "cc.Texture2D"
+            ],
+            "d74afd81-7975-48eb-996e-cfd4ad5bf6d0": [
+                "resources/Textures/jiesuan/jiesuantouxiangBG",
+                "cc.SpriteFrame",
+                1
+            ],
+            "480217c9-b4e7-44d8-8c45-a051ca881f2e": [
+                "resources/Textures/jiesuan/shibaiTXT.png",
+                "cc.Texture2D"
+            ],
+            "710e3f67-1867-495d-b172-000fc2bed422": [
+                "resources/Textures/jiesuan/shibaiTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2276b4de-5c0e-4368-a87b-4f2b14e1387b": [
+                "resources/Textures/jiesuan/yingjiaguang.png",
+                "cc.Texture2D"
+            ],
+            "779f2fdc-407a-4610-bf4a-e3564a71ea68": [
+                "resources/Textures/jiesuan/yingjiaguang",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1615,6 +2476,15 @@ _CCSettings = {
             ],
             "de909fb1-1b06-40d3-8fb0-488e5a6b0484": [
                 "resources/Textures/line2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "07783ac7-2f7e-42d9-8135-cc198f9665a8": [
+                "resources/Textures/lipaizhongTXT.png",
+                "cc.Texture2D"
+            ],
+            "de796c93-bcb5-4fd2-a213-de9e461b641b": [
+                "resources/Textures/lipaizhongTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1723,6 +2593,15 @@ _CCSettings = {
             ],
             "5b0aadc8-4a5d-415f-be4a-7c272796c122": [
                 "resources/Textures/NPC",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bd213742-76b0-4328-9cb9-9b6f8a56e004": [
+                "resources/Textures/pingTXT.png",
+                "cc.Texture2D"
+            ],
+            "cf2fe77f-cbb0-443b-93c0-56811c09bccc": [
+                "resources/Textures/pingTXT",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2650,6 +3529,15 @@ _CCSettings = {
             ],
             "6738e839-b4ba-400f-810f-6711f5601928": [
                 "resources/Textures/voice1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ecff3550-77c4-4759-a5ab-d12798eaf804": [
+                "resources/Textures/weixin.png",
+                "cc.Texture2D"
+            ],
+            "2a1b337c-997a-436b-8470-a92ee2fb428d": [
+                "resources/Textures/weixin",
                 "cc.SpriteFrame",
                 1
             ],

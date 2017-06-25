@@ -138,7 +138,7 @@ void JBSocket::SendThread()
 		if (_sendQueue.size() > 0)
 		{
 			_sendMutex.lock();
-			PACKAGE pack = std::move(_sendQueue.back());
+			PACKAGE pack = std::move(_sendQueue.front());
 			_sendQueue.pop();
 			_sendMutex.unlock();
 
