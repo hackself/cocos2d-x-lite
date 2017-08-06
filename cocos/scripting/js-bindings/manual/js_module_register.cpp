@@ -95,7 +95,9 @@ int js_module_register()
     sc->addRegisterCallback(register_all_cocos2dx_network);
 
 	sc->addRegisterCallback(register_jsb_jbsocket);
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 	sc->addRegisterCallback(register_all_yunvasdk_manual);
+#endif
     
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
     // Physics 3d can be commented out to reduce the package
