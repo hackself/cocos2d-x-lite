@@ -158,7 +158,7 @@ void JBSocket::SendThread()
 
 			if (!SendSyn(pack))
 			{
-				this->Disconnect();
+				//this->Disconnect();
 				SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::SendError);
 				break;
 			}
@@ -181,7 +181,7 @@ void JBSocket::RecvThread()
 		{
 			if (!this->RecvSyn())
 			{
-				this->Disconnect();
+				//this->Disconnect();
 				break;
 			}
 		}
@@ -348,15 +348,12 @@ bool JBSocket::RecvSyn()
     do
     {
         int size = recv(_sock, &_buf[_bufIndex], bufSize - _bufIndex, 0);
-        if (size < 0)
+        if (size <= 0)
         {
             SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::RecvError);
             return false;
         }
-        else if (size == 0)
-        {
-            return true;
-        }
+        
         _bufIndex += size;
         if (_bufIndex > bufSize)
         {
@@ -395,11 +392,18 @@ void JBSocket::Disconnect()
 {
     if (_sock != INVALID_SOCKET)
     {
+        _sendMutex.lock();
         _old_sock = _sock;
-        shutdown(_sock, SHUT_RDWR);
-        CloseSocket(_sock);
+
+        if (_sock !=INVALID_SOCKET)
+        {
+            shutdown(_sock, SHUT_RDWR);
+            CloseSocket(_sock);
+        }
+
         this->_isConnected = false;
         _sock = INVALID_SOCKET;
+       _sendMutex.unlock();
     }
 }
 
