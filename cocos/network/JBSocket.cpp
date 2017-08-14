@@ -1,18 +1,20 @@
 /************************************************************************/
-/*   c++ jbsocket  (基吧专用)
+/*   c++ jbsocket  (陋藰鈭炩�︹棅庐鈥濃垰)
 /*   by:ruanban
 /************************************************************************/
 
 
 #include "JBSocket.h"
 #include <thread>
-
+#include "Platform/CCPlatformConfig.h"
 #ifdef _WIN32
 #define CloseSocket closesocket
 #define SHUT_RDWR 2
 #else
 #define CloseSocket close
 #endif
+
+SOCKET _old_sock = INVALID_SOCKET;
 
 bool IsSmallEndian()
 {
@@ -43,18 +45,26 @@ void JBSocket::DeInit()
 
 JBSocket::JBSocket()
 {
-	_threadExit[(int)ThreadType::Recv] = false;
-	_threadExit[(int)ThreadType::Send] = false;
+	_threadExit[(int)ThreadType::Recv] = true;
+	_threadExit[(int)ThreadType::Send] = true;
+    _threadExit[(int)ThreadType::Connect] = true;
 	_sock = INVALID_SOCKET;
 	_bufIndex = 0;
 	_delegate = nullptr;
 	_isSmallEndian = IsSmallEndian();
 }
 
-void JBSocket::Connect(const std::string& ip, unsigned short port)
+void JBSocket::Connect(const std::string& hostname, unsigned short port)
 {
-	this->serverName = ip;
+	this->serverName = hostname;
 	this->serverPort = port;
+    _threadExit[(int)ThreadType::Connect] = false;
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+    char ip[128];
+    memset(ip, 0, sizeof(ip));
+    strcpy(ip, hostname.c_str());
+    getaddrinfo(ip, NULL, NULL, &result);
+#endif
 	std::thread([this]()->void {this->ConnectThread(); }).detach();
 }
 
@@ -67,6 +77,7 @@ void JBSocket::SetDelegate(JBSocketDelegate* delegate)
 
 void JBSocket::Send(int msgid,const PACKAGE& data)
 {
+    if (!_isConnected) return;
 	PACKAGE str;
 	str.resize(HEADSIZE * 2 + data.size());
 	int* sz = reinterpret_cast<int*>(&(str[0]));
@@ -83,7 +94,7 @@ void JBSocket::Close()
 {
 	if (this->_delegate != nullptr)
 	{
-		delete this->_delegate;
+		//delete this->_delegate;
 		this->_delegate = nullptr;
 	}
 	this->Disconnect();
@@ -96,7 +107,9 @@ void JBSocket::ConnectThread()
 	{
 		SEND_SOCKET_EVENT(&JBSocketDelegate::onOpen);
 
-		//开启收发线程
+        _threadExit[(int)ThreadType::Send] = false;
+        _threadExit[(int)ThreadType::Recv] = false;
+		//酶鈩⑩垎脵聽鈥欌垜垄艙铿傗墺脙
 		std::thread([this]()->void {this->SendThread(); }).detach();
 		std::thread([this]()->void {this->RecvThread(); }).detach();
 
@@ -105,6 +118,7 @@ void JBSocket::ConnectThread()
 	{
 		SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::ConnectError);
 	}
+    OnThreadExit(ThreadType::Connect);
 }
 
 int JBSocket::Select()
@@ -138,7 +152,7 @@ void JBSocket::SendThread()
 		if (_sendQueue.size() > 0)
 		{
 			_sendMutex.lock();
-			PACKAGE pack = std::move(_sendQueue.front());
+			PACKAGE pack = std::move(_sendQueue.back());
 			_sendQueue.pop();
 			_sendMutex.unlock();
 
@@ -174,6 +188,7 @@ void JBSocket::RecvThread()
 		else
 		{
 			SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::SelectError);
+            break;
 		}
 	}
 	OnThreadExit(ThreadType::Recv);
@@ -182,109 +197,227 @@ void JBSocket::RecvThread()
 
 bool JBSocket::ConnectSyn(const std::string & hostname, unsigned short port)
 {
-	_sock = socket(AF_INET, SOCK_STREAM, 0);
-	if (_sock != INVALID_SOCKET) {
-		struct hostent *he;
-		struct sockaddr_in svraddr;
-		he = gethostbyname(hostname.c_str());
-		memcpy(&svraddr.sin_addr, he->h_addr_list[0], (size_t)he->h_length);
-		svraddr.sin_family = AF_INET;
-		svraddr.sin_port = htons(port);
-		int ret = connect(_sock, (struct sockaddr*) &svraddr, sizeof(svraddr));
-		he = nullptr;
-		_isConnected = (ret != SOCKET_ERROR);
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+    
+    char ip[128];
+    memset(ip, 0, sizeof(ip));
+    strcpy(ip, hostname.c_str());
+    
+    void* svraddr = nullptr;
+    int error=-1, svraddr_len;
+    bool ret = true;
+    struct sockaddr_in svraddr_4;
+    struct sockaddr_in6 svraddr_6;
+    
+    //鑾峰彇缃戠粶鍗忚
+   // struct addrinfo *result;
 
-		if (!_isConnected)
-		{ 
-			CloseSocket(_sock);
-			_sock = INVALID_SOCKET;
-		}
-	}
-	return _isConnected;
+    if (result == nullptr || result->ai_addr == nullptr)
+    {
+        return false;
+    }
+    const struct sockaddr *sa = result->ai_addr;
+    socklen_t maxlen = 128;
+    switch(sa->sa_family) {
+        case AF_INET://ipv4
+            if ((_sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+                perror("socket create failed");
+                ret = false;
+                break;
+            }
+            
+            if (_sock == _old_sock)
+            {
+                if ((_sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+                    perror("socket create failed");
+                    ret = false;
+                    break;
+                }
+            }
+            
+            if(inet_ntop(AF_INET, &(((struct sockaddr_in *)sa)->sin_addr),
+                         ip, maxlen) < 0){
+                perror(ip);
+                ret = false;
+                break;
+            }
+            svraddr_4.sin_family = AF_INET;
+            svraddr_4.sin_addr.s_addr = inet_addr(ip);
+            svraddr_4.sin_port = htons(port);
+            svraddr_len = sizeof(svraddr_4);
+            svraddr = &svraddr_4;
+            break;
+        case AF_INET6://ipv6
+            if ((_sock = socket(AF_INET6, SOCK_STREAM, 0)) < 0) {
+                perror("socket create failed");
+                ret = false;
+                break;
+            }
+            if (_sock == _old_sock)
+            {
+                if ((_sock = socket(AF_INET6, SOCK_STREAM, 0)) < 0) {
+                    perror("socket create failed");
+                    ret = false;
+                    break;
+                }
+            }
+            inet_ntop(AF_INET6, &(((struct sockaddr_in6 *)sa)->sin6_addr),
+                      ip, maxlen);
+            
+            printf("socket created ipv6/n");
+            
+            bzero(&svraddr_6, sizeof(svraddr_6));
+            svraddr_6.sin6_family = AF_INET6;
+            svraddr_6.sin6_port = htons(port);
+            if ( inet_pton(AF_INET6, ip, &svraddr_6.sin6_addr) < 0 ) {
+                perror(ip);
+                ret = false;
+                break;
+            }
+            svraddr_len = sizeof(svraddr_6);
+            svraddr = &svraddr_6;
+            break;
+            
+        default:
+            printf("Unknown AF\ns");
+            ret = false;
+    }
+    freeaddrinfo(result);
+    if(!ret)
+    {
+        fprintf(stderr , "Cannot Connect the server!n");
+        return false;
+    }
+    int nret = connect(_sock, (struct sockaddr*)svraddr, svraddr_len);
+    _isConnected = (nret != SOCKET_ERROR);
+    
+    if (!_isConnected)
+    {
+        CloseSocket(_sock);
+        _sock = INVALID_SOCKET;
+    }
+    
+    return _isConnected;
+#else
+    _sock = socket(AF_INET, SOCK_STREAM, 0);
+    if (_sock == _old_sock)
+    {
+        if ((_sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+            return false;
+        }
+    }
+    if (_sock != INVALID_SOCKET) {
+        struct hostent *he;
+        struct sockaddr_in svraddr;
+        he = gethostbyname(hostname.c_str());
+        memcpy(&svraddr.sin_addr, he->h_addr_list[0], (size_t)he->h_length);
+        svraddr.sin_family = AF_INET;
+        svraddr.sin_port = htons(port);
+        int ret = connect(_sock, (struct sockaddr*) &svraddr, sizeof(svraddr));
+        he = nullptr;
+        _isConnected = (ret != SOCKET_ERROR);
+        
+        if (!_isConnected)
+        {
+            CloseSocket(_sock);
+            _sock = INVALID_SOCKET;
+        }
+    }
+    return _isConnected;
+#endif
 }
 
 bool JBSocket::SendSyn(const PACKAGE& pack)
 {
-	long bytes;
-	int count = 0;
-	int len = pack.size();
-	while (count < len) {
-		bytes = send(_sock, &(pack[count]), (size_t)(len - count), 0);
-		if (bytes == -1 || bytes == 0)
-			break;
-		count += bytes;
-	}
-	return count == len;
+    long bytes;
+    int count = 0;
+    int len = pack.size();
+    while (count < len) {
+        bytes = send(_sock, &(pack[count]), (size_t)(len - count), 0);
+        if (bytes == -1 || bytes == 0)
+            break;
+        count += bytes;
+    }
+    return count == len;
 }
 
 
 bool JBSocket::RecvSyn()
 {
-	int bufSize = sizeof(_buf);
-	do
-	{
-		int size = recv(_sock, &_buf[_bufIndex], bufSize - _bufIndex, 0);
-		if (size <= 0)
-		{
-			SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::RecvError);
-			return false;
-		}
-		_bufIndex += size;
-		if (_bufIndex > bufSize)
-		{
-			SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::BufOverflow);
-			return false;
-		}
-		while (_bufIndex >= 2 * HEADSIZE)
-		{
-			int* sz = reinterpret_cast<int*>(&(_buf[0]));
-			int packSize = ToSmallEndian<int>(*sz);
-			int packFullSize = packSize + HEADSIZE;
-			if (_bufIndex >= packFullSize)
-			{
-				int* id = reinterpret_cast<int*>(&(_buf[HEADSIZE]));
-				PACKAGE pack(&(_buf[HEADSIZE * 2]), packSize - HEADSIZE);
-				SEND_SOCKET_EVENT(&JBSocketDelegate::onMessage, ToSmallEndian(*id), pack);
-				if (_bufIndex > packFullSize)
-				{
-					_bufIndex = _bufIndex - packFullSize;
-					std::copy(&(_buf[packFullSize]), &(_buf[packFullSize + _bufIndex]),&(_buf[0]));
-				}
-				else
-				{
-					_bufIndex = 0;
-				}
-			}
-			else
-				break;
-		}
-	} while (_bufIndex > 0);
-
-	return true;
+    int bufSize = sizeof(_buf);
+    do
+    {
+        int size = recv(_sock, &_buf[_bufIndex], bufSize - _bufIndex, 0);
+        if (size < 0)
+        {
+            SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::RecvError);
+            return false;
+        }
+        else if (size == 0)
+        {
+            return true;
+        }
+        _bufIndex += size;
+        if (_bufIndex > bufSize)
+        {
+            SEND_SOCKET_EVENT(&JBSocketDelegate::onError, JBSocketError::BufOverflow);
+            return false;
+        }
+        while (_bufIndex >= 2 * HEADSIZE)
+        {
+            int* sz = reinterpret_cast<int*>(&(_buf[0]));
+            int packSize = ToSmallEndian<int>(*sz);
+            int packFullSize = packSize + HEADSIZE;
+            if (_bufIndex >= packFullSize)
+            {
+                int* id = reinterpret_cast<int*>(&(_buf[HEADSIZE]));
+                PACKAGE pack(&(_buf[HEADSIZE * 2]), packSize - HEADSIZE);
+                SEND_SOCKET_EVENT(&JBSocketDelegate::onMessage, ToSmallEndian(*id), pack);
+                if (_bufIndex > packFullSize)
+                {
+                    _bufIndex = _bufIndex - packFullSize;
+                    std::copy(&(_buf[packFullSize]), &(_buf[packFullSize + _bufIndex]),&(_buf[0]));
+                }
+                else
+                {
+                    _bufIndex = 0;
+                }
+            }
+            else
+                break;
+        }
+    } while (_bufIndex > 0);
+    
+    return true;
 }
 
 void JBSocket::Disconnect()
 {
-	if (_sock != INVALID_SOCKET)
-	{
-		shutdown(_sock, SHUT_RDWR);
-		CloseSocket(_sock);
-		this->_isConnected = false;
-		_sock = INVALID_SOCKET;
-	}
+    if (_sock != INVALID_SOCKET)
+    {
+        _old_sock = _sock;
+        shutdown(_sock, SHUT_RDWR);
+        CloseSocket(_sock);
+        this->_isConnected = false;
+        _sock = INVALID_SOCKET;
+    }
 }
 
 void JBSocket::OnThreadExit(ThreadType type)
 {
-	_threadExit[(int)type] = true;
-	this->SafeDestory();
+    _threadExit[(int)type] = true;
+    this->SafeDestory();
 }
 
 void JBSocket::SafeDestory()
 {
-	if (this->_delegate == nullptr && _threadExit[(int)ThreadType::Recv] && _threadExit[(int)ThreadType::Send])
-	{
-		auto scheduler = cocos2d::Director::getInstance()->getScheduler();
+    if (this->_delegate == nullptr &&
+        _threadExit[(int)ThreadType::Recv] &&
+        _threadExit[(int)ThreadType::Send] &&
+        _threadExit[(int)ThreadType::Connect])
+    {
+       // delete this;
+        /*auto scheduler = cocos2d::Director::getInstance()->getScheduler();
 		if (scheduler != nullptr)
 		{
 			scheduler->performFunctionInCocosThread([=]()->void {
@@ -294,7 +427,7 @@ void JBSocket::SafeDestory()
 		else
 		{
 			delete this;
-		}
+		}*/
 	}
 }
 

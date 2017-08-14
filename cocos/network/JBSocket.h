@@ -52,6 +52,7 @@ enum ThreadType
 {
 	Send = 0,
 	Recv = 1,
+    Connect = 2,
 };
 
 extern bool IsSmallEndian();
@@ -119,7 +120,8 @@ private:
 			if (scheduler != nullptr)
 			{
 				scheduler->performFunctionInCocosThread([=]()->void {
-					(this->_delegate->*func)(this, param...);
+                    if (this->_delegate != nullptr)
+                        (this->_delegate->*func)(this, param...);
 				});
 			}
 		}
@@ -148,6 +150,9 @@ private:
 	int _bufIndex;
 	unsigned short serverPort;
 	bool _isSmallEndian;
-	bool _threadExit[2];
+	bool _threadExit[3];
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+        struct addrinfo *result;
+#endif
 };
 #endif
