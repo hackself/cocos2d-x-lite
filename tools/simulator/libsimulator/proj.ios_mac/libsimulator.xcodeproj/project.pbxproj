@@ -866,7 +866,7 @@
 				);
 				INFOPLIST_PREFIX_HEADER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/mac/include/glfw3";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/mac/include/glfw3 $(SRCROOT)/../../../../external/IM_SDK/include";
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};
 			name = Debug;
@@ -898,7 +898,7 @@
 				);
 				INFOPLIST_PREFIX_HEADER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/mac/include/glfw3";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/mac/include/glfw3 $(SRCROOT)/../../../../external/IM_SDK/include";
 				VALID_ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 			};
 			name = Release;
@@ -929,7 +929,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/ios/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/ios/include $(SRCROOT)/../../../../external/IM_SDK/include";
 				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
@@ -961,7 +961,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/ios/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../../ $(SRCROOT)/../../../../cocos $(SRCROOT)/../../../../cocos/base $(SRCROOT)/../../../../cocos/physics $(SRCROOT)/../../../../cocos/math/kazmath $(SRCROOT)/../../../../cocos/2d $(SRCROOT)/../../../../cocos/ui $(SRCROOT)/../../../../cocos/network $(SRCROOT)/../../../../cocos/audio/include $(SRCROOT)/../../../../cocos/editor-support $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../external/ios/include $(SRCROOT)/../../../../external/IM_SDK/include";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 arm64";
 			};

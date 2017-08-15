@@ -123,6 +123,7 @@ namespace YVSDK
 	{
 		if (_lockInit || _isSDKInit) return;
 		_lockInit = true;
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 		auto ret = YVIM_Init(myYVCallBack, 0, appId, tempPath.c_str(), isDebug, oversea);
 		_lockInit = false; //防止执行两次初始化
 
@@ -137,6 +138,8 @@ namespace YVSDK
 			_isSDKInit = false;
 			printf("YVIM_Init: Fail.");
 		}
+#endif
+
 	}
 
 	bool YVTool::sendRequeset(YaYaRequestBase* request)
@@ -146,7 +149,7 @@ namespace YVSDK
 			printf("YVSDK not Init.");
 			return false;
 		}
-
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 		auto ret = YVIM_SendCmd(request->m_requestChannel, request->m_requestCmd, request->encode());
 
 		if (ret == 0)
@@ -159,6 +162,9 @@ namespace YVSDK
 			printf("YVIM_SendCmd: 0x%xFail.", request->m_requestCmd);
 			return false;
 		}
+#else
+        return false;
+#endif
 	}
 
 	void YVTool::cpLogin(std::string nickname, std::string uid)
@@ -184,7 +190,9 @@ namespace YVSDK
 	void YVTool::releaseSDK()
 	{
 		unRegisterMsgCallBack();
-		YVIM_Release();
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
+        YVIM_Release();
+#endif
 	}
 
 	void YVTool::registerMsgCallBack()

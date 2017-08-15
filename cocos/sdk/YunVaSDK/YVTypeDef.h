@@ -37,7 +37,14 @@ namespace YVSDK
 			m_requestCmd = cmd;
 		}
 
-		virtual YV_PARSER encode(){ return  yvpacket_get_parser(); }
+		virtual YV_PARSER encode()
+        {
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
+            return  yvpacket_get_parser();
+#else
+            return 0;
+#endif
+        }
 	};
 
 	struct YaYaRespondBase :public ARef
@@ -75,9 +82,13 @@ namespace YVSDK
 		std::string tt;  //cp登录凭证
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x11002::tt, tt.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -113,8 +124,12 @@ namespace YVSDK
 
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -124,7 +139,9 @@ namespace YVSDK
 		uint32	userid;
 		void decode(YV_PARSER parser)
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			userid = parser_get_uint32(parser, x11013::userid);
+#endif
 		}
 	};
 
@@ -142,10 +159,14 @@ namespace YVSDK
 
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_uint32(parser, x11014::appid, appid);
 			parser_set_cstring(parser, x11014::uid, uid.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -207,14 +228,18 @@ namespace YVSDK
 
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_uint32(parser, x19014::times, times);
 			parser_set_uint8(parser, x19014::volume, volume);
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 	
-	//开始录音(最长60秒)  IM_CHANNEL_VOICEMSG_REQ	
+	//开始录音(最长60秒)  IM_CHANNEL_VOICEMSG_REQ
 	struct StartRecordRequest :YaYaRequestBase
 	{
 		std::string strFilePath;
@@ -228,11 +253,15 @@ namespace YVSDK
 
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x19000::strfilepath, strFilePath.c_str());
 			parser_set_cstring(parser, x19000::ext, ext.c_str());
 			parser_set_uint8(parser, x19000::speech, speech);
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -246,8 +275,12 @@ namespace YVSDK
 
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -293,11 +326,15 @@ namespace YVSDK
 		std::string ext;
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x19003::strUrl, strUrl.c_str());
 			parser_set_cstring(parser, x19003::strfilepath, strfilepath.c_str());
 			parser_set_cstring(parser, x19003::ext, ext.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -335,14 +372,18 @@ namespace YVSDK
 		yvimspeech_outlanguage outLanguage;
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_uint8(parser, x19008::inlanguage, inLanguage);
 			parser_set_uint8(parser, x19008::outlanguage, outLanguage);
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
-	//开始语音识别 IM_SPEECH_START_REQ	
+	//开始语音识别 IM_SPEECH_START_REQ
 	struct SpeechStartRequest :YaYaRequestBase
 	{
 		SpeechStartRequest()
@@ -355,12 +396,16 @@ namespace YVSDK
 		std::string    url;
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x19006::strfilepath, strfilepath.c_str());
 			parser_set_cstring(parser, x19006::ext, ext.c_str());
 			parser_set_uint8(parser, x19006::type, type);
 			parser_set_cstring(parser, x19006::url, url.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -407,10 +452,14 @@ namespace YVSDK
 		std::string fileid;
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x19010::filename, filename.c_str());
 			parser_set_cstring(parser, x19010::fileid, fileid.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
@@ -445,15 +494,19 @@ namespace YVSDK
 		std::string fileid;
 		YV_PARSER encode()
 		{
+#if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
 			YV_PARSER parser = yvpacket_get_parser();
 			parser_set_cstring(parser, x19012::url, url.c_str());
 			parser_set_cstring(parser, x19012::filename, filename.c_str());
 			parser_set_cstring(parser, x19012::fileid, fileid.c_str());
 			return parser;
+#else
+            return 0;
+#endif
 		}
 	};
 
-	//下载文件回应 IM_DOWNLOAD_FILE_RESP 
+	//下载文件回应 IM_DOWNLOAD_FILE_RESP
 	struct DownLoadFileRespond :YaYaRespondBase
 	{
 		uint32	result;     //返回码 0：成功，其他失败
