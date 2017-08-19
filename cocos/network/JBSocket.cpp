@@ -128,20 +128,25 @@ int JBSocket::Select()
 	}
 	FD_ZERO(&_fdR);
 	FD_SET(_sock, &_fdR);;
-	//	struct timeval mytimeout;
-	//	mytimeout.tv_sec = 3;
-	//	mytimeout.tv_usec = 0;
-	int result = select(_sock + 1, &_fdR, NULL, NULL, NULL);
+	struct timeval to;
+	to.tv_sec = 5;
+	to.tv_usec = 0;
+	int result = select(_sock + 1, &_fdR, NULL, NULL, &to);
 	if (result == -1) {
 		return -1;
 	}
-	else {
-		if (FD_ISSET(_sock, &_fdR)) {
-			return -2;
-		}
-		else {
-			return -3;
-		}
+	else if (result == 0){
+       return 0;
+    }
+    else
+    {
+        if (FD_ISSET(_sock, &_fdR)) {
+			return 1;
+        }
+        else
+        {
+            return -1;
+        }
 	}
 }
 
@@ -177,7 +182,7 @@ void JBSocket::RecvThread()
 	while (this->_isConnected)
 	{
 		int selectRes = this->Select();
-		if (selectRes == -2) 
+        if (selectRes == 0 || selectRes == 1)
 		{
 			if (!this->RecvSyn())
 			{
