@@ -78,20 +78,73 @@ void IMDispatchMsgNode::initSDK(unsigned long appid){
     std::string path = FileUtils::getInstance()->getWritablePath();
 #endif
     YVTool::getInstance()->initSDK(appid, path, false, false);
+    
+    std::thread([this]()->void {this->SendThread(); }).detach();
     //m_length = length;
+}
+
+void IMDispatchMsgNode::SendThread()
+{
+    
+    while (true)
+    {
+        CMD cmd;
+        _sendMutex.lock();
+        if (_cmds.size() > 0)
+        {
+            cmd = _cmds.back();
+            _cmds.pop();
+        }
+        _sendMutex.unlock();
+        switch (cmd.type)
+        {
+            case CMDType::Start:
+                YVTool::getInstance()->startRecord(RECODEPATH,2);//2:边录音边上传
+                break;
+            case CMDType::Stop:
+                YVTool::getInstance()->stopRecord();
+                break;
+            case CMDType::PlayRecord:
+                YVTool::getInstance()->playRecord("", RECODEPATH, "");
+                break;
+            case CMDType::PlayURL:
+                YVTool::getInstance()->playRecord(cmd.data,"");
+                break;
+            case CMDType::None:
+            {
+                std::chrono::milliseconds dura(1);
+                std::this_thread::sleep_for(dura);
+            }
+            break;
+        }
+        
+    }
+    
+}
+
+bool IMDispatchMsgNode::Send(CMDType type,std::string data)
+{
+    _sendMutex.lock();
+    CMD cmd;
+    cmd.type = type;
+    cmd.data = data;
+    _cmds.emplace(cmd);
+    _sendMutex.unlock();
+    return true;
 }
 
 void IMDispatchMsgNode::cpLogin(std::string nickname,std::string uid){
     YVTool::getInstance()->cpLogin(nickname, uid);
 }
+
 bool IMDispatchMsgNode::startRecord(){
-    return YVTool::getInstance()->startRecord(RECODEPATH,2);//2:边录音边上传
+    return Send(CMDType::Start);
 }
 void IMDispatchMsgNode::stopRecord(){
-    YVTool::getInstance()->stopRecord();
+    Send(CMDType::Stop);
 }
 bool IMDispatchMsgNode::playRecord(){
-    return YVTool::getInstance()->playRecord("", RECODEPATH, "");
+    return Send(CMDType::PlayRecord);
 }
 void IMDispatchMsgNode::playFromUrl(std::string url){
 // #if (CC_TARGET_PLATFORM != CC_PLATFORM_WIN32)
@@ -106,7 +159,7 @@ void IMDispatchMsgNode::playFromUrl(std::string url){
     // }
 // #endif
     
-    YVTool::getInstance()->playRecord(url,"");   //只云播放
+    Send(CMDType::PlayURL,url);
 }
 
 void IMDispatchMsgNode::stopPlay(){

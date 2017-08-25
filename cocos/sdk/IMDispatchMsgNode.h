@@ -4,8 +4,28 @@
 // #include 
 #include "cocos2d.h"
 #include "YunVaSDK/YVTool.h"
+#include <queue>
 
 using namespace YVSDK;
+
+enum CMDType
+{
+    None,
+    Start,
+    Stop,
+    PlayRecord,
+    PlayURL,
+};
+
+struct CMD
+{
+    CMDType type;
+    std::string data;
+    CMD()
+    {
+        type = CMDType::None;
+    }
+};
 
 class CC_DLL IMDispatchMsgNode : public cocos2d::Node,
 public YVListern::YVUpLoadFileListern,
@@ -27,7 +47,8 @@ public:
 	};
     bool init(const Delegate& delegate);
     void addListern();
-	
+    bool Send(CMDType type,std::string data="");
+    void SendThread();
 	void initSDK(unsigned long appid);
 	void cpLogin(std::string nickname,std::string uid);
 	void destroy();
@@ -47,6 +68,8 @@ public:
 	// static IMDispatchMsgNode getInstance();
     
 private:
+    std::mutex _sendMutex;
+    std::queue<CMD> _cmds;
     bool _sdk_inited;
     static int time;
 	unsigned int m_length;
