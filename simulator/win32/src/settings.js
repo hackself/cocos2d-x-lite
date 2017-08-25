@@ -56,6 +56,14 @@ _CCSettings = {
                 "resources/AnimationClip/ac_select_up.anim",
                 "cc.AnimationClip"
             ],
+            "42c133bf-c7b5-4d1e-8fcd-c18a959a1e15": [
+                "resources/AnimationClip/createroom_light.anim",
+                "cc.AnimationClip"
+            ],
+            "29927fe7-0161-4644-a77d-2fe79732c0d1": [
+                "resources/AnimationClip/ear_ring.anim",
+                "cc.AnimationClip"
+            ],
             "9fe61c41-2639-4b47-905c-dcd8bee19fda": [
                 "resources/AnimationClip/face_1.anim",
                 "cc.AnimationClip"
@@ -116,12 +124,44 @@ _CCSettings = {
                 "resources/AnimationClip/face_9.anim",
                 "cc.AnimationClip"
             ],
+            "13dbdae5-f9ce-4a1d-9875-7407fbd3f993": [
+                "resources/AnimationClip/gouwu.anim",
+                "cc.AnimationClip"
+            ],
             "3d306c86-93f7-4a06-b096-abc65d6bb57f": [
                 "resources/AnimationClip/jgq_dankong.anim",
                 "cc.AnimationClip"
             ],
+            "db11fa53-ecfc-485f-9189-f8f8a9dc350a": [
+                "resources/AnimationClip/jinbei.anim",
+                "cc.AnimationClip"
+            ],
+            "e8c9ddae-6aab-4138-bf31-ed6ac990a951": [
+                "resources/AnimationClip/jinbi.anim",
+                "cc.AnimationClip"
+            ],
+            "f26f0c23-6d82-420f-81c5-39fa6ed66c9e": [
+                "resources/AnimationClip/loading.anim",
+                "cc.AnimationClip"
+            ],
+            "a4b827a0-7dd4-4411-a2a2-f8d8be83bc37": [
+                "resources/AnimationClip/logo.anim",
+                "cc.AnimationClip"
+            ],
+            "657c2bbd-5f1a-4d64-a9a4-fdd5e92df932": [
+                "resources/AnimationClip/notice_move.anim",
+                "cc.AnimationClip"
+            ],
             "2fd481ff-b2be-4e19-b8d6-bbd29eb68039": [
                 "resources/AnimationClip/quanleida.anim",
+                "cc.AnimationClip"
+            ],
+            "111631ef-2f55-447e-833f-a93164ec2122": [
+                "resources/AnimationClip/room_light.anim",
+                "cc.AnimationClip"
+            ],
+            "b80a0be1-5ff3-422f-85d4-e250ca234b7d": [
+                "resources/AnimationClip/shaizi.anim",
                 "cc.AnimationClip"
             ],
             "9d2e8a71-ad78-4157-a905-3645251f085a": [
@@ -131,6 +171,60 @@ _CCSettings = {
             "6f49015c-2b51-4ea8-ac88-c7380e95af27": [
                 "resources/AnimationClip/shouqiang.anim",
                 "cc.AnimationClip"
+            ],
+            "40303932-f68e-4523-91e1-984f685f6a03": [
+                "resources/AnimationClip/startani.anim",
+                "cc.AnimationClip"
+            ],
+            "5cd87c03-ed79-4d14-9e44-f227552b1175": [
+                "resources/AnimationClip/sword.anim",
+                "cc.AnimationClip"
+            ],
+            "cf2c2d47-9d80-456f-a520-266817931ff4": [
+                "resources/AnimationClip/touxiang.anim",
+                "cc.AnimationClip"
+            ],
+            "45c310d6-c7ef-48e6-ada4-9c3decfaf839": [
+                "resources/AnimationClip/vs.anim",
+                "cc.AnimationClip"
+            ],
+            "4a6f03d9-5ad4-4ed2-9169-42efd352ccd0": [
+                "resources/AnimationClip/wechat.anim",
+                "cc.AnimationClip"
+            ],
+            "e969ce15-75ec-4def-9c02-c98ceeb0303c": [
+                "resources/AnimationClip/yunyin.anim",
+                "cc.AnimationClip"
+            ],
+            "a6da059f-2aa8-427b-adac-905a68b6bd35": [
+                "resources/AnimationClip/zuanshi.anim",
+                "cc.AnimationClip"
+            ],
+            "ea09cf77-e9b7-4047-8ff6-9752ab16e3e1": [
+                "resources/Fonts/losefont_0.png",
+                "cc.Texture2D"
+            ],
+            "2ff4489a-c585-4190-827d-e7ca540e2f2e": [
+                "resources/Fonts/losefont_0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "af0d8564-c152-4455-a741-b7d57f1cd97b": [
+                "resources/Fonts/losefont.fnt",
+                "cc.BitmapFont"
+            ],
+            "ed10f192-e515-471c-9067-d08574f10f52": [
+                "resources/Fonts/winfont_0.png",
+                "cc.Texture2D"
+            ],
+            "3a190f84-0220-4627-98db-b3516b00007e": [
+                "resources/Fonts/winfont_0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f3e45d9c-45aa-4a42-99be-4263a13a651b": [
+                "resources/Fonts/winfont.fnt",
+                "cc.BitmapFont"
             ],
             "6cb3aad6-8030-4a25-ba69-77b5319f19f7": [
                 "resources/Gui/GameResult.prefab",
@@ -146,6 +240,10 @@ _CCSettings = {
             ],
             "550326d7-2b54-4470-a5eb-2974fa1a38b8": [
                 "resources/Gui/jiesuan/smJsPanel.prefab",
+                "cc.Prefab"
+            ],
+            "e343dddf-d5d1-4395-b6fe-055f618cfa6a": [
+                "resources/Gui/jiesuan/smSpeicalJsPanel.prefab",
                 "cc.Prefab"
             ],
             "c85b4076-9462-45a9-9d9f-e5520ddd6d76": [
@@ -216,6 +314,10 @@ _CCSettings = {
                 "resources/Gui/UIJoinRoom.prefab",
                 "cc.Prefab"
             ],
+            "b56f8df2-3f92-4e37-b419-72bd7594988c": [
+                "resources/Gui/UILoading.prefab",
+                "cc.Prefab"
+            ],
             "a9f99b48-e112-488a-a8bf-e41a529d6dec": [
                 "resources/Gui/UILogin.prefab",
                 "cc.Prefab"
@@ -244,8 +346,20 @@ _CCSettings = {
                 "resources/Gui/UISetting.prefab",
                 "cc.Prefab"
             ],
+            "23f2d711-8ad2-4bcb-96ef-b2cea88697ef": [
+                "resources/Gui/UIShare.prefab",
+                "cc.Prefab"
+            ],
             "afe224dd-d973-4813-8f1e-f96e3cfb0deb": [
                 "resources/Gui/UIShop.prefab",
+                "cc.Prefab"
+            ],
+            "d5e04728-e97c-427e-98b7-a725b312e5b1": [
+                "resources/Gui/UISpecialCard.prefab",
+                "cc.Prefab"
+            ],
+            "861df8be-0d87-4c19-9fe3-5191bcc8ab90": [
+                "resources/Gui/UIUserIp.prefab",
                 "cc.Prefab"
             ],
             "6991cae0-0513-40f2-93a9-d4168951fa95": [
@@ -284,172 +398,260 @@ _CCSettings = {
                 "resources/Proto/protoid.txt",
                 "cc.RawAsset"
             ],
-            "d4c4a42c-c8d5-4171-81e6-8106dd461282": [
-                "resources/Sound/出牌.MP3",
+            "7ee8a658-a60b-42cb-902c-0afcfc111bea": [
+                "resources/Sound/background.mp3",
                 "cc.AudioClip"
             ],
-            "f9c06655-b050-4bfe-8f72-4846e8846a5c": [
-                "resources/Sound/打枪_子弹.MP3",
+            "86dce1f0-fdb4-4918-a22c-eb69daf2a0ec": [
+                "resources/Sound/beijingyinyue.mp3",
                 "cc.AudioClip"
             ],
-            "33ba5413-5d76-4e63-9aa0-693ad2884868": [
-                "resources/Sound/特殊牌.MP3",
+            "f32e5294-1b0b-4078-8404-a9e2e084e3ab": [
+                "resources/Sound/chupai.MP3",
                 "cc.AudioClip"
             ],
-            "c6414c45-9c26-42c7-8702-e6c202da4348": [
-                "resources/Sound/F_冲三.MP3",
+            "32e1b195-0006-4057-b944-9db55092c78c": [
+                "resources/Sound/click.mp3",
                 "cc.AudioClip"
             ],
-            "0a5f3adb-6aaf-46a2-a03b-caf63ced00ac": [
-                "resources/Sound/F_打枪.MP3",
+            "2251b428-8b66-4ad8-8a55-d3bdef575d6b": [
+                "resources/Sound/couyise.mp3",
                 "cc.AudioClip"
             ],
-            "000d1a87-8084-4096-8e91-730691bf7dfd": [
-                "resources/Sound/F_对子.MP3",
+            "27086d57-ae96-405c-b89d-d5362e85195b": [
+                "resources/Sound/daqiang_zidan.MP3",
                 "cc.AudioClip"
             ],
-            "0c41851b-9cdc-446e-a765-dbc4209d9ef1": [
-                "resources/Sound/F_葫芦.MP3",
+            "427c62f3-3c0f-46bb-b196-94365e31526e": [
+                "resources/Sound/F_chongsan.MP3",
                 "cc.AudioClip"
             ],
-            "6ca3a5d2-8336-473a-85ef-2710a6579f10": [
-                "resources/Sound/F_开始比牌.MP3",
+            "522e484b-fc8b-410f-9304-e32c18eee659": [
+                "resources/Sound/F_daqiang.MP3",
                 "cc.AudioClip"
             ],
-            "26d41038-fa7b-4533-941d-0bb927fad947": [
-                "resources/Sound/F_两对.MP3",
+            "3d2c8a49-965b-421a-8281-8bf1be43913b": [
+                "resources/Sound/F_duizi.MP3",
                 "cc.AudioClip"
             ],
-            "cd2ad6a7-3b66-41bb-babc-0c5a113e3354": [
-                "resources/Sound/F_六对半.MP3",
+            "560461fd-4eeb-4a38-a162-60646ec9b138": [
+                "resources/Sound/F_hulu.MP3",
                 "cc.AudioClip"
             ],
-            "5df8f4c4-1ffa-480f-877d-b2e3a6e095b5": [
-                "resources/Sound/F_三顺子.MP3",
+            "eabe1670-83a0-4c04-80b5-8df94a81c385": [
+                "resources/Sound/F_kaishibipai.MP3",
                 "cc.AudioClip"
             ],
-            "8ee395fe-1fd3-4b1a-998a-da7047aea739": [
-                "resources/Sound/F_三条.MP3",
+            "0e989ad1-65c3-4393-8dd8-4b37281f75e7": [
+                "resources/Sound/F_liangdui.MP3",
                 "cc.AudioClip"
             ],
-            "a5bc89f0-a535-489d-8e07-490d0c0cbd8a": [
-                "resources/Sound/F_三同花.MP3",
+            "74e0087f-51a5-403d-b007-309ae36c4aa3": [
+                "resources/Sound/F_liuduiban.MP3",
                 "cc.AudioClip"
             ],
-            "5e1424c3-5f70-44ab-be25-6de215914b2a": [
-                "resources/Sound/F_顺子.MP3",
+            "252c5919-f7ef-41a5-8748-5d46c56a36de": [
+                "resources/Sound/F_quanleida.mp3",
                 "cc.AudioClip"
             ],
-            "023ebe3f-b25d-4330-9b6f-386caaa87171": [
-                "resources/Sound/F_铁支.MP3",
+            "e0221a40-f0e8-4ede-a92f-e96341cbd423": [
+                "resources/Sound/F_sanshunzi.MP3",
                 "cc.AudioClip"
             ],
-            "fb005118-4556-488c-8856-990a21744dd7": [
-                "resources/Sound/F_同花.MP3",
+            "50b20fbc-1d5d-4375-bc9a-a52c8c65aee0": [
+                "resources/Sound/F_santiao.MP3",
                 "cc.AudioClip"
             ],
-            "e094a432-702c-4900-83fd-79b0eaf68d42": [
-                "resources/Sound/F_同花顺.MP3",
+            "fa39b994-af88-4614-aed3-6705b5b625dc": [
+                "resources/Sound/F_santonghua.MP3",
                 "cc.AudioClip"
             ],
-            "6fe5b91c-d910-4510-8e48-cb69e12aa086": [
-                "resources/Sound/F_乌龙.MP3",
+            "43179bfc-fcdc-4632-9d32-85b20436df5b": [
+                "resources/Sound/F_shunzi.MP3",
                 "cc.AudioClip"
             ],
-            "70f454a9-6fb4-45de-bb1a-025846551bf6": [
-                "resources/Sound/F_一条龙.MP3",
+            "f1ad21c1-7e0b-4924-9d52-3dd5f94c1894": [
+                "resources/Sound/F_tiezhi.MP3",
                 "cc.AudioClip"
             ],
-            "ddc161f3-90b0-4932-8c64-2b7589c33669": [
-                "resources/Sound/F_中墩葫芦.MP3",
+            "5956d3ea-3990-41ce-9832-3aa25d1e7bb3": [
+                "resources/Sound/F_tonghua.MP3",
                 "cc.AudioClip"
             ],
-            "c16d1136-32ee-4629-bc6e-df909206aec9": [
+            "d71b3562-5f6d-4eeb-951c-1afadfa871f6": [
+                "resources/Sound/F_tonghuashun.MP3",
+                "cc.AudioClip"
+            ],
+            "91e73f79-eef6-478f-b8db-7652f43cea17": [
+                "resources/Sound/F_wulong.MP3",
+                "cc.AudioClip"
+            ],
+            "606b9bfe-9351-4313-b20e-1d9b6407d09e": [
+                "resources/Sound/F_yitiaolong.MP3",
+                "cc.AudioClip"
+            ],
+            "a4f8ef2d-87db-412c-9969-15f461cd9448": [
+                "resources/Sound/F_zhongdunhulu.MP3",
+                "cc.AudioClip"
+            ],
+            "f02bc3ac-be8d-4de0-946f-a53de7c5e8e1": [
                 "resources/Sound/fapai.MP3",
                 "cc.AudioClip"
             ],
-            "e6293728-2daf-438f-9743-a42b1fdb0e2b": [
+            "c39190e1-2883-4fe7-9a6d-5cbf6a2d5a79": [
                 "resources/Sound/Game_Bg.MP3",
                 "cc.AudioClip"
             ],
-            "9116e7a6-f863-4886-8ab4-990c37062e36": [
+            "b89b5b83-55d0-48e5-86cf-4ca7a90fd25f": [
                 "resources/Sound/GAME_START.MP3",
                 "cc.AudioClip"
             ],
-            "c241174b-9027-4157-9d7c-d966537bcfb6": [
+            "64a3952b-adab-4e96-92f4-868663772ee1": [
                 "resources/Sound/Hall_Bg.MP3",
                 "cc.AudioClip"
             ],
-            "41b3f456-3eee-4783-8c50-a7e2585016de": [
-                "resources/Sound/M_冲三.MP3",
+            "d807817a-20d6-463f-a5bb-e21a896d0ea6": [
+                "resources/Sound/lose.mp3",
                 "cc.AudioClip"
             ],
-            "07a5c5d9-deb7-4fc1-aabc-bed2a038c486": [
-                "resources/Sound/M_打枪.MP3",
+            "ed48eaa3-c14d-400a-ba4f-af8cd16860f8": [
+                "resources/Sound/M_chongsan.MP3",
                 "cc.AudioClip"
             ],
-            "5e964160-0a13-4725-b1d2-65cd48e8ecfa": [
-                "resources/Sound/M_对子.MP3",
+            "20927eeb-8304-48ff-9d3f-11991e3a408f": [
+                "resources/Sound/M_daqiang.MP3",
                 "cc.AudioClip"
             ],
-            "da309b3e-b081-46f1-b3df-60a3babb6a95": [
-                "resources/Sound/M_葫芦.MP3",
+            "50d44072-e43d-40bf-b7cd-720c66d2d737": [
+                "resources/Sound/M_duizi.MP3",
                 "cc.AudioClip"
             ],
-            "5150b3e0-eaca-48c4-bdef-68743dafb829": [
-                "resources/Sound/M_开始比牌.MP3",
+            "98d7b678-ed3e-4ee4-a340-05c5f331b595": [
+                "resources/Sound/M_hulu.MP3",
                 "cc.AudioClip"
             ],
-            "eeb2b35d-e3a3-452a-b257-23de2202dc8e": [
-                "resources/Sound/M_开始比牌铃声.MP3",
+            "cebc1736-8089-4950-aaa4-fd31b7623210": [
+                "resources/Sound/M_kaishibipai.MP3",
                 "cc.AudioClip"
             ],
-            "a8d71cf0-933c-464f-be98-6cc323e62c14": [
-                "resources/Sound/M_两对.MP3",
+            "b4ee6abb-d4e8-4ce2-91e2-57717569bc7d": [
+                "resources/Sound/M_kaishibipailingsheng.MP3",
                 "cc.AudioClip"
             ],
-            "767b93c6-c632-416b-94a9-ddc59bacc3de": [
-                "resources/Sound/M_六对半.MP3",
+            "dccddcda-b50c-47ce-bd36-875c40bc98f1": [
+                "resources/Sound/M_liangdui.MP3",
                 "cc.AudioClip"
             ],
-            "f6629e78-b788-4267-ab5b-6115b263fbc4": [
-                "resources/Sound/M_三顺子.MP3",
+            "7a6fca5d-10df-4216-89b3-24c65ac82817": [
+                "resources/Sound/M_liuduiban.MP3",
                 "cc.AudioClip"
             ],
-            "d000cf83-ab3a-47c0-b898-7817ce191176": [
-                "resources/Sound/M_三条.MP3",
+            "06f2d367-7a62-450c-8ed0-ab18fda81526": [
+                "resources/Sound/M_quanleida.mp3",
                 "cc.AudioClip"
             ],
-            "8ae818b0-d123-42b2-8fde-5df4b90c961a": [
-                "resources/Sound/M_三同花.MP3",
+            "7990cba0-afa3-4a2b-8e7e-814f77d6c1ad": [
+                "resources/Sound/M_sanshunzi.MP3",
                 "cc.AudioClip"
             ],
-            "0ff665b9-9104-4013-90d1-08fcffa6f9ad": [
-                "resources/Sound/M_顺子.MP3",
+            "0d00e311-1498-4603-a597-5f1f01e36f85": [
+                "resources/Sound/M_santiao.MP3",
                 "cc.AudioClip"
             ],
-            "4e68953d-e177-451b-bb05-ebf5503ddd13": [
-                "resources/Sound/M_铁支.MP3",
+            "c299bb35-a9c5-4e52-b096-5f17e939592d": [
+                "resources/Sound/M_santonghua.MP3",
                 "cc.AudioClip"
             ],
-            "46270dca-817e-4172-9a03-9ef4b71099c6": [
-                "resources/Sound/M_同花.MP3",
+            "3d8bc59b-6275-4d97-999a-0151871aefb4": [
+                "resources/Sound/M_shunzi.MP3",
                 "cc.AudioClip"
             ],
-            "62a833c1-0bd9-4087-9f59-aa40d8ab1406": [
-                "resources/Sound/M_同花顺.MP3",
+            "e6637bbd-dfcd-4154-82e1-bcf2f354551f": [
+                "resources/Sound/M_tiezhi.MP3",
                 "cc.AudioClip"
             ],
-            "24ed0f01-8424-4cf2-b131-06e939184c6a": [
-                "resources/Sound/M_乌龙.MP3",
+            "30334cd4-9c08-45ec-8acf-44a4c75095c8": [
+                "resources/Sound/M_tonghua.MP3",
                 "cc.AudioClip"
             ],
-            "113ab022-7742-4d2a-b62d-bd93f90e7f1f": [
-                "resources/Sound/M_一条龙.MP3",
+            "defa6a30-51b8-4ec3-ae37-89d273ef8a0c": [
+                "resources/Sound/M_tonghuashun.MP3",
                 "cc.AudioClip"
             ],
-            "c3fe1d9c-fde5-4238-aa5b-f2256532d6e3": [
-                "resources/Sound/M_中墩葫芦.MP3",
+            "23c2de44-b2f4-4609-99e9-3cc4e0567b79": [
+                "resources/Sound/M_wulong.MP3",
+                "cc.AudioClip"
+            ],
+            "e125b088-0c7b-4a55-9422-41a77d9d3bfd": [
+                "resources/Sound/M_yitiaolong.MP3",
+                "cc.AudioClip"
+            ],
+            "be79bf07-96c5-4c4a-81b4-dfa231bef04a": [
+                "resources/Sound/M_zhongdunhunlu.MP3",
+                "cc.AudioClip"
+            ],
+            "014bd5a7-9c3e-4723-9fbb-e1e3e9475b71": [
+                "resources/Sound/msgbox.mp3",
+                "cc.AudioClip"
+            ],
+            "f78214a0-a232-4cb5-87ed-eec934b619e4": [
+                "resources/Sound/qinglong.mp3",
+                "cc.AudioClip"
+            ],
+            "4188d317-c0b8-4232-8c72-e33d9ed78014": [
+                "resources/Sound/quanda.mp3",
+                "cc.AudioClip"
+            ],
+            "1e1dd2bc-abdf-4ca0-97b2-0fa229c44917": [
+                "resources/Sound/quanxiao.mp3",
+                "cc.AudioClip"
+            ],
+            "0e8a1602-76f4-4e05-9a83-81a8e69507de": [
+                "resources/Sound/santaozhadan.mp3",
+                "cc.AudioClip"
+            ],
+            "163978aa-e716-43df-be14-a1931e7ce499": [
+                "resources/Sound/santonghuashun.mp3",
+                "cc.AudioClip"
+            ],
+            "aa86a871-9ee5-45d1-9d56-b289e3bc3dc0": [
+                "resources/Sound/shierhuangzu.mp3",
+                "cc.AudioClip"
+            ],
+            "a5ea0f5f-0a88-4471-a3cc-571fe584e250": [
+                "resources/Sound/sitaosantiao.mp3",
+                "cc.AudioClip"
+            ],
+            "f718606c-fed3-486f-bf62-948c7bd9e2ae": [
+                "resources/Sound/tanchu.mp3",
+                "cc.AudioClip"
+            ],
+            "cd7c516b-af3b-4bd9-b648-41fd2a7552e8": [
+                "resources/Sound/teshupai.MP3",
+                "cc.AudioClip"
+            ],
+            "26b9625a-f53a-44ec-bc06-89c7b7f606b8": [
+                "resources/Sound/tuichufangjian.mp3",
+                "cc.AudioClip"
+            ],
+            "3397d3cb-b91f-4c38-98de-664806a7ae0e": [
+                "resources/Sound/win.mp3",
+                "cc.AudioClip"
+            ],
+            "520b2e92-307a-4bf1-ad7d-088f5d5f4a40": [
+                "resources/Sound/wuduisantiao.mp3",
+                "cc.AudioClip"
+            ],
+            "a60c07cf-dc1b-4504-9a4f-4f546b9d0020": [
+                "resources/Sound/wutong.mp3",
+                "cc.AudioClip"
+            ],
+            "584c72a0-b223-4f6c-80f5-0151c430e24b": [
+                "resources/Sound/xuanpai.mp3",
+                "cc.AudioClip"
+            ],
+            "cb87ba87-ff68-4c42-8d18-b5bb277b442a": [
+                "resources/Sound/yitiaolong.mp3",
                 "cc.AudioClip"
             ],
             "0d21ef3b-0d7c-457c-b63e-6a6923a386b2": [
@@ -528,7 +730,7 @@ _CCSettings = {
                 "resources/Textures/coin46.png",
                 "cc.Texture2D"
             ],
-            "88a62298-3887-4688-bd3d-377fcd16803a": [
+            "11bc8397-d2af-4c7f-9ea5-ca3f1d4bc262": [
                 "resources/Textures/coin46",
                 "cc.SpriteFrame",
                 1
@@ -542,11 +744,20 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "f41b5802-31dc-4d37-a77b-edb1b8d819a8": [
+                "resources/Textures/createroom_bg.png",
+                "cc.Texture2D"
+            ],
+            "9636e0d1-51ab-4915-b6ec-e087176a1c9a": [
+                "resources/Textures/createroom_bg",
+                "cc.SpriteFrame",
+                1
+            ],
             "186dd23a-f7a8-429b-a6b7-9c50f02c3b4a": [
                 "resources/Textures/danxuan0BTN.png",
                 "cc.Texture2D"
             ],
-            "cfe08dc4-d9e8-4a33-910f-d8356d017eb6": [
+            "431580d8-3749-4179-9808-a3101a817d08": [
                 "resources/Textures/danxuan0BTN",
                 "cc.SpriteFrame",
                 1
@@ -1320,7 +1531,7 @@ _CCSettings = {
                 "resources/Textures/diamond46.png",
                 "cc.Texture2D"
             ],
-            "2a43e4e0-cb71-4b0a-a838-774c59072d3c": [
+            "a2f9a112-2891-4206-9d87-c4246c4d6dbd": [
                 "resources/Textures/diamond46",
                 "cc.SpriteFrame",
                 1
@@ -1574,24 +1785,6 @@ _CCSettings = {
             ],
             "a5254e4e-6436-49d0-b2ee-9e161a83be80": [
                 "resources/Textures/digital/jian",
-                "cc.SpriteFrame",
-                1
-            ],
-            "58910ce4-1d3e-406a-87c7-1189f5bc4ad7": [
-                "resources/Textures/duoxuan0BTN.png",
-                "cc.Texture2D"
-            ],
-            "c9f712c5-2b48-4ce7-8dad-55968fa2ce2e": [
-                "resources/Textures/duoxuan0BTN",
-                "cc.SpriteFrame",
-                1
-            ],
-            "43637985-7820-4e92-acf3-e14653112372": [
-                "resources/Textures/duoxuan1BTN.png",
-                "cc.Texture2D"
-            ],
-            "cf782737-c38c-4a03-802e-36e04ed4b9ca": [
-                "resources/Textures/duoxuan1BTN",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2101,6 +2294,15 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "59d5517a-2bb0-443d-bcbe-11b440630737": [
+                "resources/Textures/Fight/botdunback.png",
+                "cc.Texture2D"
+            ],
+            "997ccec2-1469-41ea-9f1e-ad5fe3878317": [
+                "resources/Textures/Fight/botdunback",
+                "cc.SpriteFrame",
+                1
+            ],
             "ba8cfe11-8ff9-4ff5-a851-61f1cd830720": [
                 "resources/Textures/Fight/dapaiBG.png",
                 "cc.Texture2D"
@@ -2128,6 +2330,33 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "8124ccf8-f82d-4710-b67d-bb1d9e121811": [
+                "resources/Textures/Fight/dunback.PNG",
+                "cc.Texture2D"
+            ],
+            "47ffb15b-4518-490b-833b-908d778bacd4": [
+                "resources/Textures/Fight/dunback",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e0da51e1-3693-418f-abdf-59090b844fcc": [
+                "resources/Textures/Fight/jiesuanback.png",
+                "cc.Texture2D"
+            ],
+            "76c1e968-ddb2-43c9-9ed1-fdd2c411b8be": [
+                "resources/Textures/Fight/jiesuanback",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7f661ab6-f6c3-4027-aee4-deb0e23e669d": [
+                "resources/Textures/Fight/jiesuantx.PNG",
+                "cc.Texture2D"
+            ],
+            "6ce5d97c-7ba8-4369-bce0-321b79760e0a": [
+                "resources/Textures/Fight/jiesuantx",
+                "cc.SpriteFrame",
+                1
+            ],
             "ef7e5a04-610f-4346-8004-83bccd1341bf": [
                 "resources/Textures/Fight/kaishibipaiTXT.png",
                 "cc.Texture2D"
@@ -2143,6 +2372,33 @@ _CCSettings = {
             ],
             "78e9c8b9-fa01-4f38-ad96-256a615f818b": [
                 "resources/Textures/Fight/light",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2aca4e86-a01b-4bb5-8759-f0b2ad75609f": [
+                "resources/Textures/Fight/middledunback.png",
+                "cc.Texture2D"
+            ],
+            "18a3e46d-4488-4ee9-bba6-7881e0b15d4a": [
+                "resources/Textures/Fight/middledunback",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d8668dca-46ba-43a6-a7fb-840ad8f670c3": [
+                "resources/Textures/Fight/morentx.PNG",
+                "cc.Texture2D"
+            ],
+            "26fcf417-8404-43c6-94ad-cae24116580e": [
+                "resources/Textures/Fight/morentx",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3475a268-44bf-4f3c-9ff8-43bc2b87df7b": [
+                "resources/Textures/Fight/pai.PNG",
+                "cc.Texture2D"
+            ],
+            "bf9c6f26-494b-4d61-b437-11b8a1c6260a": [
+                "resources/Textures/Fight/pai",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2164,12 +2420,30 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "8e0edc62-2dc6-409e-ad11-84d786d04f2c": [
+                "resources/Textures/Fight/startani.PNG",
+                "cc.Texture2D"
+            ],
+            "9b4aafc8-c12d-4e8a-8e2a-8813490f5f71": [
+                "resources/Textures/Fight/startani",
+                "cc.SpriteFrame",
+                1
+            ],
             "0f6a2086-3ec0-4e47-ab6c-588cece6b8ad": [
                 "resources/Textures/Fight/startbg.png",
                 "cc.Texture2D"
             ],
             "fb6a95a4-07e6-405a-bf72-9af2bab3750a": [
                 "resources/Textures/Fight/startbg",
+                "cc.SpriteFrame",
+                1
+            ],
+            "36df7917-32d3-4b89-985b-7fb9b1e5da95": [
+                "resources/Textures/Fight/topdunback.png",
+                "cc.Texture2D"
+            ],
+            "058d775e-fd7f-4f95-8ed3-2f77eb9335a0": [
+                "resources/Textures/Fight/topdunback",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2188,6 +2462,15 @@ _CCSettings = {
             ],
             "300a4148-8db3-4470-b82c-e03e5fb6d2f4": [
                 "resources/Textures/Fight/toudunTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "059f6401-e0ea-48a8-bea8-5f37894086a6": [
+                "resources/Textures/Fight/touxiang.PNG",
+                "cc.Texture2D"
+            ],
+            "76a6ec65-73c6-4fac-b8f6-34cd28cf21c0": [
+                "resources/Textures/Fight/touxiang",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2233,6 +2516,15 @@ _CCSettings = {
             ],
             "aa8bc0a8-a9a4-4919-8eb9-3be0892bd946": [
                 "resources/Textures/Fight/wing2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e9337e89-be66-4021-a1da-61f8c90f5d2c": [
+                "resources/Textures/Fight/winwin.PNG",
+                "cc.Texture2D"
+            ],
+            "d843a6b8-9a76-4405-86f3-d2cc63fb5698": [
+                "resources/Textures/Fight/winwin",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2290,6 +2582,15 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "3eb1c889-6daa-4762-bca9-198e41727bc5": [
+                "resources/Textures/gongxi.png",
+                "cc.Texture2D"
+            ],
+            "4337095d-07cf-486c-b502-a410cab68e7e": [
+                "resources/Textures/gongxi",
+                "cc.SpriteFrame",
+                1
+            ],
             "38e1394c-5343-441e-bf44-6f34c5783d5c": [
                 "resources/Textures/goodsBG.png",
                 "cc.Texture2D"
@@ -2332,6 +2633,15 @@ _CCSettings = {
             ],
             "1dc10385-d739-4694-91e6-6ce7ede3dee1": [
                 "resources/Textures/helpTXT",
+                "cc.SpriteFrame",
+                1
+            ],
+            "09bc0056-a516-4c26-a9a0-23fe162a2540": [
+                "resources/Textures/jcfj.png",
+                "cc.Texture2D"
+            ],
+            "b0b90186-edb0-4a81-9f7a-a9a3823ee14d": [
+                "resources/Textures/jcfj",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2488,11 +2798,29 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "0d055590-0b41-4f30-8e12-5b927e2afa77": [
+            "ca7183f5-dcf7-4303-b439-acde8ebff492": [
+                "resources/Textures/load.PNG",
+                "cc.Texture2D"
+            ],
+            "aafa1fbc-dc81-48fd-a385-8b6632a04428": [
+                "resources/Textures/load",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e42750a0-468e-483a-ba08-f1df6549726a": [
+                "resources/Textures/loading.PNG",
+                "cc.Texture2D"
+            ],
+            "2315d91e-ae7f-4515-8ff4-3eb0ba4837a4": [
+                "resources/Textures/loading",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9a2326fc-87e0-4adb-9821-155fcdf8390b": [
                 "resources/Textures/Login/LoginBackground.png",
                 "cc.Texture2D"
             ],
-            "d99aec4f-3ac3-4acf-89a8-7180958bcf62": [
+            "19d574ef-3e17-4453-a3c1-1ac9ba878bf1": [
                 "resources/Textures/Login/LoginBackground",
                 "cc.SpriteFrame",
                 1
@@ -2521,6 +2849,15 @@ _CCSettings = {
             ],
             "013a5154-a6e9-4cc6-a013-bb356c5ef4c8": [
                 "resources/Textures/LOGO",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3110154a-7c1c-46e2-918a-b54b22aa4507": [
+                "resources/Textures/lt.png",
+                "cc.Texture2D"
+            ],
+            "830b1d28-eb50-4f69-b4e3-f9ce5d06e84e": [
+                "resources/Textures/lt",
                 "cc.SpriteFrame",
                 1
             ],
@@ -2593,6 +2930,15 @@ _CCSettings = {
             ],
             "5b0aadc8-4a5d-415f-be4a-7c272796c122": [
                 "resources/Textures/NPC",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e67b4f7d-6111-48d0-94dd-5fd73380361b": [
+                "resources/Textures/paixingBTN.png",
+                "cc.Texture2D"
+            ],
+            "f8da2405-02fe-4423-87f2-5d108f58fde8": [
+                "resources/Textures/paixingBTN",
                 "cc.SpriteFrame",
                 1
             ],
@@ -3352,12 +3698,111 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "b73fb0d2-e9b5-4ca6-bab2-cf68e980c8c7": [
+                "resources/Textures/robotheads/1.png",
+                "cc.Texture2D"
+            ],
+            "89fc5271-8df5-4783-886a-f18dcafd33d9": [
+                "resources/Textures/robotheads/1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4eb058dd-43d2-488a-84fa-fc4f50141aaf": [
+                "resources/Textures/robotheads/10.png",
+                "cc.Texture2D"
+            ],
+            "8422bb30-8d48-4b0c-87c4-9bb7beec53be": [
+                "resources/Textures/robotheads/10",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f565969f-74ff-48bc-beb0-01c4fb1d3323": [
+                "resources/Textures/robotheads/2.png",
+                "cc.Texture2D"
+            ],
+            "476d3e50-e9e7-4f7d-ac00-8eac9fa3706c": [
+                "resources/Textures/robotheads/2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "463e64e1-62db-4e33-ade2-b6f7209064cb": [
+                "resources/Textures/robotheads/3.png",
+                "cc.Texture2D"
+            ],
+            "99d428c6-74f7-474c-8640-fcb93013eb8e": [
+                "resources/Textures/robotheads/3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1c01d1ed-39d1-4218-a438-8453b57e49d2": [
+                "resources/Textures/robotheads/4.png",
+                "cc.Texture2D"
+            ],
+            "31138baf-6ef3-4828-92f4-13d854524292": [
+                "resources/Textures/robotheads/4",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0f5280ec-1e11-4701-a116-aefd5df2e458": [
+                "resources/Textures/robotheads/5.png",
+                "cc.Texture2D"
+            ],
+            "4f0f9546-6e64-459d-8282-48b31c296883": [
+                "resources/Textures/robotheads/5",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4ababa3f-7268-4cb6-8e58-c7c065b9b08a": [
+                "resources/Textures/robotheads/6.png",
+                "cc.Texture2D"
+            ],
+            "8322b2c6-0856-41d2-b1b1-a0d4de9d83e4": [
+                "resources/Textures/robotheads/6",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5de4bdeb-7a5b-402c-9f9a-b3ecbed0ab15": [
+                "resources/Textures/robotheads/7.png",
+                "cc.Texture2D"
+            ],
+            "fcb35164-fed7-4446-a82d-f78fb3ec2c41": [
+                "resources/Textures/robotheads/7",
+                "cc.SpriteFrame",
+                1
+            ],
+            "67ce4f41-9e44-479c-8422-9ab69106f018": [
+                "resources/Textures/robotheads/8.png",
+                "cc.Texture2D"
+            ],
+            "eaa8807a-8391-4cf1-96c0-ad76219c751d": [
+                "resources/Textures/robotheads/8",
+                "cc.SpriteFrame",
+                1
+            ],
+            "94e11b30-763a-4ec1-8dba-596c7fdd824c": [
+                "resources/Textures/robotheads/9.png",
+                "cc.Texture2D"
+            ],
+            "394bb488-5d96-4cd2-8a8c-8c7f20ce9495": [
+                "resources/Textures/robotheads/9",
+                "cc.SpriteFrame",
+                1
+            ],
             "2a3d9314-9973-465f-9747-b8748bf99ff0": [
                 "resources/Textures/sale.png",
                 "cc.Texture2D"
             ],
             "e975878c-95ff-4691-8875-77de54a849f5": [
                 "resources/Textures/sale",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8d7ddebc-8e46-4dc4-b341-d4c88ef44bf4": [
+                "resources/Textures/scrollBtn.png",
+                "cc.Texture2D"
+            ],
+            "b8ae763d-9764-4888-8b6a-0484da562529": [
+                "resources/Textures/scrollBtn",
                 "cc.SpriteFrame",
                 1
             ],
@@ -3388,6 +3833,33 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "f938caba-87ba-4d63-aecd-79067b5e8a2b": [
+                "resources/Textures/shareFrient.png",
+                "cc.Texture2D"
+            ],
+            "9d972b4e-4149-405c-8c9d-daef7cd1c262": [
+                "resources/Textures/shareFrient",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bed12d64-4117-4c8a-93da-de98cff74448": [
+                "resources/Textures/shareIcon.png",
+                "cc.Texture2D"
+            ],
+            "403e6e20-5fc1-4354-9a1b-2b824774031c": [
+                "resources/Textures/shareIcon",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1e9c8058-1bab-489a-8f36-b55dda0d3a18": [
+                "resources/Textures/shareTitle.PNG",
+                "cc.Texture2D"
+            ],
+            "a76bb47a-8a6f-4eee-ae61-ec2ee0661360": [
+                "resources/Textures/shareTitle",
+                "cc.SpriteFrame",
+                1
+            ],
             "4d257ad2-899c-4937-a152-d6ee3333fac6": [
                 "resources/Textures/shopBTN.png",
                 "cc.Texture2D"
@@ -3415,12 +3887,83 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "c258e7dc-c40b-417f-a1e5-3ddfc6f4ff04": [
+                "resources/Textures/singlelose.png",
+                "cc.Texture2D"
+            ],
+            "20106bd8-100b-423e-8782-8c503270d274": [
+                "resources/Textures/singlelose",
+                "cc.SpriteFrame",
+                1
+            ],
+            "460fd7b4-a1ce-453b-be4e-a35f2beb1867": [
+                "resources/Textures/singlepj.png",
+                "cc.Texture2D"
+            ],
+            "ce44ea7a-b654-4ae9-8213-090ae07a2e46": [
+                "resources/Textures/singlepj",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ca13cc10-7b13-448c-a067-31fdeab3f6a5": [
+                "resources/Textures/singlewin.png",
+                "cc.Texture2D"
+            ],
+            "457b8ed3-42ae-4ead-a685-6c422a38df9d": [
+                "resources/Textures/singlewin",
+                "cc.SpriteFrame",
+                1
+            ],
             "ce55a5db-2ee0-4294-befc-f33de89637d9": [
                 "resources/Textures/smallBTN.png",
                 "cc.Texture2D"
             ],
             "bfc798cd-ef8e-4edd-a121-dcc3b845e58f": [
                 "resources/Textures/smallBTN",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9fc1f457-f053-4db4-aeb4-667ce45f08db": [
+                "resources/Textures/speak.PNG",
+                "cc.Texture2D"
+            ],
+            "149d8293-5453-4aa8-91f6-1a8a4056ce88": [
+                "resources/Textures/speak",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aa743ee1-3bf8-4b26-9e2b-f047e9d28ff8": [
+                "resources/Textures/specialBtn.png",
+                "cc.Texture2D"
+            ],
+            "b77c8d77-9889-4210-a1e4-afac563fad43": [
+                "resources/Textures/specialBtn",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8bd76a61-e0b0-46c8-b1a5-be63c51d2d30": [
+                "resources/Textures/spine/skeleton.atlas",
+                "cc.RawAsset"
+            ],
+            "3751edf3-80ca-4a99-adca-c99658f95111": [
+                "resources/Textures/spine/skeleton.json",
+                "sp.SkeletonData"
+            ],
+            "538ac708-0e04-4bf0-ae20-aa0d9586349b": [
+                "resources/Textures/spine/skeleton.png",
+                "cc.Texture2D"
+            ],
+            "45b51bd3-4307-46e6-8b88-136364b3e38e": [
+                "resources/Textures/spine/skeleton",
+                "cc.SpriteFrame",
+                1
+            ],
+            "80e2ca5b-ebc5-4d6f-ba7f-99003a3f342e": [
+                "resources/Textures/sz.png",
+                "cc.Texture2D"
+            ],
+            "9f08f1ed-79bf-47c9-9923-288fea7e9ca5": [
+                "resources/Textures/sz",
                 "cc.SpriteFrame",
                 1
             ],
@@ -3487,20 +4030,20 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "f4d99208-e979-4da0-bb2f-c0f5337a2efd": [
-                "resources/Textures/TopMenu3.png",
+            "c4bcccf3-3ca7-4b53-b0d5-da319238db6f": [
+                "resources/Textures/TopMenu3.PNG",
                 "cc.Texture2D"
             ],
-            "e8bb9994-084a-4977-aa80-2248373b5a06": [
+            "19c9907c-cb4c-4b27-b18a-d3fead8e5a81": [
                 "resources/Textures/TopMenu3",
                 "cc.SpriteFrame",
                 1
             ],
-            "51f30ce1-bd10-4da6-a635-796de7c92d3b": [
-                "resources/Textures/TopMenu4.png",
+            "33832fc2-6b32-464d-90ec-dcfb0b5668b7": [
+                "resources/Textures/TopMenu4.PNG",
                 "cc.Texture2D"
             ],
-            "a5c98c2f-7403-4c0f-981f-f3cd5a4a1a01": [
+            "063ca7b3-abef-4e1a-a9af-f1f6caa25c04": [
                 "resources/Textures/TopMenu4",
                 "cc.SpriteFrame",
                 1
@@ -3511,6 +4054,2184 @@ _CCSettings = {
             ],
             "63a6810d-f0d1-40d5-96cd-7369f0b5be8c": [
                 "resources/Textures/TopMenuBG",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f65c4200-faea-4802-b1ab-41eb6794e248": [
+                "resources/Textures/uianim/createroom_liuguang/1000.png",
+                "cc.Texture2D"
+            ],
+            "ac54f9fb-829a-4844-a283-9b4d2b3ab503": [
+                "resources/Textures/uianim/createroom_liuguang/1000",
+                "cc.SpriteFrame",
+                1
+            ],
+            "719b0a80-ba85-409d-b8c0-5f53c8f4de12": [
+                "resources/Textures/uianim/createroom_liuguang/1001.png",
+                "cc.Texture2D"
+            ],
+            "b165d057-252e-436b-b21a-55248c543b14": [
+                "resources/Textures/uianim/createroom_liuguang/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "326ee32d-0ffc-42d8-962d-d91af3768c00": [
+                "resources/Textures/uianim/createroom_liuguang/1002.png",
+                "cc.Texture2D"
+            ],
+            "7db27fc3-8730-4837-bc85-dd888e6873ad": [
+                "resources/Textures/uianim/createroom_liuguang/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3c2ba33e-3018-4a72-b908-53588e21ad0c": [
+                "resources/Textures/uianim/createroom_liuguang/1003.png",
+                "cc.Texture2D"
+            ],
+            "5c85243e-3b07-4dc6-b437-ac346d05b741": [
+                "resources/Textures/uianim/createroom_liuguang/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "45192a74-63c7-4fe9-91ae-122025db27a6": [
+                "resources/Textures/uianim/createroom_liuguang/1004.png",
+                "cc.Texture2D"
+            ],
+            "01b8a8aa-dd7a-4557-86a6-b78d5b17704e": [
+                "resources/Textures/uianim/createroom_liuguang/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6d2b7ce9-adc5-4ee7-aa56-03fb413a3d60": [
+                "resources/Textures/uianim/createroom_liuguang/1005.png",
+                "cc.Texture2D"
+            ],
+            "77afa419-2bda-4cdc-9579-f5dcfd06417e": [
+                "resources/Textures/uianim/createroom_liuguang/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "21aeb6c3-5f81-462c-a1cc-7e126288a9c4": [
+                "resources/Textures/uianim/createroom_liuguang/1006.png",
+                "cc.Texture2D"
+            ],
+            "d6c5a6ca-b160-4bc2-8e32-510612dda7c6": [
+                "resources/Textures/uianim/createroom_liuguang/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "201e3a86-a6b4-47d4-a018-85675af586c4": [
+                "resources/Textures/uianim/createroom_liuguang/1007.png",
+                "cc.Texture2D"
+            ],
+            "2b23a7fd-2a05-43c9-96e3-e67bdc775bef": [
+                "resources/Textures/uianim/createroom_liuguang/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f1626ab9-3acf-48e9-b39a-39dd80f46bed": [
+                "resources/Textures/uianim/createroom_liuguang/1008.png",
+                "cc.Texture2D"
+            ],
+            "384068c5-3c4f-4147-add3-d9652a300bb4": [
+                "resources/Textures/uianim/createroom_liuguang/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "203aa1ed-0cbb-467f-8e36-3db9632914ed": [
+                "resources/Textures/uianim/createroom_liuguang/1009.png",
+                "cc.Texture2D"
+            ],
+            "c1f088e5-2cc7-4328-a6f7-361f984b93d4": [
+                "resources/Textures/uianim/createroom_liuguang/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "036b6aed-a849-492f-bb1c-8dc09a0633af": [
+                "resources/Textures/uianim/createroom_liuguang/1010.png",
+                "cc.Texture2D"
+            ],
+            "78365cd5-09fa-4693-b489-c264ff5a9c1e": [
+                "resources/Textures/uianim/createroom_liuguang/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "afbe7ae7-7d4c-4004-b47b-7148b841f61e": [
+                "resources/Textures/uianim/createroom_liuguang/1011.png",
+                "cc.Texture2D"
+            ],
+            "0d8c6e38-a5d5-4d78-9b51-70b5b29dbcdd": [
+                "resources/Textures/uianim/createroom_liuguang/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a366c016-99e5-4f08-aceb-990630c13951": [
+                "resources/Textures/uianim/createroom_liuguang/1012.png",
+                "cc.Texture2D"
+            ],
+            "00f9c2b8-7eb8-4553-bfd1-fd34096d2728": [
+                "resources/Textures/uianim/createroom_liuguang/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "673dbe17-5ad9-4c18-8c8c-98bddefdd3d1": [
+                "resources/Textures/uianim/createroom_liuguang/1013.png",
+                "cc.Texture2D"
+            ],
+            "9d4ab7ff-9646-4810-815d-b42574d06cb7": [
+                "resources/Textures/uianim/createroom_liuguang/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6763ea6b-3fd8-47d9-bbcf-3713c5c1b705": [
+                "resources/Textures/uianim/createroom_liuguang/1014.png",
+                "cc.Texture2D"
+            ],
+            "bf71aa0f-55fc-405d-bf3e-4560722c3b14": [
+                "resources/Textures/uianim/createroom_liuguang/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f4e9f34d-4730-4776-985e-6cd8eff00707": [
+                "resources/Textures/uianim/createroom_liuguang/1015.png",
+                "cc.Texture2D"
+            ],
+            "f5b3021e-2e79-488f-9294-d939e04640f7": [
+                "resources/Textures/uianim/createroom_liuguang/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4972f83d-5c66-4458-98aa-bd95f89c84d1": [
+                "resources/Textures/uianim/createroom_liuguang/1016.png",
+                "cc.Texture2D"
+            ],
+            "df197aba-1e1d-42d1-b1bc-aa0a7f65d250": [
+                "resources/Textures/uianim/createroom_liuguang/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3df60256-46a9-4342-a79c-bada60300e5e": [
+                "resources/Textures/uianim/createroom_liuguang/1017.png",
+                "cc.Texture2D"
+            ],
+            "123aeaad-d09a-4098-831d-da8978018293": [
+                "resources/Textures/uianim/createroom_liuguang/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "47fbccc3-e644-43e2-8020-ca37e211ce00": [
+                "resources/Textures/uianim/createroom_liuguang/1018.png",
+                "cc.Texture2D"
+            ],
+            "7869e146-e630-4a03-b78d-8cec068755dc": [
+                "resources/Textures/uianim/createroom_liuguang/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d315bbfc-967d-4af0-ac2b-9559c58511a8": [
+                "resources/Textures/uianim/createroom_liuguang/1019.png",
+                "cc.Texture2D"
+            ],
+            "33af9326-0dec-46e2-ac8f-8b4975351ba6": [
+                "resources/Textures/uianim/createroom_liuguang/1019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "36ed2156-bb0d-4832-aa27-894c88029fff": [
+                "resources/Textures/uianim/createroom_liuguang/1020.png",
+                "cc.Texture2D"
+            ],
+            "c308c60a-2879-4a8c-a7a3-d3db593d356c": [
+                "resources/Textures/uianim/createroom_liuguang/1020",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3057a950-d7ef-4d80-9bf4-c05839974f39": [
+                "resources/Textures/uianim/createroom_liuguang/1021.png",
+                "cc.Texture2D"
+            ],
+            "d3cb7498-a633-4051-82d0-0e7c8bf0a3c0": [
+                "resources/Textures/uianim/createroom_liuguang/1021",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e7325b14-e745-4efd-9bd5-3d9725fd9f10": [
+                "resources/Textures/uianim/createroom_liuguang/1022.png",
+                "cc.Texture2D"
+            ],
+            "1a5bd082-f603-4cff-a630-4909d76c140e": [
+                "resources/Textures/uianim/createroom_liuguang/1022",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76f92244-0032-4634-9e41-d36c70bf82d4": [
+                "resources/Textures/uianim/createroom_liuguang/1023.png",
+                "cc.Texture2D"
+            ],
+            "f1e716ce-49b8-489f-bd31-be974d55f59a": [
+                "resources/Textures/uianim/createroom_liuguang/1023",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e37894a0-4695-4af6-9583-001bb06df385": [
+                "resources/Textures/uianim/createroom_liuguang/1024.png",
+                "cc.Texture2D"
+            ],
+            "fc2602d1-2ac8-4b31-aa50-2c0a836b7b3b": [
+                "resources/Textures/uianim/createroom_liuguang/1024",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1081fd66-1e8d-48dd-b45c-c06bdf8201c9": [
+                "resources/Textures/uianim/createroom_liuguang/1025.png",
+                "cc.Texture2D"
+            ],
+            "eeeace3d-61b7-4d69-9ee5-0ec675a44e44": [
+                "resources/Textures/uianim/createroom_liuguang/1025",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8ab7d7af-47a7-43f1-a79f-ff1c263a80b8": [
+                "resources/Textures/uianim/createroom_liuguang/1026.png",
+                "cc.Texture2D"
+            ],
+            "df4bf97e-229a-4888-b655-ef7368f6f819": [
+                "resources/Textures/uianim/createroom_liuguang/1026",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1b367cf7-a381-483e-8361-c1d130af8b46": [
+                "resources/Textures/uianim/createroom_liuguang/1027.png",
+                "cc.Texture2D"
+            ],
+            "83b21166-2f9e-4879-a22c-3be5c310756c": [
+                "resources/Textures/uianim/createroom_liuguang/1027",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4069f548-0c03-4731-809b-47bdfa493d5a": [
+                "resources/Textures/uianim/createroom_liuguang/1028.png",
+                "cc.Texture2D"
+            ],
+            "213fc0e1-518c-4e34-81f2-981832ab4e20": [
+                "resources/Textures/uianim/createroom_liuguang/1028",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e3c737d1-3611-4164-b29d-2763c4597cd1": [
+                "resources/Textures/uianim/createroom_liuguang/1029.png",
+                "cc.Texture2D"
+            ],
+            "e7679e8c-2e28-457b-88e8-489e246dad9f": [
+                "resources/Textures/uianim/createroom_liuguang/1029",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5b85433a-99d3-46bc-b20c-694c4b157a52": [
+                "resources/Textures/uianim/earring/1001.png",
+                "cc.Texture2D"
+            ],
+            "7ddd383c-25fc-488e-b3cd-53a84633df2e": [
+                "resources/Textures/uianim/earring/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4eeb6f71-bb0c-4907-a89f-dd693fd9a895": [
+                "resources/Textures/uianim/earring/1002.png",
+                "cc.Texture2D"
+            ],
+            "0c1da2c8-a8ac-4da1-a8ab-d5ddde4c5f7e": [
+                "resources/Textures/uianim/earring/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8ecf8475-9f6b-4398-ab1c-7a586681add7": [
+                "resources/Textures/uianim/earring/1003.png",
+                "cc.Texture2D"
+            ],
+            "b9a16cde-d196-4f50-a3b3-9b94f5d7b192": [
+                "resources/Textures/uianim/earring/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b651b8af-7f04-42ad-868f-56ea43b64480": [
+                "resources/Textures/uianim/earring/1004.png",
+                "cc.Texture2D"
+            ],
+            "42878169-327f-4306-990d-d52cabe54cc6": [
+                "resources/Textures/uianim/earring/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4e1a1b14-f5a1-47e2-ab85-afe53585ba50": [
+                "resources/Textures/uianim/earring/1005.png",
+                "cc.Texture2D"
+            ],
+            "63c240ac-d3b9-4ca1-b921-cafafc0b7ce9": [
+                "resources/Textures/uianim/earring/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "610bc66c-3c0c-48ba-91ea-b5a3e8992619": [
+                "resources/Textures/uianim/earring/1006.png",
+                "cc.Texture2D"
+            ],
+            "df0504d6-42e1-4a1f-bfa5-9378cf4951e7": [
+                "resources/Textures/uianim/earring/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c7188b21-0846-4b71-a609-ee6e491f216b": [
+                "resources/Textures/uianim/earring/1007.png",
+                "cc.Texture2D"
+            ],
+            "4cca1010-1c11-4c1a-bac5-7f0827c17eab": [
+                "resources/Textures/uianim/earring/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e13e7431-054f-4f6d-bfd7-a691652527ba": [
+                "resources/Textures/uianim/earring/1008.png",
+                "cc.Texture2D"
+            ],
+            "1f9746ce-cf20-4e6d-a68e-525db6f6f9ca": [
+                "resources/Textures/uianim/earring/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b13a2045-e250-4c2d-86f4-177b5fe879c9": [
+                "resources/Textures/uianim/earring/1009.png",
+                "cc.Texture2D"
+            ],
+            "68a2ba99-7a14-4aa0-ad36-b34de6608a41": [
+                "resources/Textures/uianim/earring/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f9641fa-6769-4a8b-9e1f-632c4b5a8be1": [
+                "resources/Textures/uianim/earring/1010.png",
+                "cc.Texture2D"
+            ],
+            "b7a2a1e7-79f6-41dd-a0ed-b7376188abd5": [
+                "resources/Textures/uianim/earring/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "aa1f16c7-82b1-4876-bedb-e7225bb55913": [
+                "resources/Textures/uianim/earring/1011.png",
+                "cc.Texture2D"
+            ],
+            "031af0a1-e734-489d-bdd9-2d8135f2621a": [
+                "resources/Textures/uianim/earring/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3bfe3ed1-2af7-404c-ac78-2cc3a9b13d42": [
+                "resources/Textures/uianim/earring/1012.png",
+                "cc.Texture2D"
+            ],
+            "02311309-9885-4ad9-a880-a174c9f75c4a": [
+                "resources/Textures/uianim/earring/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f994023-1edd-439b-b3ba-c9bb8bcb577b": [
+                "resources/Textures/uianim/earring/1013.png",
+                "cc.Texture2D"
+            ],
+            "ea4708f9-fc24-40d5-9da5-5c0a9f5911c1": [
+                "resources/Textures/uianim/earring/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e54fd582-4e12-4634-950d-cd2fb9ac051b": [
+                "resources/Textures/uianim/earring/1014.png",
+                "cc.Texture2D"
+            ],
+            "5da7577a-afff-4388-98c4-969791bb8aaa": [
+                "resources/Textures/uianim/earring/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8357a6db-5b65-4849-b885-95d111fe6651": [
+                "resources/Textures/uianim/earring/1015.png",
+                "cc.Texture2D"
+            ],
+            "92c05085-a0be-4f39-8b1d-32d2ee502f85": [
+                "resources/Textures/uianim/earring/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "eb942f7b-b25e-43b0-b54e-5ee699c11eb9": [
+                "resources/Textures/uianim/earring/1016.png",
+                "cc.Texture2D"
+            ],
+            "0635db33-e224-47b2-9238-c4535ed574ce": [
+                "resources/Textures/uianim/earring/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8c235e7a-e1b4-47ea-a7f1-0117f897a547": [
+                "resources/Textures/uianim/earring/1017.png",
+                "cc.Texture2D"
+            ],
+            "5ba14117-accd-4d08-99ff-019bfd6e33fb": [
+                "resources/Textures/uianim/earring/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2e0c11be-b528-47d9-a52b-a470e2ddb98c": [
+                "resources/Textures/uianim/earring/1018.png",
+                "cc.Texture2D"
+            ],
+            "0895f780-f906-4e6a-a6d5-eaf38603ac37": [
+                "resources/Textures/uianim/earring/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "00cf2551-9b00-43f5-a224-7fb62dacae1a": [
+                "resources/Textures/uianim/earring/1019.png",
+                "cc.Texture2D"
+            ],
+            "031b5942-1743-475a-b7cf-c815e6a303da": [
+                "resources/Textures/uianim/earring/1019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ad37aa0a-31d4-4035-96d6-3c3761c1584f": [
+                "resources/Textures/uianim/gouwu/1001.png",
+                "cc.Texture2D"
+            ],
+            "382ac1f8-4633-41e9-a6b1-513322b919f1": [
+                "resources/Textures/uianim/gouwu/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7c1c58f5-b2b7-46b0-95ad-36970e599dd2": [
+                "resources/Textures/uianim/gouwu/1002.png",
+                "cc.Texture2D"
+            ],
+            "b99a204b-12aa-4b62-b2de-73521d8e0eb5": [
+                "resources/Textures/uianim/gouwu/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bb215c6f-5619-48ce-9fb1-90f694e468dd": [
+                "resources/Textures/uianim/gouwu/1003.png",
+                "cc.Texture2D"
+            ],
+            "6d9ac0c9-b5c1-4472-a33f-f73e992e9887": [
+                "resources/Textures/uianim/gouwu/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1534fa84-53dc-4bf2-a9b4-833d55334a11": [
+                "resources/Textures/uianim/gouwu/1004.png",
+                "cc.Texture2D"
+            ],
+            "f064ccad-073b-40ef-bc1a-76363611e02e": [
+                "resources/Textures/uianim/gouwu/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f5669001-4a0b-4875-946c-5637df1f9c0d": [
+                "resources/Textures/uianim/gouwu/1005.png",
+                "cc.Texture2D"
+            ],
+            "1a5a4bbf-bff9-41dc-bb83-af710fe181ba": [
+                "resources/Textures/uianim/gouwu/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a4520bfa-7344-4821-bee2-d828f316b697": [
+                "resources/Textures/uianim/gouwu/1006.png",
+                "cc.Texture2D"
+            ],
+            "f9e25e5c-ec52-4659-a60c-30c52f68ec52": [
+                "resources/Textures/uianim/gouwu/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6d11586e-ad6c-423c-b6b1-8a561ea193cd": [
+                "resources/Textures/uianim/gouwu/1007.png",
+                "cc.Texture2D"
+            ],
+            "3d430076-6d23-49fc-8e63-5dd8f0258c58": [
+                "resources/Textures/uianim/gouwu/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bcd86eb8-565e-43b0-944c-7b04f6bfb71a": [
+                "resources/Textures/uianim/gouwu/1008.png",
+                "cc.Texture2D"
+            ],
+            "a3aba79a-8919-4691-ae69-53ffbec637f1": [
+                "resources/Textures/uianim/gouwu/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "90d6825f-7d82-4355-9570-429e6c25fcae": [
+                "resources/Textures/uianim/gouwu/1009.png",
+                "cc.Texture2D"
+            ],
+            "29d6d54f-00b3-4478-9ff7-48efd75ecb6f": [
+                "resources/Textures/uianim/gouwu/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3350761a-16ec-473c-9747-68228e0e50bd": [
+                "resources/Textures/uianim/gouwu/1010.png",
+                "cc.Texture2D"
+            ],
+            "99191ba4-3432-4cf3-9fdd-5c3c1cd7b017": [
+                "resources/Textures/uianim/gouwu/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c30bbc9e-4886-46ac-8318-fd65feebb008": [
+                "resources/Textures/uianim/head/1001.png",
+                "cc.Texture2D"
+            ],
+            "4605ad51-7791-4dbc-8916-6e785b6aa3cb": [
+                "resources/Textures/uianim/head/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "34ed7b50-b7a1-4b5b-9359-eb54845e7e14": [
+                "resources/Textures/uianim/head/1002.png",
+                "cc.Texture2D"
+            ],
+            "2584e232-5533-4766-82cd-e5acbdcd3a77": [
+                "resources/Textures/uianim/head/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0dba8c10-c612-496d-a155-61875437ce62": [
+                "resources/Textures/uianim/head/1003.png",
+                "cc.Texture2D"
+            ],
+            "14546c86-111b-438b-92ec-d45edd440a5f": [
+                "resources/Textures/uianim/head/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "054f2c2d-b243-433e-b0cc-124ef3ffebeb": [
+                "resources/Textures/uianim/head/1004.png",
+                "cc.Texture2D"
+            ],
+            "744db5ae-0a62-44c8-9088-38669a6befd9": [
+                "resources/Textures/uianim/head/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2cb1306b-e5c5-4438-a998-9bfd3b2a3e03": [
+                "resources/Textures/uianim/head/1005.png",
+                "cc.Texture2D"
+            ],
+            "398afbbb-d2f7-4a0a-91d2-79c20c5ebabc": [
+                "resources/Textures/uianim/head/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "eb70e0dc-e693-4dd5-a667-76d977a7eacd": [
+                "resources/Textures/uianim/head/1006.png",
+                "cc.Texture2D"
+            ],
+            "144bce39-0f83-45c6-a17d-3a236de1afb9": [
+                "resources/Textures/uianim/head/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a1e539f2-fc5f-4161-8d66-eb4f01913901": [
+                "resources/Textures/uianim/head/1007.png",
+                "cc.Texture2D"
+            ],
+            "b886a499-0998-4910-aaa4-cb9cbe8ee73d": [
+                "resources/Textures/uianim/head/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e2fb1eaa-421c-46c4-9f8f-41ef08347bd8": [
+                "resources/Textures/uianim/head/1008.png",
+                "cc.Texture2D"
+            ],
+            "c004d237-2af3-40b9-a086-01b347c9215f": [
+                "resources/Textures/uianim/head/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1c7bf80e-e9e9-48b8-9d7b-dde3fc39c4e4": [
+                "resources/Textures/uianim/head/1009.png",
+                "cc.Texture2D"
+            ],
+            "91eb4ac0-9168-4b0e-9dac-dfff9bd881be": [
+                "resources/Textures/uianim/head/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76997b79-d034-453a-8ad1-477903f55c90": [
+                "resources/Textures/uianim/jinbeisaoguang/1001.png",
+                "cc.Texture2D"
+            ],
+            "54a845f1-be28-4efe-bd6a-7de9e7226c74": [
+                "resources/Textures/uianim/jinbeisaoguang/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dccd98d3-9179-47bd-b7bc-5bb0657e474d": [
+                "resources/Textures/uianim/jinbeisaoguang/1002.png",
+                "cc.Texture2D"
+            ],
+            "df12da82-872e-4e80-b773-c8326433e41a": [
+                "resources/Textures/uianim/jinbeisaoguang/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "23d7fede-8505-4658-bd18-a940c82a70fc": [
+                "resources/Textures/uianim/jinbeisaoguang/1003.png",
+                "cc.Texture2D"
+            ],
+            "017ee948-689b-4eb0-9c29-d4b1c204f440": [
+                "resources/Textures/uianim/jinbeisaoguang/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8b4f1b4a-6c56-456f-aed1-8aa647e65a50": [
+                "resources/Textures/uianim/jinbeisaoguang/1004.png",
+                "cc.Texture2D"
+            ],
+            "13d9301d-6d13-4c74-89a3-2e6d9db5dcf7": [
+                "resources/Textures/uianim/jinbeisaoguang/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bbd22643-fff1-402c-83a1-9183021d5f0f": [
+                "resources/Textures/uianim/jinbeisaoguang/1005.png",
+                "cc.Texture2D"
+            ],
+            "3394fa1e-bab5-4758-8d36-6c4bc4367040": [
+                "resources/Textures/uianim/jinbeisaoguang/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cb66c5a1-aec4-4a9f-8b67-37d77100524b": [
+                "resources/Textures/uianim/jinbeisaoguang/1006.png",
+                "cc.Texture2D"
+            ],
+            "8f926475-450c-4c25-994e-1c3609155bcd": [
+                "resources/Textures/uianim/jinbeisaoguang/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0769b5d8-8306-45c6-84f1-5e55c366f210": [
+                "resources/Textures/uianim/jinbeisaoguang/1007.png",
+                "cc.Texture2D"
+            ],
+            "42183253-0ae4-46c7-9f6e-b82c53c926bf": [
+                "resources/Textures/uianim/jinbeisaoguang/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8869faf9-e113-4226-8b27-330f83b3fb92": [
+                "resources/Textures/uianim/jinbeisaoguang/1008.png",
+                "cc.Texture2D"
+            ],
+            "751dc41e-aaf8-4468-947f-2b64989a2ed1": [
+                "resources/Textures/uianim/jinbeisaoguang/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c5a04418-c815-4429-862c-1049748def63": [
+                "resources/Textures/uianim/jinbeisaoguang/1009.png",
+                "cc.Texture2D"
+            ],
+            "4cd0c908-35e2-4583-9f65-75637e7b0c50": [
+                "resources/Textures/uianim/jinbeisaoguang/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2d3630d1-afe9-4bf8-a9a8-dceb32284aa6": [
+                "resources/Textures/uianim/jinbeisaoguang/1010.png",
+                "cc.Texture2D"
+            ],
+            "b7f11748-01f2-42d1-aa9b-34b0943bd06c": [
+                "resources/Textures/uianim/jinbeisaoguang/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5615fc17-475c-4be9-8c9c-350486c41641": [
+                "resources/Textures/uianim/jinbeisaoguang/1011.png",
+                "cc.Texture2D"
+            ],
+            "a323a570-df09-4b7f-89d1-73fe1d531638": [
+                "resources/Textures/uianim/jinbeisaoguang/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c28e14dc-8ad1-42a5-8abf-39967f83494d": [
+                "resources/Textures/uianim/jinbeisaoguang/1012.png",
+                "cc.Texture2D"
+            ],
+            "536196a4-dc3d-4c58-a752-a7ae78b8ef03": [
+                "resources/Textures/uianim/jinbeisaoguang/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "20482678-0d75-440d-982d-6886e86ac5e4": [
+                "resources/Textures/uianim/jinbeisaoguang/1013.png",
+                "cc.Texture2D"
+            ],
+            "d601688d-3cd6-4fbe-8e36-88b657e5ca37": [
+                "resources/Textures/uianim/jinbeisaoguang/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d813c4c7-e9f4-4145-a57a-128d635ba690": [
+                "resources/Textures/uianim/jinbeisaoguang/1014.png",
+                "cc.Texture2D"
+            ],
+            "6d3a5893-4b47-483b-825c-6be7f41c72af": [
+                "resources/Textures/uianim/jinbeisaoguang/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b9470902-e29a-4c23-ba42-b397109ede64": [
+                "resources/Textures/uianim/jinbeisaoguang/1015.png",
+                "cc.Texture2D"
+            ],
+            "3a6d7cc1-346d-441d-a13f-da90ef08d541": [
+                "resources/Textures/uianim/jinbeisaoguang/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "dcca9796-92ff-41ee-a4f0-19c138ba3f0e": [
+                "resources/Textures/uianim/jinbeisaoguang/1016.png",
+                "cc.Texture2D"
+            ],
+            "fcf27a7f-a476-40b9-8913-b68ce7fe2291": [
+                "resources/Textures/uianim/jinbeisaoguang/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d02791fc-8155-4714-955d-5f3595f191f4": [
+                "resources/Textures/uianim/jinbeisaoguang/1017.png",
+                "cc.Texture2D"
+            ],
+            "1b8ea453-9e79-4568-8252-10b31d97c2cf": [
+                "resources/Textures/uianim/jinbeisaoguang/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4fef4a5d-58d9-4d30-9391-c32d338a02db": [
+                "resources/Textures/uianim/jinbeisaoguang/1018.png",
+                "cc.Texture2D"
+            ],
+            "7d020de0-1e92-4780-a066-c23d8a11b374": [
+                "resources/Textures/uianim/jinbeisaoguang/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6204be8b-5bac-4df2-830e-cbbe1168f08f": [
+                "resources/Textures/uianim/jinbi_liuguang/1001.png",
+                "cc.Texture2D"
+            ],
+            "a2d73c69-f115-43aa-970f-ba90127ccb61": [
+                "resources/Textures/uianim/jinbi_liuguang/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a82d4bde-9b10-4c09-9ead-5d50793f26b7": [
+                "resources/Textures/uianim/jinbi_liuguang/1002.png",
+                "cc.Texture2D"
+            ],
+            "2d6cb115-da94-477b-a15e-d384170da223": [
+                "resources/Textures/uianim/jinbi_liuguang/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6e294bd0-a3d4-485a-8247-7f571bd929e5": [
+                "resources/Textures/uianim/jinbi_liuguang/1003.png",
+                "cc.Texture2D"
+            ],
+            "4329433d-4193-4fa0-b560-889063d4d3dd": [
+                "resources/Textures/uianim/jinbi_liuguang/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5b549679-093c-43c3-ad62-a58c5f26587d": [
+                "resources/Textures/uianim/jinbi_liuguang/1004.png",
+                "cc.Texture2D"
+            ],
+            "adfe5d4b-7c1c-48b8-94ca-9024f1ca056e": [
+                "resources/Textures/uianim/jinbi_liuguang/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "29ddaf74-489e-45c8-873e-a754ba660a0f": [
+                "resources/Textures/uianim/jinbi_liuguang/1005.png",
+                "cc.Texture2D"
+            ],
+            "d7d5a0d6-f40f-4de1-beba-8602cde02e8b": [
+                "resources/Textures/uianim/jinbi_liuguang/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "84b3cb09-4933-4a46-b2d2-70bda10e7c53": [
+                "resources/Textures/uianim/jinbi_liuguang/1006.png",
+                "cc.Texture2D"
+            ],
+            "8b443c55-3757-4651-919b-2eb8b1621377": [
+                "resources/Textures/uianim/jinbi_liuguang/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8ba86a2f-ecfc-4ea8-b7d1-b50864110731": [
+                "resources/Textures/uianim/jinbi_liuguang/1007.png",
+                "cc.Texture2D"
+            ],
+            "8bc7739c-219b-4a1e-9edc-1e1189a257a3": [
+                "resources/Textures/uianim/jinbi_liuguang/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "660b9765-6122-4ab2-a697-b91f5b0f5d86": [
+                "resources/Textures/uianim/jinbi_liuguang/1008.png",
+                "cc.Texture2D"
+            ],
+            "91e4fc97-8746-4d49-b8f5-138158eb4047": [
+                "resources/Textures/uianim/jinbi_liuguang/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a435f7f5-5300-4dc6-b361-3286eb0532f5": [
+                "resources/Textures/uianim/jinbi_liuguang/1009.png",
+                "cc.Texture2D"
+            ],
+            "afeac7a0-ea3f-4872-b4a5-3161cebbb5f2": [
+                "resources/Textures/uianim/jinbi_liuguang/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8197b425-d149-456d-9e55-02835bd79180": [
+                "resources/Textures/uianim/jinbi_liuguang/1010.png",
+                "cc.Texture2D"
+            ],
+            "02ce494a-33fe-4076-9f2c-3d25471b4812": [
+                "resources/Textures/uianim/jinbi_liuguang/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "16ec6b34-15cf-44fd-a19a-f38858d39ab4": [
+                "resources/Textures/uianim/jinbi_liuguang/1011.png",
+                "cc.Texture2D"
+            ],
+            "8bd857a5-d670-4757-82f1-0dcccc4d594a": [
+                "resources/Textures/uianim/jinbi_liuguang/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1b2a7759-0654-4d23-a4b6-fc0308c4de4c": [
+                "resources/Textures/uianim/jinbi_liuguang/1012.png",
+                "cc.Texture2D"
+            ],
+            "2f15a642-79df-4de6-8064-d9b167faae68": [
+                "resources/Textures/uianim/jinbi_liuguang/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4c0e43fc-5228-4f43-810d-dd25021e6084": [
+                "resources/Textures/uianim/jinbi_liuguang/1013.png",
+                "cc.Texture2D"
+            ],
+            "0209f104-aea3-4324-bc77-19a60581ed99": [
+                "resources/Textures/uianim/jinbi_liuguang/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "921db091-c923-4520-86d5-acbc96742221": [
+                "resources/Textures/uianim/jinbi_liuguang/1014.png",
+                "cc.Texture2D"
+            ],
+            "f97f3491-ab85-48cf-9f7c-c6137a7cfa2d": [
+                "resources/Textures/uianim/jinbi_liuguang/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e9852711-923a-493c-b84f-40cec7a35393": [
+                "resources/Textures/uianim/jinbi_liuguang/1015.png",
+                "cc.Texture2D"
+            ],
+            "6c968d8d-9209-4c90-b611-619c0d0fc4e7": [
+                "resources/Textures/uianim/jinbi_liuguang/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ae5dc77b-6b63-4c4b-99a0-d62030b95568": [
+                "resources/Textures/uianim/jinbi/1001.png",
+                "cc.Texture2D"
+            ],
+            "11378d1b-ec22-424e-a2ee-769b3984cbb1": [
+                "resources/Textures/uianim/jinbi/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "55c8e95a-5c03-481f-b3a8-59a432389721": [
+                "resources/Textures/uianim/jinbi/1002.png",
+                "cc.Texture2D"
+            ],
+            "4b1bbd7b-a1e9-484c-aaf7-4dc35976cfe6": [
+                "resources/Textures/uianim/jinbi/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7ead0cfc-fb55-4deb-8b8b-22e37c25626e": [
+                "resources/Textures/uianim/jinbi/1003.png",
+                "cc.Texture2D"
+            ],
+            "1f7ac8f6-e749-4192-8437-549ce4455013": [
+                "resources/Textures/uianim/jinbi/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3deaa3c3-2f90-4a36-b0f7-33bfbb1bec46": [
+                "resources/Textures/uianim/jinbi/1004.png",
+                "cc.Texture2D"
+            ],
+            "470be865-4178-4090-b694-fa3915b75700": [
+                "resources/Textures/uianim/jinbi/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d0336462-4871-411d-a270-20fa3f6d5b74": [
+                "resources/Textures/uianim/jinbi/1005.png",
+                "cc.Texture2D"
+            ],
+            "2078dbd8-11bf-4eea-8f90-7c25716d5063": [
+                "resources/Textures/uianim/jinbi/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "adc3d48b-e96c-4028-b30a-e01005d8ff03": [
+                "resources/Textures/uianim/jinbi/1006.png",
+                "cc.Texture2D"
+            ],
+            "230a08f1-eb59-430c-a825-587166448b19": [
+                "resources/Textures/uianim/jinbi/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "659d815a-bf96-40e6-933d-06ef9877875a": [
+                "resources/Textures/uianim/jinbi/1007.png",
+                "cc.Texture2D"
+            ],
+            "eeb6c3af-ed29-46a5-95cc-a043634cc5b3": [
+                "resources/Textures/uianim/jinbi/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a489882f-07f8-4bea-9dd7-def61bc8935b": [
+                "resources/Textures/uianim/jinbi/1008.png",
+                "cc.Texture2D"
+            ],
+            "d90099a0-222d-4c10-99b5-e188a0ed7d30": [
+                "resources/Textures/uianim/jinbi/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "35685546-0930-4e1b-ab24-6b355e0bb54a": [
+                "resources/Textures/uianim/jinbi/1009.png",
+                "cc.Texture2D"
+            ],
+            "2adb7749-be06-4a3a-ba06-aa7aa06cdc20": [
+                "resources/Textures/uianim/jinbi/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "41f8bdd5-220e-4296-88e0-6f7614b655b7": [
+                "resources/Textures/uianim/jinbi/1010.png",
+                "cc.Texture2D"
+            ],
+            "f54c495b-39b2-4e5c-bb1b-917204d41a66": [
+                "resources/Textures/uianim/jinbi/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5915c650-6220-4103-ae88-ca1ca57551a8": [
+                "resources/Textures/uianim/jinbi/1011.png",
+                "cc.Texture2D"
+            ],
+            "968dcd16-cc19-498e-a2d2-8485f1cedde1": [
+                "resources/Textures/uianim/jinbi/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3212e082-0467-461c-b1ad-515dfcd502cc": [
+                "resources/Textures/uianim/jinbi/1012.png",
+                "cc.Texture2D"
+            ],
+            "eb57d039-2998-4ff4-bf6d-5a5cf29a3f4c": [
+                "resources/Textures/uianim/jinbi/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "786fe563-4e77-4783-96d1-7a74b77640d1": [
+                "resources/Textures/uianim/jinbi/1013.png",
+                "cc.Texture2D"
+            ],
+            "531cc53b-952e-4d5d-b3dd-8da42d83e52f": [
+                "resources/Textures/uianim/jinbi/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "459ff1c2-4713-4997-a020-352977be6c55": [
+                "resources/Textures/uianim/jinbi/1014.png",
+                "cc.Texture2D"
+            ],
+            "935f508d-6fc6-4b93-a515-e68763117f8f": [
+                "resources/Textures/uianim/jinbi/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3aebe469-ca59-4e98-b600-ee9e2968423f": [
+                "resources/Textures/uianim/joinroom_liuguang/1000.png",
+                "cc.Texture2D"
+            ],
+            "24602a80-0672-4963-afcb-39207f6ae4a5": [
+                "resources/Textures/uianim/joinroom_liuguang/1000",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e32b22a8-f8f2-4c1a-b15d-ca0f98a3b553": [
+                "resources/Textures/uianim/joinroom_liuguang/1001.png",
+                "cc.Texture2D"
+            ],
+            "4e4a6ab6-8c8f-44f5-9292-3a1107e8e050": [
+                "resources/Textures/uianim/joinroom_liuguang/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f257e2a4-3fd8-4acd-b57b-883b168c3a27": [
+                "resources/Textures/uianim/joinroom_liuguang/1002.png",
+                "cc.Texture2D"
+            ],
+            "a700bf5e-7bed-4c40-ab74-e52f685593eb": [
+                "resources/Textures/uianim/joinroom_liuguang/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "88481e76-b141-4566-853f-e3b8e54c45e1": [
+                "resources/Textures/uianim/joinroom_liuguang/1003.png",
+                "cc.Texture2D"
+            ],
+            "9c45d747-5111-4a8a-a450-356dc6bdc4d6": [
+                "resources/Textures/uianim/joinroom_liuguang/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "35b32726-0d31-4a37-8a89-3069b8232015": [
+                "resources/Textures/uianim/joinroom_liuguang/1004.png",
+                "cc.Texture2D"
+            ],
+            "2bd9e39c-3671-40d4-88cf-d5b71755ba1b": [
+                "resources/Textures/uianim/joinroom_liuguang/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a4804df-3d8c-4041-9be0-6a49308520ba": [
+                "resources/Textures/uianim/joinroom_liuguang/1005.png",
+                "cc.Texture2D"
+            ],
+            "274c31fc-8bda-4cdb-af30-afc371bb285f": [
+                "resources/Textures/uianim/joinroom_liuguang/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "eb78f9b2-dc0f-42a9-bf50-51ecdb106cbe": [
+                "resources/Textures/uianim/joinroom_liuguang/1006.png",
+                "cc.Texture2D"
+            ],
+            "d7c25c8a-60a9-4050-a039-2eb5c89d708e": [
+                "resources/Textures/uianim/joinroom_liuguang/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3fe865e6-7089-4467-8adf-dd62c4a2ca9f": [
+                "resources/Textures/uianim/joinroom_liuguang/1007.png",
+                "cc.Texture2D"
+            ],
+            "22e07808-26ce-4524-a44a-05f99264a80b": [
+                "resources/Textures/uianim/joinroom_liuguang/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6bc93931-9a9f-4cd6-a991-933472c93449": [
+                "resources/Textures/uianim/joinroom_liuguang/1008.png",
+                "cc.Texture2D"
+            ],
+            "03823283-4420-4d72-a240-235c79cc7655": [
+                "resources/Textures/uianim/joinroom_liuguang/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "675f5b02-17f6-430b-ab26-a61bf9bf2f4d": [
+                "resources/Textures/uianim/joinroom_liuguang/1009.png",
+                "cc.Texture2D"
+            ],
+            "b4520004-617c-4e15-9bef-a31bb9ffd720": [
+                "resources/Textures/uianim/joinroom_liuguang/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "601aa218-e22a-42cb-b4fd-548eaae54d01": [
+                "resources/Textures/uianim/joinroom_liuguang/1010.png",
+                "cc.Texture2D"
+            ],
+            "403bddca-9346-444d-b16e-07d6a01dcf00": [
+                "resources/Textures/uianim/joinroom_liuguang/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0074ece1-808b-4ce7-a788-fca7c4cd3c09": [
+                "resources/Textures/uianim/joinroom_liuguang/1011.png",
+                "cc.Texture2D"
+            ],
+            "9bcdd879-70f6-468e-bc94-e9ce25628abb": [
+                "resources/Textures/uianim/joinroom_liuguang/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "26471236-ffe8-4cf9-9643-33edaa305ea8": [
+                "resources/Textures/uianim/joinroom_liuguang/1012.png",
+                "cc.Texture2D"
+            ],
+            "f4e46c77-6e3a-4454-819f-dc130df1145f": [
+                "resources/Textures/uianim/joinroom_liuguang/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9243efa6-1e8c-41c5-85f5-1edd7a5fd294": [
+                "resources/Textures/uianim/joinroom_liuguang/1013.png",
+                "cc.Texture2D"
+            ],
+            "99827e4c-0e29-4401-8cf3-32ccc80b9313": [
+                "resources/Textures/uianim/joinroom_liuguang/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f6c2ca81-ed20-4c2d-9811-aee2b3f2f25c": [
+                "resources/Textures/uianim/joinroom_liuguang/1014.png",
+                "cc.Texture2D"
+            ],
+            "0f5932b2-e2ed-411a-8726-042e1d6c417c": [
+                "resources/Textures/uianim/joinroom_liuguang/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e720bafe-1142-449b-abae-e6b55dc96cd1": [
+                "resources/Textures/uianim/joinroom_liuguang/1015.png",
+                "cc.Texture2D"
+            ],
+            "66d80a62-f66a-4efe-885c-0c5aea1886bd": [
+                "resources/Textures/uianim/joinroom_liuguang/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "654e03ac-b188-41d1-ba05-f1bda36701c0": [
+                "resources/Textures/uianim/joinroom_liuguang/1016.png",
+                "cc.Texture2D"
+            ],
+            "1a3aa93c-8533-41ec-aba7-ab134c6f1a6b": [
+                "resources/Textures/uianim/joinroom_liuguang/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0cd771e9-8a8d-4f03-946f-75b3c22ee446": [
+                "resources/Textures/uianim/joinroom_liuguang/1017.png",
+                "cc.Texture2D"
+            ],
+            "4b253923-c2b1-4678-b14c-a72348cb1693": [
+                "resources/Textures/uianim/joinroom_liuguang/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5be0ad5e-05db-410f-a320-a6de1b3591b0": [
+                "resources/Textures/uianim/joinroom_liuguang/1018.png",
+                "cc.Texture2D"
+            ],
+            "30983cdd-b815-4d11-ab4f-4a3d762539c1": [
+                "resources/Textures/uianim/joinroom_liuguang/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a43e8020-c105-4b60-9e93-9418de9dd0df": [
+                "resources/Textures/uianim/joinroom_liuguang/1019.png",
+                "cc.Texture2D"
+            ],
+            "9b1b0394-cf20-49f0-93f0-69ec82632239": [
+                "resources/Textures/uianim/joinroom_liuguang/1019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e0fe162d-7dfe-4f79-ad36-1266eb46e365": [
+                "resources/Textures/uianim/joinroom_liuguang/1020.png",
+                "cc.Texture2D"
+            ],
+            "e66b149e-3118-4d41-80a5-6b4e54baf6d7": [
+                "resources/Textures/uianim/joinroom_liuguang/1020",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9bc77c90-3c40-42fb-86c8-6e34bae700d7": [
+                "resources/Textures/uianim/joinroom_liuguang/1021.png",
+                "cc.Texture2D"
+            ],
+            "b65c5e24-7054-4e63-a119-03e81bc0c884": [
+                "resources/Textures/uianim/joinroom_liuguang/1021",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4c0ee413-a50d-4c6a-93ee-ce0bd2f19c16": [
+                "resources/Textures/uianim/joinroom_liuguang/1022.png",
+                "cc.Texture2D"
+            ],
+            "2780c439-e384-45e1-92b8-72d8279f3234": [
+                "resources/Textures/uianim/joinroom_liuguang/1022",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fb5d65fc-664a-442d-a882-9ac1ecd112b7": [
+                "resources/Textures/uianim/joinroom_liuguang/1023.png",
+                "cc.Texture2D"
+            ],
+            "1aa48d9a-4f60-4af0-b2f5-007f71a8adf7": [
+                "resources/Textures/uianim/joinroom_liuguang/1023",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4c9cb321-682d-4daf-a0f7-306a8af9c7b9": [
+                "resources/Textures/uianim/joinroom_liuguang/1024.png",
+                "cc.Texture2D"
+            ],
+            "27abb102-679a-4e52-b544-167d5e962b60": [
+                "resources/Textures/uianim/joinroom_liuguang/1024",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a599a71-1e00-4770-830a-9144960a0687": [
+                "resources/Textures/uianim/joinroom_liuguang/1025.png",
+                "cc.Texture2D"
+            ],
+            "34fcbef0-f495-4675-8220-245e22013bce": [
+                "resources/Textures/uianim/joinroom_liuguang/1025",
+                "cc.SpriteFrame",
+                1
+            ],
+            "789c461c-31ea-42a2-b28f-6cfcfe3744dd": [
+                "resources/Textures/uianim/joinroom_liuguang/1026.png",
+                "cc.Texture2D"
+            ],
+            "208be81d-cfce-4527-9620-8f6b625a5079": [
+                "resources/Textures/uianim/joinroom_liuguang/1026",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e4ba2940-fca7-4238-a14a-b15584cb0083": [
+                "resources/Textures/uianim/joinroom_liuguang/1027.png",
+                "cc.Texture2D"
+            ],
+            "05da9c99-7cf8-497f-b69e-a4c9547d0c09": [
+                "resources/Textures/uianim/joinroom_liuguang/1027",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4ab55d8d-6d2d-46f4-a96e-0154a6232f93": [
+                "resources/Textures/uianim/joinroom_liuguang/1028.png",
+                "cc.Texture2D"
+            ],
+            "6f58c353-3fd0-4bb7-9546-2404aae44263": [
+                "resources/Textures/uianim/joinroom_liuguang/1028",
+                "cc.SpriteFrame",
+                1
+            ],
+            "31421593-cac2-46b3-a751-85aa962c195d": [
+                "resources/Textures/uianim/joinroom_liuguang/1029.png",
+                "cc.Texture2D"
+            ],
+            "31150988-2028-401c-b87e-c0e57a8ad0c4": [
+                "resources/Textures/uianim/joinroom_liuguang/1029",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fc064a19-dc86-4e77-86ef-4a84a5672628": [
+                "resources/Textures/uianim/joinroom_sword/1001.png",
+                "cc.Texture2D"
+            ],
+            "6c5747de-18ec-419d-a049-741bfcd97836": [
+                "resources/Textures/uianim/joinroom_sword/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b112be3b-8a28-47fa-99d1-0a5fa632a1c0": [
+                "resources/Textures/uianim/joinroom_sword/1002.png",
+                "cc.Texture2D"
+            ],
+            "1c2676b4-2296-4ea3-9f01-071720bb5d87": [
+                "resources/Textures/uianim/joinroom_sword/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5ee4a1ce-02b5-4007-83a1-ae4e1fd8afeb": [
+                "resources/Textures/uianim/joinroom_sword/1003.png",
+                "cc.Texture2D"
+            ],
+            "5286c7ca-93e8-448d-b368-427bbaed8e36": [
+                "resources/Textures/uianim/joinroom_sword/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8811acfd-6cea-4e44-8c5a-55b18d723c50": [
+                "resources/Textures/uianim/joinroom_sword/1004.png",
+                "cc.Texture2D"
+            ],
+            "d7aca8af-0852-4740-bf78-412ccd7551c4": [
+                "resources/Textures/uianim/joinroom_sword/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1c221bbd-5e9e-4fd3-8d02-8fe467398596": [
+                "resources/Textures/uianim/joinroom_sword/1005.png",
+                "cc.Texture2D"
+            ],
+            "a4a9d5d1-e02e-41ff-a4cb-45cb78970229": [
+                "resources/Textures/uianim/joinroom_sword/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "892525c5-f8cf-4d29-a863-005fb7afab87": [
+                "resources/Textures/uianim/joinroom_sword/1006.png",
+                "cc.Texture2D"
+            ],
+            "cfa18bfe-4caf-4bb9-b042-4e56b9a98f9c": [
+                "resources/Textures/uianim/joinroom_sword/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f822222-b801-4197-a5df-abb810cdb72c": [
+                "resources/Textures/uianim/joinroom_sword/1007.png",
+                "cc.Texture2D"
+            ],
+            "1068f3ba-26f1-4e07-95df-892947eb1dad": [
+                "resources/Textures/uianim/joinroom_sword/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c5ea340d-3a1c-4b0a-814a-353793763404": [
+                "resources/Textures/uianim/joinroom_sword/1008.png",
+                "cc.Texture2D"
+            ],
+            "9d5d8abd-17a1-49ef-95bd-04d8b5717060": [
+                "resources/Textures/uianim/joinroom_sword/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "06b945ac-3acd-413e-b7e3-521b29f02d49": [
+                "resources/Textures/uianim/joinroom_sword/1009.png",
+                "cc.Texture2D"
+            ],
+            "8db8e1e4-49a3-4356-8e8c-6a902fbf01d1": [
+                "resources/Textures/uianim/joinroom_sword/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1e349d91-01f5-4edc-8a3a-8d437d9db42e": [
+                "resources/Textures/uianim/joinroom_sword/1010.png",
+                "cc.Texture2D"
+            ],
+            "e4bff7e3-246e-4818-9199-827940336855": [
+                "resources/Textures/uianim/joinroom_sword/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a7a34295-ec6b-4b47-b8c8-6cd883fd9279": [
+                "resources/Textures/uianim/joinroom_sword/1011.png",
+                "cc.Texture2D"
+            ],
+            "35fc22a8-0da3-433e-8a46-e0ab87c6f8d5": [
+                "resources/Textures/uianim/joinroom_sword/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "19014737-8107-4ebd-be29-4a0899c99e69": [
+                "resources/Textures/uianim/joinroom_sword/1012.png",
+                "cc.Texture2D"
+            ],
+            "f71affb3-f354-4302-af53-49bd07fbf02a": [
+                "resources/Textures/uianim/joinroom_sword/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9f179194-9359-4788-a768-e4dcdc692022": [
+                "resources/Textures/uianim/joinroom_sword/1013.png",
+                "cc.Texture2D"
+            ],
+            "60822e39-7dc3-42c0-8c43-35efa7c4e334": [
+                "resources/Textures/uianim/joinroom_sword/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "167a5d2e-f34f-4712-9ff8-844ccfa1175b": [
+                "resources/Textures/uianim/joinroom_sword/1014.png",
+                "cc.Texture2D"
+            ],
+            "794a9422-baeb-4ffb-8ad1-113d664ffc09": [
+                "resources/Textures/uianim/joinroom_sword/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0e20cbe6-d398-44ae-8a34-47db9061d12a": [
+                "resources/Textures/uianim/joinroom_vs/1001.png",
+                "cc.Texture2D"
+            ],
+            "d7d82577-33de-4691-9052-1f16c439684c": [
+                "resources/Textures/uianim/joinroom_vs/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6c2ad263-5005-4e2c-946c-a538a89721da": [
+                "resources/Textures/uianim/joinroom_vs/1002.png",
+                "cc.Texture2D"
+            ],
+            "930c3504-5baf-4274-a476-df65f6484ea8": [
+                "resources/Textures/uianim/joinroom_vs/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "7f25a1a5-1e8b-4b3c-8e8d-28aaa844d8be": [
+                "resources/Textures/uianim/joinroom_vs/1003.png",
+                "cc.Texture2D"
+            ],
+            "a2770275-a70a-4cd3-8144-1bad14bc91ee": [
+                "resources/Textures/uianim/joinroom_vs/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "43baa00c-ae7f-4b48-9aec-2d320e6b402d": [
+                "resources/Textures/uianim/joinroom_vs/1004.png",
+                "cc.Texture2D"
+            ],
+            "0b424d69-1a5c-411b-aef7-7b80c4ce083b": [
+                "resources/Textures/uianim/joinroom_vs/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "95c0fbe4-c969-42dd-8b5b-ecbc52b34d54": [
+                "resources/Textures/uianim/joinroom_vs/1005.png",
+                "cc.Texture2D"
+            ],
+            "179ad857-011c-4b11-9995-73f5aca33eed": [
+                "resources/Textures/uianim/joinroom_vs/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d07bf2c5-8379-40b4-8cc7-46c2666e7005": [
+                "resources/Textures/uianim/joinroom_vs/1006.png",
+                "cc.Texture2D"
+            ],
+            "0becbb10-059a-43b1-a400-4193cf5ce7f8": [
+                "resources/Textures/uianim/joinroom_vs/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9a8ffd8e-5fba-4e75-8b5a-6fcd4253b757": [
+                "resources/Textures/uianim/joinroom_vs/1007.png",
+                "cc.Texture2D"
+            ],
+            "8219a498-1bb6-4119-8955-a69daf65e53d": [
+                "resources/Textures/uianim/joinroom_vs/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f477acad-5bca-45a1-9885-8e5745214c64": [
+                "resources/Textures/uianim/joinroom_vs/1008.png",
+                "cc.Texture2D"
+            ],
+            "8a83f46e-72d3-4deb-ba3d-7fb69efcb5c4": [
+                "resources/Textures/uianim/joinroom_vs/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8a928ec1-0c2e-44ad-b2bd-ea432bdc8672": [
+                "resources/Textures/uianim/joinroom_vs/1009.png",
+                "cc.Texture2D"
+            ],
+            "594e101b-528d-403a-82c8-84b5a6bb8c21": [
+                "resources/Textures/uianim/joinroom_vs/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "16844129-c7d0-4404-afff-95c735462844": [
+                "resources/Textures/uianim/joinroom_vs/1010.png",
+                "cc.Texture2D"
+            ],
+            "61bf93d0-ea7e-4665-af26-704802506e85": [
+                "resources/Textures/uianim/joinroom_vs/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76ee962b-d5dc-4b65-977c-9e16ce89f64c": [
+                "resources/Textures/uianim/joinroom_vs/1011.png",
+                "cc.Texture2D"
+            ],
+            "c70c7244-990d-4efc-9185-23ec1f920fa2": [
+                "resources/Textures/uianim/joinroom_vs/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a6a737ef-56d7-4614-b6a1-15953d0d13ec": [
+                "resources/Textures/uianim/joinroom_vs/1012.png",
+                "cc.Texture2D"
+            ],
+            "402f8d12-0f9e-49a3-ab41-76933aa9012b": [
+                "resources/Textures/uianim/joinroom_vs/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b3f34cca-554b-4c98-9b3d-f31eefc7aa5d": [
+                "resources/Textures/uianim/joinroom_vs/1013.png",
+                "cc.Texture2D"
+            ],
+            "ac80e859-9023-4fd2-9bb2-538018cf290e": [
+                "resources/Textures/uianim/joinroom_vs/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c33fa86f-d9ea-492f-935f-56288db6bf87": [
+                "resources/Textures/uianim/joinroom_vs/1014.png",
+                "cc.Texture2D"
+            ],
+            "a3ba60c3-afc2-4c85-95fb-d7ee002ff242": [
+                "resources/Textures/uianim/joinroom_vs/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "08d9f23d-149f-4d3a-8dab-c3b7656593f0": [
+                "resources/Textures/uianim/joinroom_vs/1015.png",
+                "cc.Texture2D"
+            ],
+            "b3212011-b4ef-4d37-94ec-9fd1de57fa2d": [
+                "resources/Textures/uianim/joinroom_vs/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "56331941-3993-4c67-9e47-eaea980692c8": [
+                "resources/Textures/uianim/Logo_3/1001.png",
+                "cc.Texture2D"
+            ],
+            "1bed6687-b548-4936-b9e6-ddc50e179eb1": [
+                "resources/Textures/uianim/Logo_3/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "4f6e6c12-6bc7-4185-9378-b9c0a9c8362f": [
+                "resources/Textures/uianim/Logo_3/1002.png",
+                "cc.Texture2D"
+            ],
+            "d18055ff-4c78-45a3-8918-7c2087d4fb8d": [
+                "resources/Textures/uianim/Logo_3/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b339229c-e5cb-49f3-8abc-54e495ed1e14": [
+                "resources/Textures/uianim/Logo_3/1003.png",
+                "cc.Texture2D"
+            ],
+            "2914b35d-def5-4823-870a-484cddc29bb6": [
+                "resources/Textures/uianim/Logo_3/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f61c0089-d9ec-4c9a-949a-290369178082": [
+                "resources/Textures/uianim/Logo_3/1004.png",
+                "cc.Texture2D"
+            ],
+            "e346119a-f09c-4786-8bc4-12f43a10e48f": [
+                "resources/Textures/uianim/Logo_3/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2bd024f5-af69-43ec-841f-19c31b4d7175": [
+                "resources/Textures/uianim/Logo_3/1005.png",
+                "cc.Texture2D"
+            ],
+            "3b065907-bdc0-4f81-b557-fbb130218561": [
+                "resources/Textures/uianim/Logo_3/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "b40350d4-57f6-4a94-9143-96aee78e9939": [
+                "resources/Textures/uianim/Logo_3/1006.png",
+                "cc.Texture2D"
+            ],
+            "e8b96fb2-b189-4b21-b2fb-147d907af818": [
+                "resources/Textures/uianim/Logo_3/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "46059146-6305-4f7d-ba6d-3821d62ab7d3": [
+                "resources/Textures/uianim/Logo_3/1007.png",
+                "cc.Texture2D"
+            ],
+            "3187f2d4-3386-4258-a946-f83a211e61f0": [
+                "resources/Textures/uianim/Logo_3/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a314405a-f5d3-485d-a880-143d151ad59b": [
+                "resources/Textures/uianim/Logo_3/1008.png",
+                "cc.Texture2D"
+            ],
+            "0fd88215-6332-4c28-aee3-8f18029206ad": [
+                "resources/Textures/uianim/Logo_3/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0075bbf2-4fee-4819-8f90-6289c2ce6b46": [
+                "resources/Textures/uianim/Logo_3/1009.png",
+                "cc.Texture2D"
+            ],
+            "0e5cc197-7b7d-4695-81c8-781e21710a87": [
+                "resources/Textures/uianim/Logo_3/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d7c18313-dff7-4f40-a4f8-1a4ababda4be": [
+                "resources/Textures/uianim/Logo_3/1010.png",
+                "cc.Texture2D"
+            ],
+            "8a89381c-d072-48f0-89ad-fcb13a3bf6b4": [
+                "resources/Textures/uianim/Logo_3/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1533e087-7bc0-4bdf-8a97-f7ea16324fd4": [
+                "resources/Textures/uianim/Logo_3/1011.png",
+                "cc.Texture2D"
+            ],
+            "0e628066-30c8-4bfa-901e-f5a57c90bc68": [
+                "resources/Textures/uianim/Logo_3/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e7ad4123-d8ef-4f5e-8860-c491a08bec00": [
+                "resources/Textures/uianim/Logo_3/1012.png",
+                "cc.Texture2D"
+            ],
+            "eaee2cb1-888d-4a9a-80cf-b5d3aac17295": [
+                "resources/Textures/uianim/Logo_3/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bcc6de75-7ab5-4a02-98da-a9ecd7722f27": [
+                "resources/Textures/uianim/Logo_3/1013.png",
+                "cc.Texture2D"
+            ],
+            "2dd4dd97-8464-4ad7-9480-4d6db4a989c9": [
+                "resources/Textures/uianim/Logo_3/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8aacab9e-b81f-46e9-b7df-2dc142c2c56b": [
+                "resources/Textures/uianim/Logo_3/1014.png",
+                "cc.Texture2D"
+            ],
+            "bb3fcd25-bd6f-43da-af96-9174b98747ab": [
+                "resources/Textures/uianim/Logo_3/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fe5f50e1-85e5-49e9-9459-69d08e770ebb": [
+                "resources/Textures/uianim/Logo_3/1015.png",
+                "cc.Texture2D"
+            ],
+            "ecb80c34-6aec-422b-9ddf-4d66645c366b": [
+                "resources/Textures/uianim/Logo_3/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "21c7a7dd-65ba-4ddf-b66d-5a61a50da8a5": [
+                "resources/Textures/uianim/Logo_3/1016.png",
+                "cc.Texture2D"
+            ],
+            "735579a0-c3ec-4aeb-8205-c0302e078dd0": [
+                "resources/Textures/uianim/Logo_3/1016",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6a5b5c38-977f-4671-a121-ba1529643e03": [
+                "resources/Textures/uianim/Logo_3/1017.png",
+                "cc.Texture2D"
+            ],
+            "5dea1cf6-abd1-41b5-bba5-0af6858503a0": [
+                "resources/Textures/uianim/Logo_3/1017",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fccd7a07-009d-4fc6-ad2b-efd8c6c370b3": [
+                "resources/Textures/uianim/Logo_3/1018.png",
+                "cc.Texture2D"
+            ],
+            "9447be67-c88d-425b-95e2-d109b93759a1": [
+                "resources/Textures/uianim/Logo_3/1018",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c1477188-5aff-4f9e-a981-55aaa9c71471": [
+                "resources/Textures/uianim/Logo_3/1019.png",
+                "cc.Texture2D"
+            ],
+            "ef08ec7e-e7c4-4bdc-9d55-d8d0eec8e2ee": [
+                "resources/Textures/uianim/Logo_3/1019",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8790aad4-92d6-4430-88d4-554dd8e93f21": [
+                "resources/Textures/uianim/shaizi/1001.png",
+                "cc.Texture2D"
+            ],
+            "5e704d8c-88a5-4c0b-9e3e-937205f67e2a": [
+                "resources/Textures/uianim/shaizi/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8b4f0cb5-1685-40b1-829b-14e7c1566418": [
+                "resources/Textures/uianim/shaizi/1002.png",
+                "cc.Texture2D"
+            ],
+            "623d29b6-e6ab-4d20-b2cc-7c6550f1ae09": [
+                "resources/Textures/uianim/shaizi/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bcdc5bc5-d3b6-41e9-a98d-07b0bc65f915": [
+                "resources/Textures/uianim/shaizi/1003.png",
+                "cc.Texture2D"
+            ],
+            "3e976aeb-91e4-4615-a785-92432c7b6e43": [
+                "resources/Textures/uianim/shaizi/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "910a24ea-5e43-4a1c-b2f8-352cebd33967": [
+                "resources/Textures/uianim/shaizi/1004.png",
+                "cc.Texture2D"
+            ],
+            "ec5dccaa-6978-4890-b585-008234da7711": [
+                "resources/Textures/uianim/shaizi/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "78a8d606-8d7e-4174-904c-77ca03e025e9": [
+                "resources/Textures/uianim/shaizi/1005.png",
+                "cc.Texture2D"
+            ],
+            "f9d0a4c8-7cb0-483a-a167-6fc88dea74fe": [
+                "resources/Textures/uianim/shaizi/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "62f55856-971a-4927-bb43-823c0df82d18": [
+                "resources/Textures/uianim/shaizi/1006.png",
+                "cc.Texture2D"
+            ],
+            "7508e223-6bcf-45da-a35b-820ac8f0b3b2": [
+                "resources/Textures/uianim/shaizi/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c0f6ad7e-62f4-4f31-b3a8-7ee2af5517b1": [
+                "resources/Textures/uianim/shaizi/1007.png",
+                "cc.Texture2D"
+            ],
+            "37d5115b-caf0-4ef2-b9b3-0c020ed1c8fa": [
+                "resources/Textures/uianim/shaizi/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6f48e3fd-d248-4913-a490-fa668539b74f": [
+                "resources/Textures/uianim/shaizi/1008.png",
+                "cc.Texture2D"
+            ],
+            "5d36bf2f-03f9-4466-81b5-5e11ae80453a": [
+                "resources/Textures/uianim/shaizi/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a3a2c3f4-28e0-42a7-abc6-e667517e25cb": [
+                "resources/Textures/uianim/shaizi/1009.png",
+                "cc.Texture2D"
+            ],
+            "7e126d77-7f6b-4775-9c3f-acd3ebec1ee8": [
+                "resources/Textures/uianim/shaizi/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9dae88a1-6a37-4097-8cd5-384867f4e12e": [
+                "resources/Textures/uianim/shaizi/1010.png",
+                "cc.Texture2D"
+            ],
+            "debef1eb-b99d-4798-b28b-80e1bc4337fb": [
+                "resources/Textures/uianim/shaizi/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fe5b22f1-db2f-4bac-84fb-e7f65f3ad8fb": [
+                "resources/Textures/uianim/shaizi/1011.png",
+                "cc.Texture2D"
+            ],
+            "8cdd60fe-47f1-45ac-9ace-20088398cc6b": [
+                "resources/Textures/uianim/shaizi/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "19ccc7bf-b907-461b-989f-57ba47af2478": [
+                "resources/Textures/uianim/shaizi/1012.png",
+                "cc.Texture2D"
+            ],
+            "5332c073-93b4-411d-bed8-b1af4402428d": [
+                "resources/Textures/uianim/shaizi/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d07f6057-fb61-435e-9388-50767bedebbe": [
+                "resources/Textures/uianim/shaizi/1013.png",
+                "cc.Texture2D"
+            ],
+            "619a6ba1-0209-428b-b548-d90342949826": [
+                "resources/Textures/uianim/shaizi/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c9b0e226-d833-4487-9ee8-606a9f39f63d": [
+                "resources/Textures/uianim/shaizi/1014.png",
+                "cc.Texture2D"
+            ],
+            "95690c30-17a9-4f9b-bda4-a171a16a5e52": [
+                "resources/Textures/uianim/shaizi/1014",
+                "cc.SpriteFrame",
+                1
+            ],
+            "706bb628-c039-4a33-8d2c-dcb528a389cb": [
+                "resources/Textures/uianim/shaizi/1015.png",
+                "cc.Texture2D"
+            ],
+            "539041db-4623-4b8a-8741-19709e69c4c7": [
+                "resources/Textures/uianim/shaizi/1015",
+                "cc.SpriteFrame",
+                1
+            ],
+            "47face59-05e5-4f7b-a752-6da08633a112": [
+                "resources/Textures/uianim/wechat/1001.png",
+                "cc.Texture2D"
+            ],
+            "b08d6c7c-242d-477a-95cb-26ea96b7c242": [
+                "resources/Textures/uianim/wechat/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "76a82ce0-1216-4b22-b600-06bd482b0435": [
+                "resources/Textures/uianim/wechat/1002.png",
+                "cc.Texture2D"
+            ],
+            "3ed5bce9-8ae9-4fb9-8477-cf5a5058d939": [
+                "resources/Textures/uianim/wechat/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "adf0c899-2268-4b2e-9143-04d9d9517638": [
+                "resources/Textures/uianim/wechat/1003.png",
+                "cc.Texture2D"
+            ],
+            "fcd26958-d45a-40d5-90ca-552c661af02b": [
+                "resources/Textures/uianim/wechat/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d46950da-5166-4983-b4d1-82b18f5d4705": [
+                "resources/Textures/uianim/wechat/1004.png",
+                "cc.Texture2D"
+            ],
+            "4e965bef-faa2-4377-8351-9499c221cd75": [
+                "resources/Textures/uianim/wechat/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c5c53ee8-ce0c-4f2d-91b5-6f70abf626b9": [
+                "resources/Textures/uianim/wechat/1005.png",
+                "cc.Texture2D"
+            ],
+            "ae3f7e51-cd7a-41ac-a9f7-e2b4f610129e": [
+                "resources/Textures/uianim/wechat/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d6d79b27-bf08-41d9-aeeb-be721f957dce": [
+                "resources/Textures/uianim/wechat/1006.png",
+                "cc.Texture2D"
+            ],
+            "3e7e51be-020b-47f8-a882-addf262e120e": [
+                "resources/Textures/uianim/wechat/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "2f1a7cea-b683-4dc7-aadb-ffebb9e30381": [
+                "resources/Textures/uianim/wechat/1007.png",
+                "cc.Texture2D"
+            ],
+            "71bb45c8-76b1-444e-9142-7e55dde09674": [
+                "resources/Textures/uianim/wechat/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "144a2f9c-a53f-4cbe-894d-c3e59b852241": [
+                "resources/Textures/uianim/wechat/1008.png",
+                "cc.Texture2D"
+            ],
+            "6f270dc1-9cdd-44dd-8c72-3666f90f86ac": [
+                "resources/Textures/uianim/wechat/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "30c9472b-5a96-450c-b7c1-dd82c8bd08eb": [
+                "resources/Textures/uianim/wechat/1009.png",
+                "cc.Texture2D"
+            ],
+            "38077c67-f226-4ce8-96c8-15558e991a22": [
+                "resources/Textures/uianim/wechat/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "60b30502-11eb-4b9e-92af-0780bb658721": [
+                "resources/Textures/uianim/wechat/1010.png",
+                "cc.Texture2D"
+            ],
+            "cc253463-8f15-4c1b-bc34-2ba1d43cf1a9": [
+                "resources/Textures/uianim/wechat/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0fa2391e-7a97-41ca-9491-b187a3bfc63a": [
+                "resources/Textures/uianim/wechat2/1001.png",
+                "cc.Texture2D"
+            ],
+            "3949aa74-e67e-44c6-843f-b40e59ea7fee": [
+                "resources/Textures/uianim/wechat2/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5757107b-ff14-410f-8a5f-7a64c8ced56e": [
+                "resources/Textures/uianim/wechat2/1002.png",
+                "cc.Texture2D"
+            ],
+            "036f137d-5d94-438e-9d80-b39c505c9656": [
+                "resources/Textures/uianim/wechat2/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d734cdce-1050-4246-b7dd-72dce2551480": [
+                "resources/Textures/uianim/wechat2/1003.png",
+                "cc.Texture2D"
+            ],
+            "b257234a-38d2-4233-b601-0c90503c3ecf": [
+                "resources/Textures/uianim/wechat2/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "66055dcb-e9f9-48c5-a3e0-fecdf7647015": [
+                "resources/Textures/uianim/wechat2/1004.png",
+                "cc.Texture2D"
+            ],
+            "206ced7b-d6d7-4fab-b834-17284035d526": [
+                "resources/Textures/uianim/wechat2/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "c6535b7a-e67e-4db1-99ec-daf1b5b80977": [
+                "resources/Textures/uianim/wechat2/1005.png",
+                "cc.Texture2D"
+            ],
+            "2a9fd532-02fe-46e2-98dd-18abd24308b4": [
+                "resources/Textures/uianim/wechat2/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "9da57f44-6d0c-4d83-8a11-97ca5405f517": [
+                "resources/Textures/uianim/wechat2/1006.png",
+                "cc.Texture2D"
+            ],
+            "f166c328-153d-42a2-8a42-d0a39a7211f3": [
+                "resources/Textures/uianim/wechat2/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "43d397f6-340d-4695-a263-09216d77fe40": [
+                "resources/Textures/uianim/wechat2/1007.png",
+                "cc.Texture2D"
+            ],
+            "a6b9a954-b81c-4dd3-9e74-ae1297d1b3a3": [
+                "resources/Textures/uianim/wechat2/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ad441636-db40-4235-ba89-4d3ab2c8a53b": [
+                "resources/Textures/uianim/wechat2/1008.png",
+                "cc.Texture2D"
+            ],
+            "f0c4468c-a669-42c8-874b-7cffeebd9eb0": [
+                "resources/Textures/uianim/wechat2/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "75389065-c52f-4bcf-808d-bc34afc834a9": [
+                "resources/Textures/uianim/wechat2/1009.png",
+                "cc.Texture2D"
+            ],
+            "db343fcf-5ce4-40c0-b9fa-27a76e951e26": [
+                "resources/Textures/uianim/wechat2/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "03cbb720-7dda-48d3-a179-ed8f4ee4570d": [
+                "resources/Textures/uianim/wechat2/1010.png",
+                "cc.Texture2D"
+            ],
+            "b1ac976b-8db4-4756-b3aa-7a455ec2dafd": [
+                "resources/Textures/uianim/wechat2/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fb8baf8d-566e-436e-9bb5-8f1fd8b92479": [
+                "resources/Textures/uianim/zuanshi/1001.png",
+                "cc.Texture2D"
+            ],
+            "ed280536-37a8-44f1-9b8a-8a70805502a6": [
+                "resources/Textures/uianim/zuanshi/1001",
+                "cc.SpriteFrame",
+                1
+            ],
+            "f82297bf-57ae-469d-b36b-f1dd58c8ffd3": [
+                "resources/Textures/uianim/zuanshi/1002.png",
+                "cc.Texture2D"
+            ],
+            "a6207a62-c220-43da-a69e-451402acce2e": [
+                "resources/Textures/uianim/zuanshi/1002",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e2818851-9d5a-4cc5-ab67-10acd4262334": [
+                "resources/Textures/uianim/zuanshi/1003.png",
+                "cc.Texture2D"
+            ],
+            "82d2ac27-b25f-4126-8df5-ce37ff04a0fd": [
+                "resources/Textures/uianim/zuanshi/1003",
+                "cc.SpriteFrame",
+                1
+            ],
+            "60a514dd-7d7c-4d09-bc6d-73a19b8057c1": [
+                "resources/Textures/uianim/zuanshi/1004.png",
+                "cc.Texture2D"
+            ],
+            "f587088f-deb0-4522-ba2d-9932e06735c7": [
+                "resources/Textures/uianim/zuanshi/1004",
+                "cc.SpriteFrame",
+                1
+            ],
+            "119c80e3-7300-4141-bec7-638edc300551": [
+                "resources/Textures/uianim/zuanshi/1005.png",
+                "cc.Texture2D"
+            ],
+            "c1353050-55b2-4218-8f70-a638a336fff0": [
+                "resources/Textures/uianim/zuanshi/1005",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ad7d4a70-7a37-4b6d-820f-a86224215c47": [
+                "resources/Textures/uianim/zuanshi/1006.png",
+                "cc.Texture2D"
+            ],
+            "adac8bbf-c537-4b8f-ab19-6c095d440649": [
+                "resources/Textures/uianim/zuanshi/1006",
+                "cc.SpriteFrame",
+                1
+            ],
+            "de619d33-6a57-4223-96ec-a39bd2279cf6": [
+                "resources/Textures/uianim/zuanshi/1007.png",
+                "cc.Texture2D"
+            ],
+            "dba38d0e-ea3e-47ba-9fca-4f0d21a8441e": [
+                "resources/Textures/uianim/zuanshi/1007",
+                "cc.SpriteFrame",
+                1
+            ],
+            "bd18b023-00f2-4e21-aa47-d0bfa80370a8": [
+                "resources/Textures/uianim/zuanshi/1008.png",
+                "cc.Texture2D"
+            ],
+            "5fd81e48-29ed-4851-b225-5df33ac54d56": [
+                "resources/Textures/uianim/zuanshi/1008",
+                "cc.SpriteFrame",
+                1
+            ],
+            "89b5947b-1ac8-4c97-9f32-eec4f4e8a60a": [
+                "resources/Textures/uianim/zuanshi/1009.png",
+                "cc.Texture2D"
+            ],
+            "17442af3-bae4-4bcb-86fc-4c1795b49aa8": [
+                "resources/Textures/uianim/zuanshi/1009",
+                "cc.SpriteFrame",
+                1
+            ],
+            "30bfe950-8605-4067-8aac-ad9d39b0f1ad": [
+                "resources/Textures/uianim/zuanshi/1010.png",
+                "cc.Texture2D"
+            ],
+            "a1db6652-f51d-40e1-857f-922460fc4764": [
+                "resources/Textures/uianim/zuanshi/1010",
+                "cc.SpriteFrame",
+                1
+            ],
+            "e670a133-7756-4225-b777-616472e7151f": [
+                "resources/Textures/uianim/zuanshi/1011.png",
+                "cc.Texture2D"
+            ],
+            "fae02498-8d07-4bbd-a634-bfd72b8977ea": [
+                "resources/Textures/uianim/zuanshi/1011",
+                "cc.SpriteFrame",
+                1
+            ],
+            "8452ac42-f170-4de9-9c7a-cc422ef2c7cf": [
+                "resources/Textures/uianim/zuanshi/1012.png",
+                "cc.Texture2D"
+            ],
+            "228dec5a-ce14-41e2-9269-b402c120c08e": [
+                "resources/Textures/uianim/zuanshi/1012",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3b51b570-fcbc-4730-ba53-e3c278d52bc4": [
+                "resources/Textures/uianim/zuanshi/1013.png",
+                "cc.Texture2D"
+            ],
+            "f052f731-71ed-4036-9e75-fa7a0adea973": [
+                "resources/Textures/uianim/zuanshi/1013",
+                "cc.SpriteFrame",
+                1
+            ],
+            "66c89c58-79de-474d-9dd4-3d27666136e5": [
+                "resources/Textures/uianim/zuanshi/1014.png",
+                "cc.Texture2D"
+            ],
+            "45acf35b-bbb3-467a-b12e-2b6f43ecee88": [
+                "resources/Textures/uianim/zuanshi/1014",
                 "cc.SpriteFrame",
                 1
             ],
@@ -3538,6 +6259,24 @@ _CCSettings = {
             ],
             "2a1b337c-997a-436b-8470-a92ee2fb428d": [
                 "resources/Textures/weixin",
+                "cc.SpriteFrame",
+                1
+            ],
+            "539fd509-9d6b-4e11-ae4b-a1019cbcbd20": [
+                "resources/Textures/weixin1.png",
+                "cc.Texture2D"
+            ],
+            "c7c048a4-d10e-42d3-8b70-0be958892337": [
+                "resources/Textures/weixin1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "29a4aa18-b245-4897-8493-d944cd027a6c": [
+                "resources/Textures/window.PNG",
+                "cc.Texture2D"
+            ],
+            "5612c449-d0c8-4426-8cfa-0d01b88bfe0b": [
+                "resources/Textures/window",
                 "cc.SpriteFrame",
                 1
             ],
@@ -3613,6 +6352,42 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "45dcdaa8-d7a3-46c7-a2c8-ab7bbad694ee": [
+                "resources/Textures/yunyin1.png",
+                "cc.Texture2D"
+            ],
+            "1d6f2fde-c7d8-4573-8467-ed31892c2a63": [
+                "resources/Textures/yunyin1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "303ed6d4-f7b3-4c13-a0a3-7abbe2f62802": [
+                "resources/Textures/yunyin2.png",
+                "cc.Texture2D"
+            ],
+            "2322c039-dbad-4e61-841a-cbb71087ba1a": [
+                "resources/Textures/yunyin2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "ecdf6764-ec7e-4bf8-9faf-01de61b38d24": [
+                "resources/Textures/yunyin3.png",
+                "cc.Texture2D"
+            ],
+            "3b8d30c9-f369-40b3-94a9-23e4daa3fd05": [
+                "resources/Textures/yunyin3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "a1fb5503-9b61-4a70-a3d8-010308f9bf96": [
+                "resources/Textures/yunyin4.png",
+                "cc.Texture2D"
+            ],
+            "c1214b9a-dc0e-4816-b458-024013685c89": [
+                "resources/Textures/yunyin4",
+                "cc.SpriteFrame",
+                1
+            ],
             "d0195bb9-6f08-4169-9b51-0a6c9d88cff2": [
                 "resources/Textures/yuyin.png",
                 "cc.Texture2D"
@@ -3628,6 +6403,15 @@ _CCSettings = {
             ],
             "f296fae4-facf-46a2-9fbd-a98f6645895e": [
                 "resources/Textures/yuyin0",
+                "cc.SpriteFrame",
+                1
+            ],
+            "fd6009ba-5c7a-42b1-bdf7-3314b94cb7e9": [
+                "resources/Textures/zongjiesuan.PNG",
+                "cc.Texture2D"
+            ],
+            "704f81dc-a4e0-4f0e-8a58-21e57a55cdf5": [
+                "resources/Textures/zongjiesuan",
                 "cc.SpriteFrame",
                 1
             ]
