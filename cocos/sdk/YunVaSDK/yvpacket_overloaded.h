@@ -1,7 +1,7 @@
 #ifndef _YVPACKET_OVER
 #define _YVPACKET_OVER
 #include "yvpacket_sdk.h"
-
+#include "platform/CCPlatformMacros.h"
 static void parser_set_cstring(YV_PARSER parser, unsigned char cmdId, const char* value)
 {
 #if CC_TARGET_PLATFORM != CC_PLATFORM_MAC

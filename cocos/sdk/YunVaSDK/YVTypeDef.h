@@ -8,6 +8,7 @@
 #include "YVIMCmdDef.h"
 #include "yvpacket_overloaded.h"
 #include <time.h>
+#include "platform/CCPlatformMacros.h"
 #define  YVSDK_Version "1.0.0"
 
 namespace YVSDK

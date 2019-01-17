@@ -1,6 +1,7 @@
 ﻿#define  _YVIM_EXPORTS
 #include "YVTool.h"
 #include "YVRespondFactory.h"
+#include "platform/CCPlatformMacros.h"
 namespace YVSDK
 {
 	//================================================================================
@@ -119,24 +120,39 @@ namespace YVSDK
 		return _shareHandler;
 	}
 
+	FILE* f = nullptr;
+	void Log(const std::string& msg)
+	{
+		if (f != nullptr)
+		{
+			std::string str = msg + "\n";
+			fwrite(str.c_str(), str.length(), 1, f);
+			fflush(f);
+		}
+	}
+
 	void YVTool::initSDK(unsigned long appId, std::string tempPath, bool isDebug, bool oversea)
 	{
 		if (_lockInit || _isSDKInit) return;
 		_lockInit = true;
+		f = fopen((tempPath + "YVLog.txt").c_str(), "wb");
+		
 #if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
-		auto ret = YVIM_Init(myYVCallBack, 0, appId, tempPath.c_str(), isDebug, oversea);
+        
+		auto ret = YVIM_Init(myYVCallBack, 0, appId, tempPath.c_str(), false, oversea);
 		_lockInit = false; //防止执行两次初始化
 
 		if (ret == 0)
 		{
+           // YVIM_SetCallBackMode(true);
 			_isSDKInit = true;
-			printf("YVIM_Init: Success.");
+			Log("YVIM_Init: Success.");
 			registerMsgCallBack();
 		}
 		else
 		{
 			_isSDKInit = false;
-			printf("YVIM_Init: Fail.");
+			Log("YVIM_Init: Fail.");
 		}
 #endif
 
@@ -146,12 +162,14 @@ namespace YVSDK
 	{
 		if (!_isSDKInit)
 		{
-			printf("YVSDK not Init.");
+			Log("YVSDK not Init.");
 			return false;
 		}
 #if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
+		Log("YVIM_SendCmd begin");
 		auto ret = YVIM_SendCmd(request->m_requestChannel, request->m_requestCmd, request->encode());
-
+		ret ? Log("YVIM_SendCmd sucess!") : Log("YVIM_SendCmd failed!");
+		Log("YVIM_SendCmd end");
 		if (ret == 0)
 		{
 			printf("YVIM_SendCmd: 0x%x Success.", request->m_requestCmd);
@@ -169,19 +187,21 @@ namespace YVSDK
 
 	void YVTool::cpLogin(std::string nickname, std::string uid)
 	{
+		Log("cpLogin begin!");
 		CPLoginRequest r;
 		r.tt.append("{\"nickname\":\"");
 		r.tt.append(nickname);
 		r.tt.append("\",\"uid\":\"");
 		r.tt.append(uid);
 		r.tt.append("\"}");
-
+		Log("cpLogin send begin:" + r.tt);
 		sendRequeset(&r);
+		Log("cpLogin send end!");
 	}
 
 	void YVTool::cpLogout()
 	{
-		printf("request cp logout.");
+		Log("request cp logout.");
 
 		CPLogoutRequest r;
 		sendRequeset(&r);
@@ -189,6 +209,8 @@ namespace YVSDK
 
 	void YVTool::releaseSDK()
 	{
+		if (f != nullptr)
+			fclose(f);
 		unRegisterMsgCallBack();
 #if CC_TARGET_PLATFORM != CC_PLATFORM_MAC
         YVIM_Release();
